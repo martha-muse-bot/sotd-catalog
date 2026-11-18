@@ -41,7 +41,7 @@ data safety.
   `upsert_entry()`, `delete_entry()`, `update_queue()`, `upsert_brand()`,
   `counts()`. Never write the tables with ad-hoc SQL, and never edit the
   JSON files directly.
-- **`catalog_merged.json`, `validation_queue.json`,
+- **`catalog_merged/` (7 per-category shards), `validation_queue.json`,
   `candidate_aliases.json`, and `brands.json` are read-only EXPORTS**
   regenerated from the DB by `sotd_db.export_json()`. Readers (the
   matcher `match_all.py`, reports, humans) read the exports; after any
@@ -67,7 +67,7 @@ data safety.
 
 ## The tiers
 
-`catalog_merged.json` holds three tiers of entries:
+`catalog_merged/` (7 per-category shards) holds three tiers of entries:
 
 1. **verified** — settled on PRIMARY evidence (see standard below).
 2. **needs-review** — high-attestation or otherwise important items held for
@@ -425,7 +425,7 @@ own. Research every product individually; names mislead.
 
 Run one item at a time, in `seq` order, skipping non-`pending` items.
 
-1. **Lock.** Before any write to `catalog_merged.json`, create
+1. **Lock.** Before any write to the catalog exports, create
    `catalog/.catalog.lock`. If it already exists and is < 3600s old, skip
    all writes and report. Remove the lock when done.
 1b. **Stale-snapshot re-check** (user rule, 2026-10-20 — concurrency lesson).

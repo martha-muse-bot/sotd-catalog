@@ -2,13 +2,13 @@
  "counts": {
   "by_status": {
    "anecdotal": 49,
-   "attested": 904,
+   "attested": 901,
    "corroborated": 4345,
    "needs-review": 16,
-   "verified": 6669
+   "verified": 6670
   },
-  "entries": 11983,
-  "excluded_unverified": 36384
+  "entries": 11981,
+  "excluded_unverified": 36380
  },
  "entries": [
   {
@@ -20281,6 +20281,41 @@
    "id": "aftershave/chatillon-lux-chatillon-lux-treget",
    "product": "Chatillon Lux Treget",
    "set_key": "chatillon lux/de treget",
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 8,
+    "uses": 34,
+    "years": [
+     2016,
+     2017,
+     2018,
+     2019,
+     2020,
+     2022
+    ]
+   },
+   "brand": "Chatillon Lux",
+   "brand_group": "chatillon-lux",
+   "brand_status": "validated",
+   "category": "aftershave",
+   "evidence": [
+    {
+     "shows": "SOTD 2018-03-26 ([redacted], thread [redacted], aftershave [redacted]): bottle label clearly reads 'Chatillon Lux - Saint Louis / COLBECK / Denatured alcohol, witch hazel, aloe vera, fragrance and menthol / 100 ml'",
+     "type": "sotd-photo",
+     "url": "https://imgur.com/AzXxXNK"
+    },
+    {
+     "shows": "SOTD 2018-02-23 ([redacted], thread [redacted], [redacted]): same Colbeck bottle, label 'Chatillon Lux - Saint Louis / COLBEC[K]' partially visible behind razor",
+     "type": "sotd-photo",
+     "url": "https://imgur.com/tAQisQO"
+    }
+   ],
+   "id": "aftershave/chatillon-lux-colbeck",
+   "product": "Colbeck",
+   "set_key": "/chatillon lux colbeck",
+   "set_siblings": [],
    "status": "verified"
   },
   {
@@ -209231,50 +209266,6 @@
   },
   {
    "attestation": {
-    "distinct_authors": 9,
-    "uses": 21,
-    "years": [
-     2016,
-     2017,
-     2018,
-     2019,
-     2020
-    ]
-   },
-   "brand": null,
-   "brand_group": "chiseled-face",
-   "brand_status": "unverified",
-   "category": "aftershave",
-   "evidence": [
-    {
-     "date": "2016-06-23",
-     "shows": "CF Sherlock.",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/4pfnco/x/d4leicp/"
-    },
-    {
-     "date": "2016-10-12",
-     "shows": "CF Sherlock",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/5731mj/x/d8p2tdm/"
-    },
-    {
-     "date": "2016-11-22",
-     "shows": "CF Sherlock",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/5e9sp3/x/daaumwa/"
-    }
-   ],
-   "id": "unverified/aftershave/cf-sherlock",
-   "product": null,
-   "set_key": "/cf sherlock",
-   "set_siblings": [
-    "unverified/soap/cf-sherlock"
-   ],
-   "status": "attested"
-  },
-  {
-   "attestation": {
     "distinct_authors": 5,
     "uses": 6,
     "years": [
@@ -209440,47 +209431,6 @@
    "set_siblings": [
     "unverified/soap/cfg-cinnawood-boroka"
    ],
-   "status": "attested"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 9,
-    "uses": 21,
-    "years": [
-     2016,
-     2017,
-     2018,
-     2019
-    ]
-   },
-   "brand": null,
-   "brand_group": "chiseled-face",
-   "brand_status": "unverified",
-   "category": "aftershave",
-   "evidence": [
-    {
-     "date": "2016-06-11",
-     "shows": "CFG - Ghost Town Barber",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/4nkm2d/x/d44zf2q/"
-    },
-    {
-     "date": "2016-07-17",
-     "shows": "CFG Ghost Town Barber",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/4t8shs/x/d5fpy8n/"
-    },
-    {
-     "date": "2016-08-05",
-     "shows": "CFG Ghost Town Barber",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/4w9dkk/x/d65b74r/"
-    }
-   ],
-   "id": "unverified/aftershave/cfg-ghost-town-barber",
-   "product": null,
-   "set_key": "/cfg ghost town barber",
-   "set_siblings": [],
    "status": "attested"
   },
   {
@@ -210794,48 +210744,6 @@
     "unverified/aftershave/cl-champs-de-lavande-splash",
     "unverified/fragrance/cl-champs-de-lavande"
    ],
-   "status": "attested"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 8,
-    "uses": 21,
-    "years": [
-     2016,
-     2017,
-     2018,
-     2019,
-     2020
-    ]
-   },
-   "brand": null,
-   "brand_group": "chatillon-lux",
-   "brand_status": "unverified",
-   "category": "aftershave",
-   "evidence": [
-    {
-     "date": "2016-07-24",
-     "shows": "CL Colbeck",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/4ucbmt/x/d5olxmy/"
-    },
-    {
-     "date": "2016-07-26",
-     "shows": "CL Colbeck",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/4unk2j/x/d5rehz4/"
-    },
-    {
-     "date": "2017-05-26",
-     "shows": "CL Colbeck",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/6dfn6z/x/di2g4pv/"
-    }
-   ],
-   "id": "unverified/aftershave/cl-colbeck",
-   "product": null,
-   "set_key": "/cl colbeck",
-   "set_siblings": [],
    "status": "attested"
   },
   {

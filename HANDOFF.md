@@ -60,6 +60,20 @@ the same push-after-change rule, and the sync script handles both —
 push data unless the data repo verifies as private). Do not let the
 two repos drift apart silently.
 
+The merged catalog export is sharded by category into 7 files under
+`catalog/catalog_merged/` (Jim, 2026-11-18 — instead of gzipping the
+48 MB single file, which would make diffs unreadable; the split
+keeps diffs per-category). `sotd_db.export_json()` writes the shards
+and `match_all.py` loads the shard directory; no single
+`catalog_merged.json` exists anywhere anymore. This also respects
+GitHub's real API size limits (measured 2026-11-18, both below the
+documented numbers): Data API create-blob rejects files above ~10 MB
+(9.8 MB ok, 18.3 MB → 422), Contents API accepts 28.6 MB but
+rejects 48.5 MB (422). Largest shard is ~13 MB, so shards fit the
+Contents API; the sync script routes any staging file over 10 MB
+through the Contents API automatically (one commit each, before the
+Data-API tree push).
+
 ## Architecture
 
 ```
@@ -253,7 +267,8 @@ re-review. The load-bearing ones:
 ## What is intentionally NOT in this repo
 
 - The match data itself (the full DB `catalog/catalog.db.gz` and the
-  JSON exports `catalog_merged.json`, `validation_queue.json`,
+  JSON exports — merged catalog as 7 per-category shards under
+  `catalog/catalog_merged/`, `validation_queue.json`,
   `candidate_aliases.json`, `brands.json`) — it lives in the private
   sibling repo
   [sotd-catalog-data](https://github.com/martha-muse-bot/sotd-catalog-data)

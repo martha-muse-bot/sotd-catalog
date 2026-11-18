@@ -2,9 +2,12 @@
 
 catalog.db is the SOURCE OF TRUTH for catalog entries, the validation
 queue, candidate aliases, and the brand registry. The JSON files
-(catalog_merged.json, validation_queue.json, candidate_aliases.json,
+(catalog_merged/ shards, validation_queue.json, candidate_aliases.json,
 brands.json) are read-only EXPORTS regenerated from the DB by
-export_json(); never edit them directly.
+export_json(); never edit them directly. The merged catalog is sharded
+one file per category (catalog_merged/<category>.json, 7 files) so each
+stays under GitHub's API size limits and diffs stay per-category;
+load_merged()/save_merged_shards() are the shard-aware accessors.
 
 All agents doing catalog work must go through this module so writes are
 transactional and crash-safe (WAL mode, busy_timeout 60s).
@@ -307,19 +310,85 @@ def _atomic_write_json(path, obj):
         raise
 
 
+# ---------------------------------------------------------------- merged catalog shards
+
+MERGED_CATEGORIES = ('aftershave', 'blade', 'brush', 'fragrance',
+                     'knot', 'razor', 'soap')
+MERGED_SHARD_DIRNAME = 'catalog_merged'
+
+
+def merged_shard_dir(cat_dir=HERE):
+    return os.path.join(cat_dir, MERGED_SHARD_DIRNAME)
+
+
+def _write_merged_shards(meta, entries, out_dir=HERE):
+    """Write the merged catalog as one shard per category under
+    <out_dir>/catalog_merged/<category>.json. Each shard keeps the same
+    doc shape as the old single file (per-file metadata restored
+    verbatim, entry_count refreshed per shard, entries = that category's
+    entries, indent=1). All 7 shards are always written, even empty ones,
+    so the layout is stable. Raises on an entry whose category is not
+    one of the 7 — never silently drop an entry."""
+    shard_dir = merged_shard_dir(out_dir)
+    os.makedirs(shard_dir, exist_ok=True)
+    by_cat = {c: [] for c in MERGED_CATEGORIES}
+    for e in entries:
+        cat = e.get('category')
+        if cat not in by_cat:
+            raise ValueError(
+                f"entry {e.get('id')} has unknown category {cat!r}; "
+                "refusing to shard")
+        by_cat[cat].append(e)
+    for cat in MERGED_CATEGORIES:
+        doc = dict(meta)
+        doc['entry_count'] = len(by_cat[cat])
+        doc['entries'] = by_cat[cat]
+        _atomic_write_json(os.path.join(shard_dir, cat + '.json'), doc)
+
+
+def load_merged(cat_dir=HERE):
+    """Load the sharded merged catalog. Returns the doc dict with the
+    per-file metadata (from the first shard) and 'entries' concatenated
+    in deterministic sorted-filename order."""
+    shard_dir = merged_shard_dir(cat_dir)
+    entries = []
+    meta = None
+    for name in sorted(os.listdir(shard_dir)):
+        if not name.endswith('.json'):
+            continue
+        with open(os.path.join(shard_dir, name), encoding='utf-8') as f:
+            doc = json.load(f)
+        if meta is None:
+            meta = {k: v for k, v in doc.items()
+                    if k not in ('entries', 'entry_count')}
+        entries.extend(doc['entries'])
+    out = dict(meta or {})
+    out['entry_count'] = len(entries)
+    out['entries'] = entries
+    return out
+
+
+def save_merged_shards(doc, cat_dir=HERE):
+    """Write a loaded merged doc back out as per-category shards. The
+    doc's metadata (everything except entries/entry_count) is carried
+    onto every shard."""
+    meta = {k: v for k, v in doc.items()
+            if k not in ('entries', 'entry_count')}
+    _write_merged_shards(meta, doc['entries'], cat_dir)
+
+
 def export_json(conn, out_dir=HERE):
-    """Regenerate the four JSON exports from the DB, in the exact shapes
-    the files have always used. The per-file non-list metadata saved at
+    """Regenerate the JSON exports from the DB, in the exact shapes
+    the files have always used. The merged catalog is written as
+    per-category shards (see _write_merged_shards); the other exports
+    are single files. The per-file non-list metadata saved at
     migration time is restored verbatim; count fields are refreshed from
     the DB. Returns a dict of the counts written."""
     written = {}
 
     meta = json.loads(get_meta(conn, "filemeta:catalog_merged.json") or "{}")
     entries = all_entries(conn)
-    doc = dict(meta)
-    doc["entry_count"] = len(entries)
-    doc["entries"] = entries
-    _atomic_write_json(os.path.join(out_dir, "catalog_merged.json"), doc)
+    _write_merged_shards(meta, entries, out_dir)
     written["entries"] = len(entries)
 
     meta = json.loads(get_meta(conn, "filemeta:validation_queue.json") or "{}")

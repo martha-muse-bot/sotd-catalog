@@ -45,7 +45,7 @@ products is the primary job; the encyclopedia serves it.**
 | `catalog/sotd_db.py` | The only way to read/write the catalog DB |
 | `catalog/match_all.py` | The matcher (P-25 composite split, comma carve-out) |
 | `catalog/catalog_public.json` | The public catalogue: scrubbed export of the products only (see above). Regenerated from the live DB on every push by `tools/sync_to_github.py`. |
-| Match data | NOT in this repo — the full DB (`catalog/catalog.db.gz`) and the JSON exports (`catalog_merged.json`, `validation_queue.json`, `candidate_aliases.json`, `brands.json`) live in the private sibling repo [sotd-catalog-data](https://github.com/martha-muse-bot/sotd-catalog-data). |
+| Match data | NOT in this repo — the full DB (`catalog/catalog.db.gz`) and the JSON exports (merged catalog as 7 per-category shards under `catalog/catalog_merged/`, `validation_queue.json`, `candidate_aliases.json`, `brands.json`) live in the private sibling repo [sotd-catalog-data](https://github.com/martha-muse-bot/sotd-catalog-data). |
 | `catalog/validation_README.md` | The validator contract: tiers, evidence standard, procedure |
 | `catalog/precedents.md` | The precedent registry (P-01…P-25) — rulings that bind |
 | `catalog/discuss_consolidated.md` | The discuss queue — open identity questions |

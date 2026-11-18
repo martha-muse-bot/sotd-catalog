@@ -1,8 +1,8 @@
 {
  "generated": "refresh from live workspace",
  "counts": {
-  "entries": 48367,
-  "verified": 6669,
+  "entries": 48361,
+  "verified": 6670,
   "queue": 64795,
   "brands": 2320,
   "candidates": 799
@@ -13,12 +13,12 @@
    "md5": "29c5f906b638da44723ecc1b4b3343e1"
   },
   "HANDOFF.md": {
-   "bytes": 15914,
-   "md5": "448822a822faef12a0ae11a8b81eda80"
+   "bytes": 16784,
+   "md5": "16d883d5f43ffbff21da110ab0ca1689"
   },
   "README.md": {
-   "bytes": 8100,
-   "md5": "e9018720c625348ff1e964a28d527de4"
+   "bytes": 8150,
+   "md5": "16c6be5dd91819699f8719ca53f2f44a"
   },
   "build_2026.py": {
    "bytes": 3188,
@@ -29,8 +29,8 @@
    "md5": "f245d51e4a85ee0db6f0774346affbad"
   },
   "catalog/catalog_public.json": {
-   "bytes": 9829900,
-   "md5": "e720568aa804158d8871c0444da0fb4e"
+   "bytes": 9828016,
+   "md5": "6f0364e44de90b94ad5914eee667bf26"
   },
   "catalog/comma_carveout_scoping_2026-11-17.md": {
    "bytes": 19734,
@@ -53,8 +53,8 @@
    "md5": "3c75011d836c6494f977fefa706f6a2d"
   },
   "catalog/match_all.py": {
-   "bytes": 80535,
-   "md5": "944821c56c9124a7d0f85b420a9bcd3b"
+   "bytes": 80842,
+   "md5": "660015760b3a6eebb27ee79442cd600d"
   },
   "catalog/multi_item_field_analysis_2026-11-16.md": {
    "bytes": 51595,
@@ -65,16 +65,16 @@
    "md5": "46dc8559c7a430d0be3ba8780f81a60d"
   },
   "catalog/sotd_db.py": {
-   "bytes": 12380,
-   "md5": "5ea8440bf0da1a8f34f773666e0aea8e"
+   "bytes": 15236,
+   "md5": "0df72e5a5e49e3e88ca9e7c64bc18b43"
   },
   "catalog/tech_attribute_fold.md": {
    "bytes": 2210,
    "md5": "09c40393855541342a1764ae4726ffe4"
   },
   "catalog/validation_README.md": {
-   "bytes": 39434,
-   "md5": "2c3ec54a30063029649ed95f2e82a39c"
+   "bytes": 39472,
+   "md5": "69a1b0756ab273eec6253a58066c73cf"
   },
   "catalog/work/l1_proposer.py": {
    "bytes": 12330,
@@ -129,8 +129,8 @@
    "md5": "c65502f896a0f59362e6589b4d778161"
   },
   "knowledge/backlog.md": {
-   "bytes": 728849,
-   "md5": "f6fa2cae7f6257ab93e0d97e2f6e5c7b"
+   "bytes": 731331,
+   "md5": "21dc1e6da94fc27dd9269cff9e1f7cc8"
   },
   "knowledge/glossary.md": {
    "bytes": 79684,
@@ -141,12 +141,12 @@
    "md5": "3303e86780ec0b16d5760edb285d7f93"
   },
   "knowledge/learning_log.md": {
-   "bytes": 1698934,
-   "md5": "42f91c0badcc0e84669175a3c5a2e41c"
+   "bytes": 1707321,
+   "md5": "a8100ca1ab90465181bdb16e75400a3a"
   },
   "knowledge/lineages.md": {
-   "bytes": 927408,
-   "md5": "da4d8dacad9b15606212d628b9e3ace1"
+   "bytes": 936622,
+   "md5": "38333e7932abca24f9d0d1dfb2d29160"
   },
   "knowledge/people.md": {
    "bytes": 82931,
@@ -157,8 +157,8 @@
    "md5": "d57ccd9d4454bece2986efef93cf69ec"
   },
   "knowledge/product_lines.md": {
-   "bytes": 443268,
-   "md5": "eeee63bbd866a195580b95e5ff93322c"
+   "bytes": 446020,
+   "md5": "8d13a7243a0c33df2dd0907c66b08214"
   },
   "knowledge/tools/abbrev_cands_2026-11-04.json": {
    "bytes": 1136955,
@@ -231,6 +231,10 @@
   "knowledge/trusted_sources.md": {
    "bytes": 3681,
    "md5": "67331ccce21fe520ea637f1d91efbd0a"
+  },
+  "knowledge/work/behind_the_brew_rss_2026-11-18.xml": {
+   "bytes": 114683,
+   "md5": "44258bcd750e85c11ecf18ed71d3b885"
   },
   "knowledge/work/embrace_uncool_census_2026-11-17.py": {
    "bytes": 2830,
@@ -361,16 +365,16 @@
    "md5": "7e6abaae44a203487a66aeb1288ed3e1"
   },
   "manifest.json": {
-   "bytes": 10581,
-   "md5": "36fbec851d8497f45ddb1567234e4b09"
+   "bytes": 10456,
+   "md5": "1f76545f7796d9c2a9397df5383819a2"
   },
   "sotd_parser.py": {
    "bytes": 13767,
    "md5": "df5f1f5e7464baf8e5bb0c2bf514c464"
   },
   "tools/sync_to_github.py": {
-   "bytes": 35437,
-   "md5": "561f2a4bb2f668ecd5e050eb114a8dfc"
+   "bytes": 42574,
+   "md5": "9d31a0c2397e05e840c4df8a57a1eec3"
   }
  }
 }

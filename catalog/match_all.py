@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generalized matcher over catalog_merged.json.
+"""Generalized matcher over the sharded catalog (catalog/catalog_merged/<category>.json).
 
 Fields blade/razor/soap/aftershave/fragrance: exact alias -> normalized ->
 token-subset (most specific alias wins; ties across entries = ambiguous,
@@ -107,7 +107,7 @@ edit.
 Usage: python3 match_all.py [years...]  (default 2026 2025 2024 2022)
 Writes ~/workspace/sotd/matched_<year>.json and catalog/coverage_report.md.
 """
-import html, json, re, sys
+import glob, html, json, re, sys
 from collections import Counter, defaultdict
 
 SOTD = '/home/hatch/workspace/sotd/'
@@ -128,7 +128,12 @@ def T(s):
     return frozenset(N(s).split())
 
 # ---------------- catalog + indexes ----------------
-merged = json.load(open(CAT + 'catalog_merged.json'))['entries']
+# Sharded catalog (2026-11-18): one file per category under
+# catalog/catalog_merged/<category>.json; concatenated in deterministic
+# sorted-filename order. The single catalog_merged.json is retired.
+merged = []
+for _f in sorted(glob.glob(CAT + 'catalog_merged/*.json')):
+    merged.extend(json.load(open(_f))['entries'])
 BY_ID = {e['id']: e for e in merged}
 SIMPLE_FIELDS = {'blade': 'blade', 'razor': 'razor', 'soap': 'soap',
                  'aftershave': 'aftershave', 'fragrance': 'fragrance'}
@@ -1578,7 +1583,7 @@ def main():
     n_uv = sum(1 for e in merged if e.get('status') == 'unverified')
     n_mid = sum(1 for e in merged if e.get('status') in MID_STATUSES)
     lines = ['# Coverage report — central merge matcher (match_all.py)',
-             f'Catalog: catalog_merged.json ({len(merged)} entries, of which {n_mid} tier-2 '
+             f'Catalog: catalog_merged/ shards ({len(merged)} entries, of which {n_mid} tier-2 '
              f'(attested/corroborated) and {n_uv} unverified-tier). '
              'Match order: exact alias -> normalized -> token-subset -> reverse-subset; ambiguous never forced.',
              'Three tiers (P-13): tier-1 = matched to a verified or needs-review entry; tier-2 = matched to an '

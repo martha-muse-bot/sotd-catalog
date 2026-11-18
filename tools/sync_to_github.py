@@ -42,11 +42,29 @@ trees are the push source, not a snapshot product. There is no sync
 cadence, no scheduled sync, and no "produce the artifact on a
 schedule" anywhere in this script.
 
+Merged-catalog shards (Jim, 2026-11-18 -- instead of gzipping the
+48 MB single file, which would make diffs unreadable): the merged
+catalog is stored as one file per category under
+catalog/catalog_merged/<category>.json (7 files: aftershave, blade,
+brush, fragrance, knot, razor, soap), written by sotd_db.export_json
+and read by match_all.py's shard loader. No single
+catalog_merged.json exists anywhere anymore.
+
+API size limits (measured 2026-11-18, both below the documented
+numbers): Git Data API create-blob rejects files above ~10 MB (9.8 MB
+ok, 18.3 MB -> 422 "input too large"); Contents API accepts 28.6 MB
+but rejects 48.5 MB (422 "file is too large"). Largest shard is
+~13 MB, so shards fit the Contents API. Any staging file over
+BLOB_SIZE_LIMIT is uploaded via the Contents API (one commit each,
+BEFORE the Data-API tree push -- see _push_large_files_via_contents);
+everything smaller goes through the normal Data-API blob path.
+
 Subcommands:
   refresh  rebuild both staging trees from the live workspace
            (fresh DB export, re-gzip catalog.db, copy code/docs/knowledge/
            crons/hook script into the public tree, copy the DB + JSON
-           exports into the data tree), verify the .gz round-trips,
+           exports -- merged catalog as 7 per-category shards -- into
+           the data tree), verify the .gz round-trips,
            write both manifests
   push     refresh, then upload the public staging tree as one commit
            on main (incremental blob diff vs the parent tree, full
@@ -85,6 +103,8 @@ import sqlite3
 import sys
 import tempfile
 import unicodedata
+import urllib.error
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -107,6 +127,20 @@ spec = importlib.util.spec_from_file_location(
     "custom.github-nmrs" / "bin" / "github.py")
 gh = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(gh)
+
+# Long-timeout API calls (same credential machinery as github.py) for
+# multi-MB Contents API uploads; gh.call's 30 s default cannot be
+# assumed to cover a ~17 MB base64 body.
+sys.path.insert(0, "/opt/muse/skills/custom-connector-setup/bin")
+from dynamic_credentials import add_surrogate_to_request, read_json_response
+
+# Git Data API create-blob rejects files above ~10 MB (9.8 MB ok,
+# 18.3 MB -> 422, measured 2026-11-18). Files over this limit are
+# uploaded via the Contents API instead (see
+# _push_large_files_via_contents). The Contents API itself rejects
+# 48.5 MB (422) while accepting 28.6 MB -- hence the merged catalog
+# is sharded by category, largest shard ~13 MB.
+BLOB_SIZE_LIMIT = 10_000_000
 
 EXCLUDE_FILES = {".DS_Store", ".catalog.lock"}
 EXCLUDE_DIRS = {".git", "__pycache__"}
@@ -144,10 +178,11 @@ COPIES = [
 ]
 
 # (live source, repo-relative destination) for the PRIVATE data repo.
-# The four JSON exports are regenerated from the DB first, then copied
+# The JSON exports are regenerated from the DB first, then copied
 # here; the DB itself is gzipped into DATA_ROOT/catalog/ in refresh().
+# The merged catalog goes over as 7 per-category shards (see the
+# shard copy in cmd_refresh), not the retired single file.
 DATA_COPIES = [
-    (CATALOG / "catalog_merged.json", "catalog/catalog_merged.json"),
     (CATALOG / "validation_queue.json", "catalog/validation_queue.json"),
     (CATALOG / "candidate_aliases.json", "catalog/candidate_aliases.json"),
     (CATALOG / "brands.json", "catalog/brands.json"),
@@ -166,6 +201,78 @@ def call(method, url, payload=None):
               file=sys.stderr)
         raise SystemExit(1)
     return out
+
+
+def _call_long(method, url, payload=None, timeout=600):
+    """gh.call with a long socket timeout, for multi-MB Contents API
+    uploads. Same credential machinery and hosts; returns the raw
+    (status, body) tuple so the caller can handle failures."""
+    data = json.dumps(payload).encode() if payload is not None else None
+    req = urllib.request.Request(url, data=data, method=method)
+    req.add_header("Accept", "application/vnd.github+json")
+    req.add_header("User-Agent", "Martha-nmrs-prs")
+    if data is not None:
+        req.add_header("Content-Type", "application/json")
+    add_surrogate_to_request(req, gh.CRED, allowed_hosts=gh.HOSTS)
+    try:
+        with urllib.request.build_opener(gh.NoRedirect()).open(
+                req, timeout=timeout) as resp:
+            return resp.status, read_json_response(resp)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        try:
+            parsed = json.loads(body)
+        except Exception:
+            parsed = {"raw": body}
+        return e.code, parsed
+
+
+def _contents_put(repo, branch, rel, raw, message):
+    """Upload one file via the Contents API. Returns the blob SHA.
+    Creates one commit per file -- callers must run this BEFORE any
+    Data-API tree push, since it moves the branch head (the later
+    incremental diff then sees the file as already in sync and skips
+    it). Only used for files over BLOB_SIZE_LIMIT."""
+    status, out = gh.call(
+        "GET", f"{API}/repos/{OWNER}/{repo}/contents/{rel}?ref={branch}")
+    payload = {"message": message,
+               "content": base64.b64encode(raw).decode(),
+               "branch": branch}
+    if status == 200 and out.get("sha"):
+        payload["sha"] = out["sha"]
+    status, out = _call_long(
+        "PUT", f"{API}/repos/{OWNER}/{repo}/contents/{rel}", payload)
+    if status >= 400:
+        print(f"ERROR PUT {API}/repos/{OWNER}/{repo}/contents/{rel} -> "
+              f"{status}: {json.dumps(out)[:300]}", file=sys.stderr)
+        raise SystemExit(1)
+    print(f"  contents: {rel} ({len(raw)} bytes) -> "
+          f"commit {out['commit']['sha'][:7]}")
+    return out["content"]["sha"]
+
+
+def _push_large_files_via_contents(source, repo, branch):
+    """Upload every staging file over BLOB_SIZE_LIMIT via the Contents
+    API (one commit each), skipping files whose remote blob already
+    matches. Idempotent -- safe to call before every push. Must run
+    BEFORE the Data-API tree work: it moves the branch head, and the
+    later incremental diff fetches the new head and sees these files
+    as already in sync."""
+    for p in sorted(iter_source_files(source)):
+        if p.stat().st_size <= BLOB_SIZE_LIMIT:
+            continue
+        rel, sha, _mode, raw = _local_blob_info(p, source)
+        status, out = gh.call(
+            "GET", f"{API}/repos/{OWNER}/{repo}/contents/{rel}?ref={branch}")
+        if status == 200 and out.get("sha") == sha:
+            print(f"  contents: {rel} already in sync, skipping")
+            continue
+        print(f"  contents: {rel} ({p.stat().st_size} bytes) over "
+              f"Data-API blob limit, uploading via Contents API")
+        blob_sha = _contents_put(repo, branch, rel, raw,
+                                 f"Sync {repo}: {rel}")
+        if blob_sha != sha:
+            raise RuntimeError(f"contents blob sha mismatch for {rel}")
 
 
 def _md5(path):
@@ -469,7 +576,7 @@ def cmd_refresh(_args):
     print("  copied crons/")
 
     # catalog data tree: DB, gzipped + round-trip verified, plus the
-    # four JSON exports regenerated above. Data NEVER goes in ROOT.
+    # JSON exports regenerated above. Data NEVER goes in ROOT.
     for src, rel in DATA_COPIES:
         if not src.exists():
             print(f"  SKIP missing: {src}")
@@ -478,6 +585,20 @@ def cmd_refresh(_args):
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(src, dst)
     print(f"  copied {len(DATA_COPIES)} files to data tree")
+
+    # merged catalog shards (one file per category; the single
+    # catalog_merged.json is retired -- Jim, 2026-11-18)
+    shard_src = CATALOG / "catalog_merged"
+    shard_dst = DATA_ROOT / "catalog" / "catalog_merged"
+    if shard_dst.exists():
+        shutil.rmtree(shard_dst)
+    shutil.copytree(shard_src, shard_dst)
+    print(f"  copied {len(list(shard_dst.glob('*.json')))} shards "
+          f"to data tree")
+    stale = DATA_ROOT / "catalog" / "catalog_merged.json"
+    if stale.exists():
+        stale.unlink()
+        print("  removed retired catalog_merged.json from data tree")
 
     gz_path = DATA_ROOT / "catalog" / "catalog.db.gz"
     gz_path.parent.mkdir(parents=True, exist_ok=True)
@@ -549,11 +670,19 @@ def push_tree(source, branch, message, repo=REPO):
     tree built from staging DELETES anything on the branch that is
     not in staging -- correct for these repos, whose staging trees
     are the whole content, but never point this at a repo with files
-    that live only remotely."""
+    that live only remotely. Files over BLOB_SIZE_LIMIT are uploaded
+    via the Contents API first (see _push_large_files_via_contents)
+    and referenced by their content SHA below."""
+    _push_large_files_via_contents(source, repo, branch)
     files = list(iter_source_files(source))
     print(f"files to upload: {len(files)}")
     total = sum(p.stat().st_size for p in files)
     print(f"total bytes: {total}")
+
+    # Files over the Data-API blob limit go up via the Contents API
+    # first (one commit each); the tree below then references their
+    # already-existing blobs by local content SHA.
+    _push_large_files_via_contents(source, repo, branch)
 
     def make_blob(p):
         rel = str(p.relative_to(source))
@@ -564,6 +693,11 @@ def push_tree(source, branch, message, repo=REPO):
             return rel, out["sha"], "120000"
         st = p.stat()
         mode = "100755" if (st.st_mode & 0o111) else "100644"
+        if st.st_size > BLOB_SIZE_LIMIT:
+            # Already uploaded via the Contents API above; the blob
+            # exists remotely under its content SHA.
+            _rel, sha, _mode, _raw = _local_blob_info(p, source)
+            return rel, sha, mode
         raw = p.read_bytes()
         try:
             content, encoding = raw.decode("utf-8"), "utf-8"
@@ -624,7 +758,11 @@ def push_tree_incremental(source, branch, message, repo=REPO):
     """Diff local files against the parent commit's recursive tree,
     upload only changed blobs, POST one small tree (base_tree +
     changed/deleted paths). Raises before the commit step on any
-    failure so the caller can fall back to push_tree()."""
+    failure so the caller can fall back to push_tree(). Files over
+    BLOB_SIZE_LIMIT are uploaded via the Contents API first (see
+    _push_large_files_via_contents) -- the diff below then sees them
+    as already in sync and skips them."""
+    _push_large_files_via_contents(source, repo, branch)
     parent, parent_tree = current_branch_head(branch, repo=repo)
     if not parent_tree:
         raise RuntimeError("no parent tree to diff against")
@@ -656,6 +794,13 @@ def push_tree_incremental(source, branch, message, repo=REPO):
     tree_entries = []
     for rel in sorted(changed):
         sha, mode, raw = changed[rel]
+        if len(raw) > BLOB_SIZE_LIMIT:
+            # Cannot happen in a single run: the helper above uploaded
+            # this file via the Contents API and the diff then sees it
+            # as in sync. Fail closed rather than attempting a Data-API
+            # blob POST that is known to 422.
+            raise RuntimeError(
+                f"{rel} changed after Contents upload; rerun the push")
         if mode == "120000":
             content, encoding = raw.decode("utf-8"), "utf-8"
         else:
