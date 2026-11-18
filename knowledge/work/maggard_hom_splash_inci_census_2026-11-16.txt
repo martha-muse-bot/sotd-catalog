@@ -1,0 +1,60 @@
+SOURCE: Maggard products.json snapshot suffix 'ar' (fetched 2026-11-16 ~17:06 CST), 14 HoM aftershave-splash listings.
+Question: does any Maggard HoM splash INCI discriminate cooled vs uncool (WS-23 present/absent)?
+
+House of Mammoth Mull Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil.
+
+House of Mammoth Snippid Artisan Aftershave Splash, 4oz
+  uncool-note=True WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, D L Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin, Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil
+
+House of Mammoth You and I (Will Die) Artisan Aftershave Splash, 4oz
+  uncool-note=True WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, D L Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin, Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil
+
+House of Mammoth FÚ DÀO Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, D L Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin, Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil
+
+House of Mammoth Kryptonite Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: (no Ingredients section)
+
+House of Mammoth Sonder Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: (no Ingredients section)
+
+House of Mammoth Tobacconist Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Magic aftershave splash ingredients (with synthetic menthol): Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil
+
+House of Mammoth Hygge Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Magic aftershave splash ingredients (with synthetic menthol): Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil
+
+House of Mammoth Shire Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil.
+
+House of Mammoth Rumble Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil.
+
+House of Mammoth Beloved Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil.
+
+House of Mammoth Embrace Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil
+
+House of Mammoth Voices Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, DL Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin,Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil.
+
+House of Mammoth Alive Artisan Aftershave Splash, 4oz
+  uncool-note=False WS-23-in-body=True
+  INCI: Alcohol, Witch Hazel, Water, Parfum, WS-23, D L Panthenol, Polysorbate 20, Jojoba Oil, Willow Bark Extract, Flaxseed Oil, Argan Oil, Squalane, Silk Protein, Vegetable Glycerin, Rosehip Oil, Shea Olein, Mango Seed Butter, Karanja Oil, Vitamin E, Daikon Seed Extract, Bisabolol, Allantoin, Aloe Vera Extract, Tea Tree Oil, Rectified Cade Oil
+
+VERDICT: identical 26-ingredient list incl. WS-23 on all 14 listings (12 with an Ingredients section; Kryptonite + Sonder have none) — including You & I, whose page ALSO carries the uncool note, and Tobacconist/Hygge, whose copy labels the same list '(with synthetic menthol)'. The Maggard INCI is one shared house template and CANNOT discriminate cooled vs uncool. Snippid's page is internally contradictory (note says no synthetic cooling; same page's Ingredients lists WS-23).

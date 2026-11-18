@@ -1,0 +1,380 @@
+{
+ "generated": "refresh from live workspace",
+ "counts": {
+  "entries": 48367,
+  "verified": 6669,
+  "queue": 64795,
+  "brands": 2320,
+  "candidates": 799
+ },
+ "files": {
+  "GOAL.md": {
+   "bytes": 478,
+   "md5": "29c5f906b638da44723ecc1b4b3343e1"
+  },
+  "HANDOFF.md": {
+   "bytes": 15914,
+   "md5": "448822a822faef12a0ae11a8b81eda80"
+  },
+  "README.md": {
+   "bytes": 8100,
+   "md5": "e9018720c625348ff1e964a28d527de4"
+  },
+  "build_2026.py": {
+   "bytes": 3188,
+   "md5": "c1e6fd5b4cbe61b08da418cb8c38e303"
+  },
+  "build_year.py": {
+   "bytes": 2430,
+   "md5": "f245d51e4a85ee0db6f0774346affbad"
+  },
+  "catalog/catalog_public.json": {
+   "bytes": 9829900,
+   "md5": "e720568aa804158d8871c0444da0fb4e"
+  },
+  "catalog/comma_carveout_scoping_2026-11-17.md": {
+   "bytes": 19734,
+   "md5": "9bebcbce38773a828ddd14c57c8a5ab8"
+  },
+  "catalog/discuss_consolidated.md": {
+   "bytes": 73453,
+   "md5": "6f74a1813220da972878277a47bf4991"
+  },
+  "catalog/ikon_bulk_harvest_2026-11-08.md": {
+   "bytes": 8498,
+   "md5": "1f67b5d68441b4c6fa808950672d67c2"
+  },
+  "catalog/long_tail_segmentation.csv": {
+   "bytes": 375,
+   "md5": "769bf0ce4d135742658b3098c7b9b295"
+  },
+  "catalog/long_tail_segmentation.md": {
+   "bytes": 9604,
+   "md5": "3c75011d836c6494f977fefa706f6a2d"
+  },
+  "catalog/match_all.py": {
+   "bytes": 80535,
+   "md5": "944821c56c9124a7d0f85b420a9bcd3b"
+  },
+  "catalog/multi_item_field_analysis_2026-11-16.md": {
+   "bytes": 51595,
+   "md5": "1581f3f9b6d4de951acb35d8017512b6"
+  },
+  "catalog/precedents.md": {
+   "bytes": 30179,
+   "md5": "46dc8559c7a430d0be3ba8780f81a60d"
+  },
+  "catalog/sotd_db.py": {
+   "bytes": 12380,
+   "md5": "5ea8440bf0da1a8f34f773666e0aea8e"
+  },
+  "catalog/tech_attribute_fold.md": {
+   "bytes": 2210,
+   "md5": "09c40393855541342a1764ae4726ffe4"
+  },
+  "catalog/validation_README.md": {
+   "bytes": 39434,
+   "md5": "2c3ec54a30063029649ed95f2e82a39c"
+  },
+  "catalog/work/l1_proposer.py": {
+   "bytes": 12330,
+   "md5": "2cfe69847b0fa72131f362dd5c552b4e"
+  },
+  "crons/daily/nmrs-daily-pr__daily@08:15:00_user_current.md": {
+   "bytes": 5015,
+   "md5": "db5cb5887130385be830849f12c0d5d5"
+  },
+  "crons/daily/nmrs-pr-review-watch__daily@08:30:00_user_current.md": {
+   "bytes": 2256,
+   "md5": "b04d915fd3d09be8649d53d709b7f71f"
+  },
+  "crons/daily/sotd-2026-daily-pull__daily@09:15:00_user_current.md": {
+   "bytes": 1642,
+   "md5": "5d17121edb7024b671df61fe04da6935"
+  },
+  "crons/daily/sotd-escalation-queue__daily@10:15:00_user_current.md": {
+   "bytes": 3746,
+   "md5": "8b123a92236c305633bb5b13bb023ee1"
+  },
+  "crons/hourly/sotd-world-learner__interval@2h.md": {
+   "bytes": 5154,
+   "md5": "e8761d5c7c16b0e92988a859b1489f16"
+  },
+  "crons/minutely/sotd-catalog-validator__interval@30m.md": {
+   "bytes": 8312,
+   "md5": "b5f0bfc8a4abe8f069c85779109d4570"
+  },
+  "crons/weekly/sotd-anecdotal-watch__weekly@Mon-11:15:00_user_current.md": {
+   "bytes": 2924,
+   "md5": "5460a4cbd985eb02400081ac4c2968cd"
+  },
+  "crons/weekly/sotd-nmrs-sync__weekly@Mon,Thu-07:15:00_user_current.md": {
+   "bytes": 1652,
+   "md5": "d1e67e921995ec55f05cf0ecb11078be"
+  },
+  "fill_gaps.py": {
+   "bytes": 3365,
+   "md5": "84ab9a1a6109fb0e1a9782b60bb026c4"
+  },
+  "fill_gaps_year.py": {
+   "bytes": 3906,
+   "md5": "01d82ac835efbf701db0ef559849c586"
+  },
+  "hooks/sotd_validator_loop.sh": {
+   "bytes": 2431,
+   "md5": "824bd2205174d91550ea6693494a896f"
+  },
+  "knowledge/README.md": {
+   "bytes": 1670,
+   "md5": "c65502f896a0f59362e6589b4d778161"
+  },
+  "knowledge/backlog.md": {
+   "bytes": 728849,
+   "md5": "f6fa2cae7f6257ab93e0d97e2f6e5c7b"
+  },
+  "knowledge/glossary.md": {
+   "bytes": 79684,
+   "md5": "3a66f60b1813b43499272a2af5a3f106"
+  },
+  "knowledge/hardware_lore.md": {
+   "bytes": 505975,
+   "md5": "3303e86780ec0b16d5760edb285d7f93"
+  },
+  "knowledge/learning_log.md": {
+   "bytes": 1698934,
+   "md5": "42f91c0badcc0e84669175a3c5a2e41c"
+  },
+  "knowledge/lineages.md": {
+   "bytes": 927408,
+   "md5": "da4d8dacad9b15606212d628b9e3ace1"
+  },
+  "knowledge/people.md": {
+   "bytes": 82931,
+   "md5": "05613a34ecd19ec2f9755904668587f6"
+  },
+  "knowledge/product_aliases.md": {
+   "bytes": 440681,
+   "md5": "d57ccd9d4454bece2986efef93cf69ec"
+  },
+  "knowledge/product_lines.md": {
+   "bytes": 443268,
+   "md5": "eeee63bbd866a195580b95e5ff93322c"
+  },
+  "knowledge/tools/abbrev_cands_2026-11-04.json": {
+   "bytes": 1136955,
+   "md5": "9d4664119f72a1ca1849545399644f43"
+  },
+  "knowledge/tools/abbrev_mine.py": {
+   "bytes": 2335,
+   "md5": "f3da25d90d9b0f813224c60724fc1015"
+  },
+  "knowledge/tools/backfill_glossary_sources.py": {
+   "bytes": 18410,
+   "md5": "a22ec8a78870102c0833bc8ebec5541c"
+  },
+  "knowledge/tools/build_string_index.py": {
+   "bytes": 776,
+   "md5": "818b960818a175d13e0aef927e5ef440"
+  },
+  "knowledge/tools/dg_brush_census.py": {
+   "bytes": 2332,
+   "md5": "65266ecb0270620d15cece894885af72"
+  },
+  "knowledge/tools/es_dualcomb.txt": {
+   "bytes": 5479,
+   "md5": "c05d1335d3d114347a5a1930d298ada3"
+  },
+  "knowledge/tools/es_home.txt": {
+   "bytes": 5541,
+   "md5": "a29159693364af4fc6d728788ddc6d0e"
+  },
+  "knowledge/tools/es_magnets.txt": {
+   "bytes": 5386,
+   "md5": "67f3787f8281ffab0d447553a0a567ca"
+  },
+  "knowledge/tools/es_product.txt": {
+   "bytes": 5743,
+   "md5": "fba82e0aacfa4e9d66bc66464b6148f0"
+  },
+  "knowledge/tools/es_techspecs.txt": {
+   "bytes": 4873,
+   "md5": "5a98f0be7696c3658d6f07ac5a296e85"
+  },
+  "knowledge/tools/misspell_mine.py": {
+   "bytes": 4239,
+   "md5": "b2eaf057077571338900e4962aea52d4"
+  },
+  "knowledge/tools/misspell_mine_artisan.py": {
+   "bytes": 11752,
+   "md5": "0900160376033fb9f07a99d770e80c7b"
+  },
+  "knowledge/tools/misspelling_cands_2026-11-02.json": {
+   "bytes": 116190,
+   "md5": "632e1a972c2919ff06908d20ceaa94ba"
+  },
+  "knowledge/tools/misspelling_cands_all_2026-11-04.json": {
+   "bytes": 425725,
+   "md5": "56f99749478f28c7cda9328f26b5fbaa"
+  },
+  "knowledge/tools/misspelling_cands_artisan_2026-11-04.json": {
+   "bytes": 120658,
+   "md5": "e6944d98c65b989ed54d2a1203f77124"
+  },
+  "knowledge/tools/review_cands.py": {
+   "bytes": 1006,
+   "md5": "5a9734cd081a7dad600bc19f69499590"
+  },
+  "knowledge/tools/verify_glossary_abbrs.py": {
+   "bytes": 4231,
+   "md5": "01961c54d283c00be85583a6dab5755f"
+  },
+  "knowledge/trusted_sources.md": {
+   "bytes": 3681,
+   "md5": "67331ccce21fe520ea637f1d91efbd0a"
+  },
+  "knowledge/work/embrace_uncool_census_2026-11-17.py": {
+   "bytes": 2830,
+   "md5": "167ae5295f644144440e995e4f85d533"
+  },
+  "knowledge/work/embrace_uncool_census_2026-11-17.txt": {
+   "bytes": 50544,
+   "md5": "989c2aefc7351b64bba62610407a3407"
+  },
+  "knowledge/work/full_notes.py": {
+   "bytes": 810,
+   "md5": "0315842123c1679a375a3f9e2a9284a1"
+  },
+  "knowledge/work/hom_cool_census.py": {
+   "bytes": 1463,
+   "md5": "6e96c1c2e15a0081431c2ad3c2d62657"
+  },
+  "knowledge/work/hom_cool_out.txt": {
+   "bytes": 66798,
+   "md5": "402155ba3d1ff01673215c32de4ae160"
+  },
+  "knowledge/work/hom_product_ingredients_2026-11-16.txt": {
+   "bytes": 5143,
+   "md5": "46b0bcc31d04102f7d57f3ad85d31b89"
+  },
+  "knowledge/work/indigo_discontinu_census_2026-11-17.py": {
+   "bytes": 862,
+   "md5": "46b81a2a3fe441c0d2253e17c749475d"
+  },
+  "knowledge/work/indigo_discontinu_census_2026-11-17.txt": {
+   "bytes": 11173,
+   "md5": "fdda8f518f189e5a0d22918d4e24cb88"
+  },
+  "knowledge/work/indigo_discontinu_census_apr-may_2026-11-17.txt": {
+   "bytes": 17,
+   "md5": "5006ae3fc2d9048d20c5b38366912aa1"
+  },
+  "knowledge/work/indigo_supplement_census_2026-11-17.txt": {
+   "bytes": 1173,
+   "md5": "56ee084cf88048105bb9c867ec6c5c28"
+  },
+  "knowledge/work/lockhart_census_2026-11-18.py": {
+   "bytes": 1757,
+   "md5": "a7156b4fdd13e523746a7f6da25b5b6b"
+  },
+  "knowledge/work/lockhart_census_2026-11-18.txt": {
+   "bytes": 5208,
+   "md5": "ff97e89e240ca627f655604bc1ea05f7"
+  },
+  "knowledge/work/lockhart_products_2026-11-18.json": {
+   "bytes": 1513235,
+   "md5": "517ce0e84a7decc635b034b83055fb18"
+  },
+  "knowledge/work/lockhart_products_2026-11-18_p2.json": {
+   "bytes": 567637,
+   "md5": "06b4842c77def4500e627bb83da94412"
+  },
+  "knowledge/work/lockhart_thread_2026-11-18.txt": {
+   "bytes": 63542,
+   "md5": "ce1e5473a9a353e129fcb10e2954d15c"
+  },
+  "knowledge/work/maggard_hom_splash_inci_census_2026-11-16.txt": {
+   "bytes": 6405,
+   "md5": "491b37a5028d39a6a68d0e1c04085f2a"
+  },
+  "knowledge/work/marquis.py": {
+   "bytes": 847,
+   "md5": "90069074131f65912d583b4b55b79a11"
+  },
+  "knowledge/work/mull_seaforth_census_2026-11-16.py": {
+   "bytes": 1398,
+   "md5": "ba751d5ab1d7f61f02c8c878f32fc3d5"
+  },
+  "knowledge/work/mull_seaforth_census_2026-11-16.txt": {
+   "bytes": 87031,
+   "md5": "8297343c3c08e279b7041731f8065e49"
+  },
+  "knowledge/work/mull_snippid_youi_census.py": {
+   "bytes": 3156,
+   "md5": "d239f8e1ec631da7ec59fda5450a107e"
+  },
+  "knowledge/work/mull_snippid_youi_out.txt": {
+   "bytes": 25918,
+   "md5": "4155b3f7b97d3e224cfcbe408aa7f6f6"
+  },
+  "knowledge/work/rumble_newbottle_census_2026-11-17.py": {
+   "bytes": 2085,
+   "md5": "a2096e141c7fa796ec48451d7df19c86"
+  },
+  "knowledge/work/rumble_newbottle_census_2026-11-17.txt": {
+   "bytes": 27786,
+   "md5": "7f518b935ea00af23118e5f4ab5eb0bf"
+  },
+  "knowledge/work/sunnylane_census_2026-11-17.py": {
+   "bytes": 566,
+   "md5": "c1d455dd9769332ca8f2c070b07b490f"
+  },
+  "knowledge/work/sunnylane_census_2026-11-17.txt": {
+   "bytes": 116195,
+   "md5": "8849449b7e091dc455136a9498a633de"
+  },
+  "knowledge/work/sunnylane_rework_census_2026-11-17.txt": {
+   "bytes": 12765,
+   "md5": "67029c4e699252ec03c5cdf6327ecb46"
+  },
+  "knowledge/work/tobacconist_census_2026-11-17.txt": {
+   "bytes": 369472,
+   "md5": "92368172bd3b9eb61a16218cd2ff2d90"
+  },
+  "knowledge/work/watch_diff.py": {
+   "bytes": 2224,
+   "md5": "df5b2bd9535a0bcb96a4b57fc2513496"
+  },
+  "knowledge/work/z_rumble_census.py": {
+   "bytes": 2326,
+   "md5": "7039dde916fa153db5b51d1743a7e14e"
+  },
+  "knowledge/work/z_rumble_out.txt": {
+   "bytes": 213149,
+   "md5": "0af1e6b15755266188741ce6b3e56cfe"
+  },
+  "knowledge/world_notes.md": {
+   "bytes": 48038,
+   "md5": "08dc77c6133edf87e30eb581899cb848"
+  },
+  "lg_sweep.py": {
+   "bytes": 2299,
+   "md5": "7e6abaae44a203487a66aeb1288ed3e1"
+  },
+  "manifest.json": {
+   "bytes": 10581,
+   "md5": "c7f4b0996ad0858bd6a84784686f9144"
+  },
+  "sotd_parser.py": {
+   "bytes": 13767,
+   "md5": "df5f1f5e7464baf8e5bb0c2bf514c464"
+  },
+  "tools/__pycache__/sync_to_github.cpython-312.pyc": {
+   "bytes": 40434,
+   "md5": "2e02821f97b0fc1ed11a9040ed3d899f"
+  },
+  "tools/sync_to_github.py": {
+   "bytes": 35006,
+   "md5": "ef6c5bbaab84e3bd033ca8f70269a46c"
+  }
+ }
+}

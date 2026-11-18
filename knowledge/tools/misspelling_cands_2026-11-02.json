@@ -1,0 +1,5285 @@
+[
+ {
+  "uses": 9782,
+  "authors": 389,
+  "fields": [
+   "aftershave",
+   "preshave"
+  ],
+  "typed": "Shower",
+  "typed_norm": "shower",
+  "dist": 2,
+  "target_norm": "shore",
+  "entry_id": "soap/declaration-grooming-shore",
+  "entry": "Declaration Grooming Shore"
+ },
+ {
+  "uses": 1688,
+  "authors": 167,
+  "fields": [
+   "aftershave",
+   "blade",
+   "bowl",
+   "fragrance",
+   "preshave",
+   "razor",
+   "soap"
+  ],
+  "typed": "None",
+  "typed_norm": "none",
+  "dist": 2,
+  "target_norm": "no 1",
+  "entry_id": "aftershave/zingari-man-byron-no-1",
+  "entry": "Zingari Man / Byron No.1"
+ },
+ {
+  "uses": 1659,
+  "authors": 28,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Cold Water",
+  "typed_norm": "cold water",
+  "dist": 2,
+  "target_norm": "cool water",
+  "entry_id": "fragrance/davidoff-cool-water",
+  "entry": "Davidoff Cool Water"
+ },
+ {
+  "uses": 1269,
+  "authors": 125,
+  "fields": [
+   "aftershave",
+   "preshave"
+  ],
+  "typed": "shower",
+  "typed_norm": "shower",
+  "dist": 2,
+  "target_norm": "shore",
+  "entry_id": "soap/declaration-grooming-shore",
+  "entry": "Declaration Grooming Shore"
+ },
+ {
+  "uses": 1000,
+  "authors": 39,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard V3A",
+  "typed_norm": "maggard v3a",
+  "dist": 2,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 518,
+  "authors": 58,
+  "fields": [
+   "aftershave",
+   "blade",
+   "fragrance",
+   "preshave",
+   "razor",
+   "soap"
+  ],
+  "typed": "none",
+  "typed_norm": "none",
+  "dist": 2,
+  "target_norm": "no 1",
+  "entry_id": "aftershave/zingari-man-byron-no-1",
+  "entry": "Zingari Man / Byron No.1"
+ },
+ {
+  "uses": 440,
+  "authors": 30,
+  "fields": [
+   "aftershave",
+   "fragrance",
+   "preshave",
+   "soap"
+  ],
+  "typed": "Water",
+  "typed_norm": "water",
+  "dist": 2,
+  "target_norm": "waves",
+  "entry_id": "aftershave/barrister-and-mann-waves",
+  "entry": "Barrister and Mann Waves"
+ },
+ {
+  "uses": 291,
+  "authors": 11,
+  "fields": [
+   "aftershave",
+   "blade",
+   "fragrance",
+   "preshave",
+   "razor"
+  ],
+  "typed": "Nada",
+  "typed_norm": "nada",
+  "dist": 2,
+  "target_norm": "nude",
+  "entry_id": "soap/lothur-nude",
+  "entry": "Lothur Nude"
+ },
+ {
+  "uses": 266,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "House of Mammoth Almond Leather Bath Soap",
+  "typed_norm": "house of mammoth almond leather bath soap",
+  "dist": 2,
+  "target_norm": "house of mammoth almond leather bar soap",
+  "entry_id": "soap/house-of-mammoth-almond-leather-bar-soap",
+  "entry": "House of Mammoth Almond Leather Bar Soap"
+ },
+ {
+  "uses": 249,
+  "authors": 26,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Cold water",
+  "typed_norm": "cold water",
+  "dist": 2,
+  "target_norm": "cool water",
+  "entry_id": "fragrance/davidoff-cool-water",
+  "entry": "Davidoff Cool Water"
+ },
+ {
+  "uses": 166,
+  "authors": 40,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Vokshod",
+  "typed_norm": "vokshod",
+  "dist": 2,
+  "target_norm": "voskhod",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 121,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Shavent",
+  "typed_norm": "shavent",
+  "dist": 2,
+  "target_norm": "shaken",
+  "entry_id": "soap/storybook-soapworks-shaken",
+  "entry": "Storybook Soapworks Shaken"
+ },
+ {
+  "uses": 116,
+  "authors": 10,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Persona",
+  "typed_norm": "persona",
+  "dist": 1,
+  "target_norm": "personna",
+  "entry_id": "Cartridge/personna-twin-pivot-plus",
+  "entry": "Personna Twin Pivot Plus"
+ },
+ {
+  "uses": 109,
+  "authors": 7,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggards V3",
+  "typed_norm": "maggards v3",
+  "dist": 2,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 105,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "BB SB",
+  "typed_norm": "bb sb",
+  "dist": 2,
+  "target_norm": "bbs",
+  "entry_id": "razor/razorock-bbs",
+  "entry": "RazoRock BBS"
+ },
+ {
+  "uses": 96,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Proraso Pre Shave Cream",
+  "typed_norm": "proraso pre shave cream",
+  "dist": 3,
+  "target_norm": "proraso blue shave cream",
+  "entry_id": "soap/proraso-blue-shaving-cream-with-aloe-and-vitamin-e",
+  "entry": "Proraso Blue Shaving Cream with Aloe and Vitamin E"
+ },
+ {
+  "uses": 89,
+  "authors": 9,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "cold water",
+  "typed_norm": "cold water",
+  "dist": 2,
+  "target_norm": "cool water",
+  "entry_id": "fragrance/davidoff-cool-water",
+  "entry": "Davidoff Cool Water"
+ },
+ {
+  "uses": 82,
+  "authors": 25,
+  "fields": [
+   "aftershave",
+   "fragrance"
+  ],
+  "typed": "Alum",
+  "typed_norm": "alum",
+  "dist": 2,
+  "target_norm": "alt",
+  "entry_id": "fragrance/alt-the-scent-of-beach",
+  "entry": "ALT The Scent of Beach"
+ },
+ {
+  "uses": 79,
+  "authors": 7,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Feather Super",
+  "typed_norm": "feather super",
+  "dist": 3,
+  "target_norm": "feather sr",
+  "entry_id": "razor/feather-artist-club-sr",
+  "entry": "Feather Artist Club SR"
+ },
+ {
+  "uses": 78,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Noble Otter NOC1",
+  "typed_norm": "noble otter noc1",
+  "dist": 2,
+  "target_norm": "noble otter no1c",
+  "entry_id": "razor/noble-otter-stainless-steel-double-edge-razor-no1c",
+  "entry": "Noble Otter Stainless Steel Double Edge Razor (NO1C)"
+ },
+ {
+  "uses": 77,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard Razors MR18",
+  "typed_norm": "maggard razors mr18",
+  "dist": 1,
+  "target_norm": "maggard razors mr18c",
+  "entry_id": "razor/maggard-razors-de-safety-razor-mr18c-multicolor-titanium-anodized-stainless-steel-handle-only",
+  "entry": "Maggard Razors DE Safety Razor MR18C Multicolor Titanium Anodized Stainless Steel, Handle Only"
+ },
+ {
+  "uses": 77,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Southern Witchcrafts Incopreal soap",
+  "typed_norm": "southern witchcrafts incopreal soap",
+  "dist": 2,
+  "target_norm": "southern witchcrafts incorporeal soap",
+  "entry_id": "soap/southern-witchcrafts-incorporeal",
+  "entry": "Southern Witchcrafts Incorporeal"
+ },
+ {
+  "uses": 76,
+  "authors": 9,
+  "fields": [
+   "razor"
+  ],
+  "typed": "ATT SE1",
+  "typed_norm": "att se1",
+  "dist": 1,
+  "target_norm": "att s1",
+  "entry_id": "razor/above-the-tie-s1-slant",
+  "entry": "Above the Tie S1 Slant"
+ },
+ {
+  "uses": 74,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merker 34C HD",
+  "typed_norm": "merker 34c hd",
+  "dist": 1,
+  "target_norm": "merkur 34c hd",
+  "entry_id": "razor/merkur-34c",
+  "entry": "Merkur 34C"
+ },
+ {
+  "uses": 66,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Edwin Jagger DE86",
+  "typed_norm": "edwin jagger de86",
+  "dist": 1,
+  "target_norm": "edwin jagger de89",
+  "entry_id": "razor/edwin-jagger-de89",
+  "entry": "Edwin Jagger DE89"
+ },
+ {
+  "uses": 66,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merkur 41c",
+  "typed_norm": "merkur 41c",
+  "dist": 2,
+  "target_norm": "merkur 23c",
+  "entry_id": "razor/merkur-23c",
+  "entry": "Merkur 23C"
+ },
+ {
+  "uses": 64,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Cold Water.",
+  "typed_norm": "cold water",
+  "dist": 2,
+  "target_norm": "cool water",
+  "entry_id": "fragrance/davidoff-cool-water",
+  "entry": "Davidoff Cool Water"
+ },
+ {
+  "uses": 63,
+  "authors": 6,
+  "fields": [
+   "blade",
+   "razor"
+  ],
+  "typed": "Bevel",
+  "typed_norm": "bevel",
+  "dist": 2,
+  "target_norm": "bee",
+  "entry_id": "fragrance/zoologist-bee",
+  "entry": "Zoologist Bee"
+ },
+ {
+  "uses": 59,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard’s MR18",
+  "typed_norm": "maggards mr18",
+  "dist": 2,
+  "target_norm": "maggard mr14",
+  "entry_id": "razor/maggard-razors-de-safety-razor-mr14-aluminum-gray-handle-only",
+  "entry": "Maggard Razors DE Safety Razor MR14 Aluminum Gray, Handle Only"
+ },
+ {
+  "uses": 53,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Perssona Blue",
+  "typed_norm": "perssona blue",
+  "dist": 1,
+  "target_norm": "persona blue",
+  "entry_id": "DE/personna-platinum",
+  "entry": "Personna Platinum"
+ },
+ {
+  "uses": 53,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "BBNY",
+  "typed_norm": "bbny",
+  "dist": 2,
+  "target_norm": "bbs",
+  "entry_id": "razor/razorock-bbs",
+  "entry": "RazoRock BBS"
+ },
+ {
+  "uses": 50,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "DG Sweet Lemon AS",
+  "typed_norm": "dg sweet lemon as",
+  "dist": 3,
+  "target_norm": "dg sweet lemon",
+  "entry_id": "soap/declaration-grooming-dg-sweet-lemon",
+  "entry": "Declaration Grooming DG Sweet Lemon"
+ },
+ {
+  "uses": 49,
+  "authors": 2,
+  "fields": [
+   "aftershave",
+   "fragrance"
+  ],
+  "typed": "Stirling Rambling Man",
+  "typed_norm": "stirling rambling man",
+  "dist": 1,
+  "target_norm": "stirling ramblin man",
+  "entry_id": "soap/stirling-soap-co-ramblin-man",
+  "entry": "Stirling Soap Co. Ramblin' Man"
+ },
+ {
+  "uses": 49,
+  "authors": 7,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Merkur Super",
+  "typed_norm": "merkur super",
+  "dist": 3,
+  "target_norm": "merkur futur",
+  "entry_id": "razor/merkur-futur",
+  "entry": "Merkur Futur"
+ },
+ {
+  "uses": 48,
+  "authors": 12,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Pol Silver",
+  "typed_norm": "pol silver",
+  "dist": 1,
+  "target_norm": "polsilver",
+  "entry_id": "DE/polsilver-super-iridium",
+  "entry": "Polsilver Super Iridium"
+ },
+ {
+  "uses": 47,
+  "authors": 12,
+  "fields": [
+   "aftershave",
+   "preshave"
+  ],
+  "typed": "water",
+  "typed_norm": "water",
+  "dist": 2,
+  "target_norm": "waves",
+  "entry_id": "aftershave/barrister-and-mann-waves",
+  "entry": "Barrister and Mann Waves"
+ },
+ {
+  "uses": 46,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Karve with D OC plate",
+  "typed_norm": "karve with d oc plate",
+  "dist": 3,
+  "target_norm": "karve w d oc plate",
+  "entry_id": "razor/karve-christopher-bradley",
+  "entry": "Karve Christopher Bradley"
+ },
+ {
+  "uses": 45,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Lada",
+  "typed_norm": "lada",
+  "dist": 2,
+  "target_norm": "lea",
+  "entry_id": "soap/lea-shave-stick",
+  "entry": "LEA Shave Stick"
+ },
+ {
+  "uses": 45,
+  "authors": 7,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette Goal",
+  "typed_norm": "gillette goal",
+  "dist": 3,
+  "target_norm": "gillette balm",
+  "entry_id": "aftershave/gillette-post-shave-gel",
+  "entry": "Gillette Post-Shave Gel"
+ },
+ {
+  "uses": 44,
+  "authors": 6,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Aqua Di Gio",
+  "typed_norm": "aqua di gio",
+  "dist": 1,
+  "target_norm": "acqua di gio",
+  "entry_id": "fragrance/giorgio-armani-acqua-di-gio",
+  "entry": "Giorgio Armani Acqua di Gio"
+ },
+ {
+  "uses": 43,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette 7 oclock sharp edge",
+  "typed_norm": "gillette 7 oclock sharp edge",
+  "dist": 1,
+  "target_norm": "gillette 7 o clock sharp edge",
+  "entry_id": "DE/gillette-7-o-clock-sharpedge",
+  "entry": "Gillette 7 O'Clock SharpEdge"
+ },
+ {
+  "uses": 43,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Schick Prolines P-30",
+  "typed_norm": "schick prolines p 30",
+  "dist": 1,
+  "target_norm": "schick proline p 30",
+  "entry_id": "AC/schick-proline-p-30",
+  "entry": "Schick Proline P-30"
+ },
+ {
+  "uses": 40,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Bergamot Lavender oil.",
+  "typed_norm": "stirling bergamot lavender oil",
+  "dist": 3,
+  "target_norm": "stirling bergamot lavender soap",
+  "entry_id": "soap/stirling-soap-co-bergamot-lavender",
+  "entry": "Stirling Soap Co. Bergamot Lavender"
+ },
+ {
+  "uses": 39,
+  "authors": 20,
+  "fields": [
+   "blade",
+   "razor"
+  ],
+  "typed": "Gillette Mach 3",
+  "typed_norm": "gillette mach 3",
+  "dist": 3,
+  "target_norm": "gillette tech y3",
+  "entry_id": "razor/gillette-tech",
+  "entry": "Gillette Tech"
+ },
+ {
+  "uses": 38,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "SV Tundra Artica AS",
+  "typed_norm": "sv tundra artica as",
+  "dist": 3,
+  "target_norm": "sv tundra artica",
+  "entry_id": "soap/saponificio-varesino-tundra-artica-shaving-soap-special-edition",
+  "entry": "Saponificio Varesino | TUNDRA ARTICA SHAVING SOAP SPECIAL EDITION"
+ },
+ {
+  "uses": 37,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Barrister & Mann - Lavender Interupted",
+  "typed_norm": "barrister mann lavender interupted",
+  "dist": 1,
+  "target_norm": "barrister mann lavender interrupted",
+  "entry_id": "fragrance/barrister-and-mann-lavender-interrupted",
+  "entry": "Barrister and Mann Lavender, Interrupted"
+ },
+ {
+  "uses": 37,
+  "authors": 4,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "CeraVe",
+  "typed_norm": "cerave",
+  "dist": 2,
+  "target_norm": "cerise",
+  "entry_id": "soap/lainess-cerise",
+  "entry": "Lainess Cerise"
+ },
+ {
+  "uses": 36,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Catie’s Bubbles – Berry Good Noah",
+  "typed_norm": "caties bubbles berry good noah",
+  "dist": 1,
+  "target_norm": "catie s bubbles berry good noah",
+  "entry_id": "soap/catie-s-bubbles-berry-good-noah",
+  "entry": "Catie's Bubbles Berry Good Noah"
+ },
+ {
+  "uses": 36,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Noble Otter (NOC1)",
+  "typed_norm": "noble otter noc1",
+  "dist": 2,
+  "target_norm": "noble otter no1c",
+  "entry_id": "razor/noble-otter-stainless-steel-double-edge-razor-no1c",
+  "entry": "Noble Otter Stainless Steel Double Edge Razor (NO1C)"
+ },
+ {
+  "uses": 36,
+  "authors": 4,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "B&M Leviathan AS",
+  "typed_norm": "b m leviathan as",
+  "dist": 3,
+  "target_norm": "b m leviathan",
+  "entry_id": "soap/barrister-and-mann-leviathan",
+  "entry": "Barrister and Mann Leviathan"
+ },
+ {
+  "uses": 35,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Chanel – Bleau de Chanel",
+  "typed_norm": "chanel bleau de chanel",
+  "dist": 1,
+  "target_norm": "chanel bleu de chanel",
+  "entry_id": "fragrance/chanel-bleu-de-chanel",
+  "entry": "Chanel Bleu de Chanel"
+ },
+ {
+  "uses": 35,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Ozark Mountain oil.",
+  "typed_norm": "stirling ozark mountain oil",
+  "dist": 3,
+  "target_norm": "stirling ozark mountain 5",
+  "entry_id": "soap/stirling-soap-co-ozark-mountain",
+  "entry": "Stirling Soap Co. Ozark Mountain"
+ },
+ {
+  "uses": 35,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Ariana & Evans - Tobacco Road",
+  "typed_norm": "ariana evans tobacco road",
+  "dist": 3,
+  "target_norm": "ariana evans tobacco road as",
+  "entry_id": "aftershave/ariana-evans-tobacco-road-aftershave-splash-5oz",
+  "entry": "Ariana & Evans Tobacco Road Aftershave Splash 5oz"
+ },
+ {
+  "uses": 35,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Ariana & Evans - Tobacco Road EDP",
+  "typed_norm": "ariana evans tobacco road edp",
+  "dist": 3,
+  "target_norm": "ariana evans tobacco road as",
+  "entry_id": "aftershave/ariana-evans-tobacco-road-aftershave-splash-5oz",
+  "entry": "Ariana & Evans Tobacco Road Aftershave Splash 5oz"
+ },
+ {
+  "uses": 33,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Stirling Gentleman oil.",
+  "typed_norm": "stirling stirling gentleman oil",
+  "dist": 3,
+  "target_norm": "stirling stirling gentleman edt",
+  "entry_id": "fragrance/stirling-soap-co-gentleman",
+  "entry": "Stirling Soap Co. Gentleman"
+ },
+ {
+  "uses": 33,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Deep Blue Sea oil",
+  "typed_norm": "stirling deep blue sea oil",
+  "dist": 3,
+  "target_norm": "stirling deep blue sea as",
+  "entry_id": "aftershave/stirling-soap-co-deep-blue-sea-aftershave-splash-100ml",
+  "entry": "Stirling Soap Co. Deep Blue Sea Aftershave Splash, 100ml"
+ },
+ {
+  "uses": 33,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Proraso pre-shave cream",
+  "typed_norm": "proraso pre shave cream",
+  "dist": 3,
+  "target_norm": "proraso blue shave cream",
+  "entry_id": "soap/proraso-blue-shaving-cream-with-aloe-and-vitamin-e",
+  "entry": "Proraso Blue Shaving Cream with Aloe and Vitamin E"
+ },
+ {
+  "uses": 33,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Pinuad - Clubman Aftershave Lotion",
+  "typed_norm": "pinuad clubman aftershave lotion",
+  "dist": 3,
+  "target_norm": "pinaud clubman after shave lotion",
+  "entry_id": "aftershave/pinaud-clubman-after-shave-lotion",
+  "entry": "Pinaud Clubman After Shave Lotion"
+ },
+ {
+  "uses": 32,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "GEM 1924",
+  "typed_norm": "gem 1924",
+  "dist": 1,
+  "target_norm": "gem 1914",
+  "entry_id": "razor/ever-ready-1914",
+  "entry": "Ever-Ready 1914"
+ },
+ {
+  "uses": 32,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Hipster oil",
+  "typed_norm": "stirling hipster oil",
+  "dist": 3,
+  "target_norm": "stirling hipster edt",
+  "entry_id": "fragrance/stirling-soap-co-hipster",
+  "entry": "Stirling Soap Co. Hipster"
+ },
+ {
+  "uses": 32,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "HC&C Barbershop",
+  "typed_norm": "hc c barbershop",
+  "dist": 3,
+  "target_norm": "hags barbershop",
+  "entry_id": "fragrance/hags-barbershop",
+  "entry": "HAGS Barbershop"
+ },
+ {
+  "uses": 32,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "House of Mammoth - Cirrus",
+  "typed_norm": "house of mammoth cirrus",
+  "dist": 3,
+  "target_norm": "house of mammoth cerberus",
+  "entry_id": "soap/declaration-grooming-cerberus",
+  "entry": "Declaration Grooming × House of Mammoth Cerberus"
+ },
+ {
+  "uses": 31,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Saponificio Vatesino - 70th anniversary - Soap",
+  "typed_norm": "saponificio vatesino 70th anniversary soap",
+  "dist": 1,
+  "target_norm": "saponificio varesino 70th anniversary soap",
+  "entry_id": "soap/saponificio-varesino-70th-anniversary",
+  "entry": "Saponificio Varesino 70th Anniversary"
+ },
+ {
+  "uses": 31,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "T&S Sicily AS",
+  "typed_norm": "t s sicily as",
+  "dist": 3,
+  "target_norm": "t s sicily",
+  "entry_id": "soap/tallow-steel-sicily",
+  "entry": "Tallow + Steel Sicily"
+ },
+ {
+  "uses": 30,
+  "authors": 10,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Timor",
+  "typed_norm": "timor",
+  "dist": 2,
+  "target_norm": "tiger",
+  "entry_id": "DE/tiger-platinum",
+  "entry": "Tiger Platinum"
+ },
+ {
+  "uses": 30,
+  "authors": 6,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Feather Artist Club",
+  "typed_norm": "feather artist club",
+  "dist": 3,
+  "target_norm": "feather artist club dx",
+  "entry_id": "razor/feather-artist-club-dx",
+  "entry": "Feather Artist Club DX"
+ },
+ {
+  "uses": 30,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Pinaud - Clubman AS",
+  "typed_norm": "pinaud clubman as",
+  "dist": 3,
+  "target_norm": "pinaud clubman",
+  "entry_id": "aftershave/pinaud-clubman-whiskey-woods",
+  "entry": "Pinaud Clubman Whiskey Woods"
+ },
+ {
+  "uses": 29,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Ever Sharp Hydro-Magic",
+  "typed_norm": "ever sharp hydro magic",
+  "dist": 1,
+  "target_norm": "eversharp hydro magic",
+  "entry_id": "razor/schick-injector",
+  "entry": "Schick Injector"
+ },
+ {
+  "uses": 29,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Wolfman WR-1 SB",
+  "typed_norm": "wolfman wr 1 sb",
+  "dist": 3,
+  "target_norm": "wolfman wr1 oc",
+  "entry_id": "razor/wolfman-wr1",
+  "entry": "Wolfman WR1"
+ },
+ {
+  "uses": 29,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Grooming Dept Otium",
+  "typed_norm": "grooming dept otium",
+  "dist": 3,
+  "target_norm": "grooming dept unum",
+  "entry_id": "soap/aion-skincare-maxima-shaving-soap-unum",
+  "entry": "Aion Skincare Maxima Shaving Soap - Unum"
+ },
+ {
+  "uses": 28,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Rapira Swedish Super Steel",
+  "typed_norm": "rapira swedish super steel",
+  "dist": 1,
+  "target_norm": "rapira swedish supersteel",
+  "entry_id": "DE/rapira-swedish-supersteel",
+  "entry": "Rapira Swedish Supersteel"
+ },
+ {
+  "uses": 28,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gilette Minora Stainless",
+  "typed_norm": "gilette minora stainless",
+  "dist": 1,
+  "target_norm": "gillette minora stainless",
+  "entry_id": "DE/gillette-minora-stainless",
+  "entry": "Gillette Minora Stainless"
+ },
+ {
+  "uses": 28,
+  "authors": 4,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Barrister & Mann Ferox",
+  "typed_norm": "barrister mann ferox",
+  "dist": 2,
+  "target_norm": "barrister mann fern",
+  "entry_id": "soap/barrister-and-mann-fern",
+  "entry": "Barrister and Mann Fern"
+ },
+ {
+  "uses": 28,
+  "authors": 8,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Black Beauty",
+  "typed_norm": "black beauty",
+  "dist": 3,
+  "target_norm": "black bay",
+  "entry_id": "soap/razorock-black-bay",
+  "entry": "RazoRock BLACK BAY"
+ },
+ {
+  "uses": 28,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Arkadia oil.",
+  "typed_norm": "stirling arkadia oil",
+  "dist": 3,
+  "target_norm": "stirling arkadia edt",
+  "entry_id": "fragrance/stirling-soap-co-arkadia",
+  "entry": "Stirling Soap Co. Arkadia"
+ },
+ {
+  "uses": 27,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gilette 7 O'clock (Green)",
+  "typed_norm": "gilette 7 o clock green",
+  "dist": 1,
+  "target_norm": "gillette 7 o clock green",
+  "entry_id": "DE/gillette-7-o-clock-super-stainless",
+  "entry": "Gillette 7 O'Clock Super Stainless"
+ },
+ {
+  "uses": 27,
+  "authors": 3,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Kai SS",
+  "typed_norm": "kai ss",
+  "dist": 2,
+  "target_norm": "kai de",
+  "entry_id": "DE/kai-stainless",
+  "entry": "Kai Stainless"
+ },
+ {
+  "uses": 27,
+  "authors": 4,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "L'Occitane Baux",
+  "typed_norm": "l occitane baux",
+  "dist": 3,
+  "target_norm": "l occitane cade",
+  "entry_id": "soap/l-occitane-cade",
+  "entry": "L'Occitane Cade"
+ },
+ {
+  "uses": 27,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Mountain Man oil.",
+  "typed_norm": "stirling mountain man oil",
+  "dist": 3,
+  "target_norm": "stirling mountain man edt",
+  "entry_id": "fragrance/stirling-soap-co-mountain-man",
+  "entry": "Stirling Soap Co. Mountain Man"
+ },
+ {
+  "uses": 27,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Pacific Shave Co. - Caffeinated Aftershave Balm",
+  "typed_norm": "pacific shave co caffeinated aftershave balm",
+  "dist": 3,
+  "target_norm": "pacific shaving co caffeinated aftershave balm",
+  "entry_id": "aftershave/pacific-shaving-co-caffeinated-after-shave",
+  "entry": "Pacific Shaving Co. Caffeinated After Shave"
+ },
+ {
+  "uses": 27,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Duke Cannon - Seneca",
+  "typed_norm": "duke cannon seneca",
+  "dist": 3,
+  "target_norm": "duke cannon sea",
+  "entry_id": "fragrance/duke-cannon-sea",
+  "entry": "Duke Cannon Sea"
+ },
+ {
+  "uses": 26,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "@likegrandpa",
+  "typed_norm": "likegrandpa",
+  "dist": 1,
+  "target_norm": "like grandpa",
+  "entry_id": "soap/like-grandpa-cedar",
+  "entry": "Like Grandpa Cedar"
+ },
+ {
+  "uses": 26,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Wilkinson Sword (Indian)",
+  "typed_norm": "wilkinson sword indian",
+  "dist": 1,
+  "target_norm": "wilkinson sword india",
+  "entry_id": "DE/gillette-wilkinson-sword",
+  "entry": "Gillette Wilkinson Sword"
+ },
+ {
+  "uses": 26,
+  "authors": 5,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Feather AC",
+  "typed_norm": "feather ac",
+  "dist": 2,
+  "target_norm": "feather dx",
+  "entry_id": "razor/feather-artist-club-dx",
+  "entry": "Feather Artist Club DX"
+ },
+ {
+  "uses": 26,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Persona PFTE",
+  "typed_norm": "persona pfte",
+  "dist": 2,
+  "target_norm": "persona ptfe",
+  "entry_id": "GEM/gem-gem-coated-single-edge-accutec-pro",
+  "entry": "GEM GEM Coated Single Edge (AccuTec PRO)"
+ },
+ {
+  "uses": 26,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Bay Rum oil.",
+  "typed_norm": "stirling bay rum oil",
+  "dist": 3,
+  "target_norm": "stirling bay rum as",
+  "entry_id": "aftershave/stirling-soap-co-bay-rum-aftershave-splash-100ml",
+  "entry": "Stirling Soap Co. Bay Rum Aftershave Splash, 100ml"
+ },
+ {
+  "uses": 26,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard’s MR6",
+  "typed_norm": "maggards mr6",
+  "dist": 3,
+  "target_norm": "maggard mr14",
+  "entry_id": "razor/maggard-razors-de-safety-razor-mr14-aluminum-gray-handle-only",
+  "entry": "Maggard Razors DE Safety Razor MR14 Aluminum Gray, Handle Only"
+ },
+ {
+  "uses": 26,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette - Goal",
+  "typed_norm": "gillette goal",
+  "dist": 3,
+  "target_norm": "gillette balm",
+  "entry_id": "aftershave/gillette-post-shave-gel",
+  "entry": "Gillette Post-Shave Gel"
+ },
+ {
+  "uses": 25,
+  "authors": 1,
+  "fields": [
+   "fragrance",
+   "soap"
+  ],
+  "typed": "Summer Break Soaps - Lather Games ROTY 2021",
+  "typed_norm": "summer break soaps lather games roty 2021",
+  "dist": 1,
+  "target_norm": "summer break soaps lather games roty 2020",
+  "entry_id": "soap/summer-break-soaps-rookie-of-the-year-2020",
+  "entry": "Summer Break Soaps Rookie of the Year 2020"
+ },
+ {
+  "uses": 25,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Chatillion Lux Pure Lavender.",
+  "typed_norm": "chatillion lux pure lavender",
+  "dist": 1,
+  "target_norm": "chatillon lux pure lavender",
+  "entry_id": "aftershave/chatillon-lux-pure-lavender",
+  "entry": "Chatillon Lux Pure Lavender"
+ },
+ {
+  "uses": 25,
+  "authors": 5,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard v3a",
+  "typed_norm": "maggard v3a",
+  "dist": 2,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 24,
+  "authors": 5,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Edwin Jagger DE87",
+  "typed_norm": "edwin jagger de87",
+  "dist": 1,
+  "target_norm": "edwin jagger de89",
+  "entry_id": "razor/edwin-jagger-de89",
+  "entry": "Edwin Jagger DE89"
+ },
+ {
+  "uses": 23,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Parker 111W",
+  "typed_norm": "parker 111w",
+  "dist": 1,
+  "target_norm": "parker 111b",
+  "entry_id": "razor/parker-111b-safety-razor",
+  "entry": "Parker | 111B SAFETY RAZOR"
+ },
+ {
+  "uses": 23,
+  "authors": 6,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Cerave",
+  "typed_norm": "cerave",
+  "dist": 2,
+  "target_norm": "cerise",
+  "entry_id": "soap/lainess-cerise",
+  "entry": "Lainess Cerise"
+ },
+ {
+  "uses": 23,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Via Barberia Aquae 2",
+  "typed_norm": "via barberia aquae 2",
+  "dist": 2,
+  "target_norm": "via barberia aquae",
+  "entry_id": "soap/omega-via-barberia-aquae",
+  "entry": "Omega Via Barberia Aquae"
+ },
+ {
+  "uses": 23,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merkur 41C",
+  "typed_norm": "merkur 41c",
+  "dist": 2,
+  "target_norm": "merkur 23c",
+  "entry_id": "razor/merkur-23c",
+  "entry": "Merkur 23C"
+ },
+ {
+  "uses": 23,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Catie’s Bubbles - V - Aftershave",
+  "typed_norm": "caties bubbles v aftershave",
+  "dist": 3,
+  "target_norm": "caties bubbles 322 aftershave",
+  "entry_id": "aftershave/caties-bubbles-322",
+  "entry": "Catie's Bubbles 322"
+ },
+ {
+  "uses": 22,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Kosmetik R. Nuener - [Alt-Insbruck](https://imgur.com/wJ7MBsa)",
+  "typed_norm": "kosmetik r nuener alt insbruck https imgur com wj7mbsa",
+  "dist": 1,
+  "target_norm": "kosmetik r nuener alt innsbruck https imgur com wj7mbsa",
+  "entry_id": "aftershave/kosmetik-r-nuener-alt-innsbruck",
+  "entry": "Kosmetik R. Nuener Alt-Innsbruck"
+ },
+ {
+  "uses": 22,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard V2OC",
+  "typed_norm": "maggard v2oc",
+  "dist": 2,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 22,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Via Barberia Aquae 4",
+  "typed_norm": "via barberia aquae 4",
+  "dist": 2,
+  "target_norm": "via barberia aquae",
+  "entry_id": "soap/omega-via-barberia-aquae",
+  "entry": "Omega Via Barberia Aquae"
+ },
+ {
+  "uses": 22,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Chatillon Lux/Declaration Grooming Pure Lavender.",
+  "typed_norm": "chatillon lux declaration grooming pure lavender",
+  "dist": 2,
+  "target_norm": "chatillon lux x declaration grooming pure lavender",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-pure-lavender-shaving-soap",
+  "entry": "Declaration Grooming / Chatillon Lux Pure Lavender Shaving Soap"
+ },
+ {
+  "uses": 22,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Executive Man oil.",
+  "typed_norm": "stirling executive man oil",
+  "dist": 3,
+  "target_norm": "stirling executive man edt",
+  "entry_id": "fragrance/stirling-soap-co-executive-man",
+  "entry": "Stirling Soap Co. Executive Man"
+ },
+ {
+  "uses": 22,
+  "authors": 4,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Stirling R4L",
+  "typed_norm": "stirling r4l",
+  "dist": 3,
+  "target_norm": "stirling blu",
+  "entry_id": "soap/stirling-soap-co-stirling-blu-shaving-soap-5-8oz",
+  "entry": "Stirling Soap Co. Stirling Blu Shaving Soap, 5.8oz"
+ },
+ {
+  "uses": 22,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Duke Cannon - Fulton - EdP",
+  "typed_norm": "duke cannon fulton edp",
+  "dist": 3,
+  "target_norm": "duke cannon huron edp",
+  "entry_id": "fragrance/duke-cannon-huron",
+  "entry": "Duke Cannon Huron"
+ },
+ {
+  "uses": 21,
+  "authors": 5,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Persona Super",
+  "typed_norm": "persona super",
+  "dist": 1,
+  "target_norm": "personna super",
+  "entry_id": "DE/personna-comfort-coated-lab-blue",
+  "entry": "Personna Comfort Coated (Lab Blue)"
+ },
+ {
+  "uses": 21,
+  "authors": 4,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Shick Injector",
+  "typed_norm": "shick injector",
+  "dist": 1,
+  "target_norm": "schick injector",
+  "entry_id": "Injector/schick-injector-blades",
+  "entry": "Schick Injector Blades"
+ },
+ {
+  "uses": 21,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "rockwell 2c",
+  "typed_norm": "rockwell 2c",
+  "dist": 1,
+  "target_norm": "rockwell 6c",
+  "entry_id": "razor/rockwell-6c",
+  "entry": "Rockwell 6C"
+ },
+ {
+  "uses": 21,
+  "authors": 8,
+  "fields": [
+   "soap"
+  ],
+  "typed": "B&M Vanille",
+  "typed_norm": "b m vanille",
+  "dist": 2,
+  "target_norm": "b m lavanille",
+  "entry_id": "soap/barrister-and-mann-lavanille",
+  "entry": "Barrister and Mann Lavanille"
+ },
+ {
+  "uses": 21,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "T+S Morning Coffee in the Canadian Wilderness AS",
+  "typed_norm": "t s morning coffee in the canadian wilderness as",
+  "dist": 3,
+  "target_norm": "t s morning coffee in the canadian wilderness",
+  "entry_id": "soap/tallow-steel-morning-coffee-in-the-canadian-wilderness",
+  "entry": "Tallow + Steel Morning Coffee in the Canadian Wilderness"
+ },
+ {
+  "uses": 21,
+  "authors": 3,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Catie's Bubbles - V - Aftershave",
+  "typed_norm": "catie s bubbles v aftershave",
+  "dist": 3,
+  "target_norm": "catie s bubbles 322 aftershave",
+  "entry_id": "aftershave/caties-bubbles-322",
+  "entry": "Catie's Bubbles 322"
+ },
+ {
+  "uses": 20,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette Platinium",
+  "typed_norm": "gillette platinium",
+  "dist": 1,
+  "target_norm": "gillette platinum",
+  "entry_id": "DE/gillette-platinum",
+  "entry": "Gillette Platinum"
+ },
+ {
+  "uses": 20,
+  "authors": 9,
+  "fields": [
+   "aftershave",
+   "blade",
+   "fragrance",
+   "preshave",
+   "razor",
+   "soap"
+  ],
+  "typed": "nada",
+  "typed_norm": "nada",
+  "dist": 2,
+  "target_norm": "nude",
+  "entry_id": "soap/lothur-nude",
+  "entry": "Lothur Nude"
+ },
+ {
+  "uses": 20,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Mhule R89",
+  "typed_norm": "mhule r89",
+  "dist": 2,
+  "target_norm": "muhle r89",
+  "entry_id": "razor/muhle-r89",
+  "entry": "Mühle R89"
+ },
+ {
+  "uses": 20,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Missoni",
+  "typed_norm": "missoni",
+  "dist": 2,
+  "target_norm": "mission",
+  "entry_id": "razor/razorock-mission",
+  "entry": "RazoRock Mission"
+ },
+ {
+  "uses": 20,
+  "authors": 4,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard’s V3A",
+  "typed_norm": "maggards v3a",
+  "dist": 3,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 20,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "WSP Rustic Sandalrose",
+  "typed_norm": "wsp rustic sandalrose",
+  "dist": 3,
+  "target_norm": "wsp rustic sandalwood",
+  "entry_id": "soap/wet-shaving-products-rustic-sandalwood",
+  "entry": "Wet Shaving Products Rustic Sandalwood"
+ },
+ {
+  "uses": 20,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Edwin Jagger DE86RC",
+  "typed_norm": "edwin jagger de86rc",
+  "dist": 3,
+  "target_norm": "edwin jagger de89",
+  "entry_id": "razor/edwin-jagger-de89",
+  "entry": "Edwin Jagger DE89"
+ },
+ {
+  "uses": 20,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Gillette Blue Gel",
+  "typed_norm": "gillette blue gel",
+  "dist": 3,
+  "target_norm": "gillette blue tip",
+  "entry_id": "razor/gillette-super-speed",
+  "entry": "Gillette Super Speed"
+ },
+ {
+  "uses": 20,
+  "authors": 1,
+  "fields": [
+   "blade",
+   "razor"
+  ],
+  "typed": "Gillette - Atra",
+  "typed_norm": "gillette atra",
+  "dist": 3,
+  "target_norm": "gillette pure",
+  "entry_id": "soap/gillette-pure",
+  "entry": "Gillette Pure"
+ },
+ {
+  "uses": 19,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "DE86",
+  "typed_norm": "de86",
+  "dist": 1,
+  "target_norm": "de89",
+  "entry_id": "razor/edwin-jagger-de89",
+  "entry": "Edwin Jagger DE89"
+ },
+ {
+  "uses": 19,
+  "authors": 8,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Rockwell 2C",
+  "typed_norm": "rockwell 2c",
+  "dist": 1,
+  "target_norm": "rockwell 6c",
+  "entry_id": "razor/rockwell-6c",
+  "entry": "Rockwell 6C"
+ },
+ {
+  "uses": 19,
+  "authors": 1,
+  "fields": [
+   "blade",
+   "razor"
+  ],
+  "typed": "“Normal”",
+  "typed_norm": "normal",
+  "dist": 2,
+  "target_norm": "nomad",
+  "entry_id": "soap/razorock-nomad",
+  "entry": "RazoRock NOMAD"
+ },
+ {
+  "uses": 19,
+  "authors": 9,
+  "fields": [
+   "aftershave",
+   "fragrance"
+  ],
+  "typed": "Chatillon Lux YRP",
+  "typed_norm": "chatillon lux yrp",
+  "dist": 3,
+  "target_norm": "chatillon lux bbb",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-blackberry-blossom-bay",
+  "entry": "Declaration Grooming / Chatillon Lux Blackberry Blossom Bay"
+ },
+ {
+  "uses": 19,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Wilkinson Sword Stick",
+  "typed_norm": "wilkinson sword stick",
+  "dist": 3,
+  "target_norm": "wilkinson sword black",
+  "entry_id": "DE/wilkinson-sword-classic",
+  "entry": "Wilkinson Sword Classic"
+ },
+ {
+  "uses": 18,
+  "authors": 4,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette Platinun",
+  "typed_norm": "gillette platinun",
+  "dist": 1,
+  "target_norm": "gillette platinum",
+  "entry_id": "DE/gillette-platinum",
+  "entry": "Gillette Platinum"
+ },
+ {
+  "uses": 18,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "fragrance",
+   "soap"
+  ],
+  "typed": "Spearhead Shaving Company – Seaforth! 3 Scotts",
+  "typed_norm": "spearhead shaving company seaforth 3 scotts",
+  "dist": 1,
+  "target_norm": "spearhead shaving company seaforth 3 scots",
+  "entry_id": "fragrance/spearhead-shaving-co-seaforth-3-scots",
+  "entry": "Spearhead Shaving Co. Seaforth! 3 Scots"
+ },
+ {
+  "uses": 18,
+  "authors": 3,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Catie's Bubbles - V - EdP",
+  "typed_norm": "catie s bubbles v edp",
+  "dist": 3,
+  "target_norm": "catie s bubbles v soap",
+  "entry_id": "soap/catie-s-bubbles-v-premium",
+  "entry": "Catie's Bubbles | V Premium"
+ },
+ {
+  "uses": 18,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Catie’s Bubbles - X - Aftershave",
+  "typed_norm": "caties bubbles x aftershave",
+  "dist": 3,
+  "target_norm": "caties bubbles 322 aftershave",
+  "entry_id": "aftershave/caties-bubbles-322",
+  "entry": "Catie's Bubbles 322"
+ },
+ {
+  "uses": 17,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette Wilkinson Swords",
+  "typed_norm": "gillette wilkinson swords",
+  "dist": 1,
+  "target_norm": "gillette wilkinson sword",
+  "entry_id": "DE/gillette-wilkinson-sword",
+  "entry": "Gillette Wilkinson Sword"
+ },
+ {
+  "uses": 17,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Above the Tie Atlas S2",
+  "typed_norm": "above the tie atlas s2",
+  "dist": 1,
+  "target_norm": "above the tie atlas s1",
+  "entry_id": "razor/above-the-tie-s1-slant",
+  "entry": "Above the Tie S1 Slant"
+ },
+ {
+  "uses": 17,
+  "authors": 3,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gilette 7 O'Clock Sharp Edge",
+  "typed_norm": "gilette 7 o clock sharp edge",
+  "dist": 1,
+  "target_norm": "gillette 7 o clock sharp edge",
+  "entry_id": "DE/gillette-7-o-clock-sharpedge",
+  "entry": "Gillette 7 O'Clock SharpEdge"
+ },
+ {
+  "uses": 17,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Voshkohd",
+  "typed_norm": "voshkohd",
+  "dist": 1,
+  "target_norm": "voshkod",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 17,
+  "authors": 7,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Weber DLC",
+  "typed_norm": "weber dlc",
+  "dist": 2,
+  "target_norm": "weber 33c",
+  "entry_id": "razor/merkur-33c",
+  "entry": "Merkur 33C"
+ },
+ {
+  "uses": 17,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Sharp Dressed Man oil.",
+  "typed_norm": "stirling sharp dressed man oil",
+  "dist": 3,
+  "target_norm": "stirling sharp dressed man as",
+  "entry_id": "aftershave/stirling-soap-co-sharp-dressed-man",
+  "entry": "Stirling Soap Co. Sharp Dressed Man"
+ },
+ {
+  "uses": 17,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "CB Blugère AS",
+  "typed_norm": "cb blugere as",
+  "dist": 3,
+  "target_norm": "cb blugere",
+  "entry_id": "soap/catie-s-bubbles-blugere",
+  "entry": "Catie's Bubbles Blugere"
+ },
+ {
+  "uses": 16,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Personna hairshaper",
+  "typed_norm": "personna hairshaper",
+  "dist": 1,
+  "target_norm": "personna hair shaper",
+  "entry_id": "Hair Shaper/personna-hair-shaper-blades",
+  "entry": "Personna Hair Shaper Blades"
+ },
+ {
+  "uses": 16,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "The Holy Black - Gunpower Spice",
+  "typed_norm": "the holy black gunpower spice",
+  "dist": 1,
+  "target_norm": "the holy black gunpowder spice",
+  "entry_id": "aftershave/the-holy-black-gunpowder-spice",
+  "entry": "The Holy Black Gunpowder Spice"
+ },
+ {
+  "uses": 16,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gilette 7 O’Clock - Super Stainless",
+  "typed_norm": "gilette 7 oclock super stainless",
+  "dist": 1,
+  "target_norm": "gillette 7 oclock super stainless",
+  "entry_id": "DE/gillette-7-o-clock-super-stainless",
+  "entry": "Gillette 7 O'Clock Super Stainless"
+ },
+ {
+  "uses": 16,
+  "authors": 6,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Shower.",
+  "typed_norm": "shower",
+  "dist": 2,
+  "target_norm": "shore",
+  "entry_id": "soap/declaration-grooming-shore",
+  "entry": "Declaration Grooming Shore"
+ },
+ {
+  "uses": 16,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "BBYSMOOTH",
+  "typed_norm": "bbysmooth",
+  "dist": 2,
+  "target_norm": "baby smooth",
+  "entry_id": "razor/razorock-baby-smooth",
+  "entry": "RazoRock Baby Smooth"
+ },
+ {
+  "uses": 16,
+  "authors": 6,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Herod",
+  "typed_norm": "herod",
+  "dist": 2,
+  "target_norm": "huron",
+  "entry_id": "fragrance/duke-cannon-huron",
+  "entry": "Duke Cannon Huron"
+ },
+ {
+  "uses": 16,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "[Mammoth",
+  "typed_norm": "mammoth",
+  "dist": 2,
+  "target_norm": "mammoth z",
+  "entry_id": "soap/house-of-mammoth-z",
+  "entry": "House of Mammoth Z"
+ },
+ {
+  "uses": 16,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "\\- Shower",
+  "typed_norm": "shower",
+  "dist": 2,
+  "target_norm": "shore",
+  "entry_id": "soap/declaration-grooming-shore",
+  "entry": "Declaration Grooming Shore"
+ },
+ {
+  "uses": 16,
+  "authors": 8,
+  "fields": [
+   "aftershave",
+   "fragrance"
+  ],
+  "typed": "Chatillon Lux GLS",
+  "typed_norm": "chatillon lux gls",
+  "dist": 3,
+  "target_norm": "chatillon lux bbb",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-blackberry-blossom-bay",
+  "entry": "Declaration Grooming / Chatillon Lux Blackberry Blossom Bay"
+ },
+ {
+  "uses": 16,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Sharp Dressed Man oil",
+  "typed_norm": "stirling sharp dressed man oil",
+  "dist": 3,
+  "target_norm": "stirling sharp dressed man as",
+  "entry_id": "aftershave/stirling-soap-co-sharp-dressed-man",
+  "entry": "Stirling Soap Co. Sharp Dressed Man"
+ },
+ {
+  "uses": 15,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Pol-Silver SI",
+  "typed_norm": "pol silver si",
+  "dist": 1,
+  "target_norm": "polsilver si",
+  "entry_id": "DE/polsilver-super-iridium",
+  "entry": "Polsilver Super Iridium"
+ },
+ {
+  "uses": 15,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Mercur 34C",
+  "typed_norm": "mercur 34c",
+  "dist": 1,
+  "target_norm": "merkur 34c",
+  "entry_id": "razor/merkur-34c",
+  "entry": "Merkur 34C"
+ },
+ {
+  "uses": 15,
+  "authors": 5,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Parker 65R",
+  "typed_norm": "parker 65r",
+  "dist": 1,
+  "target_norm": "parker 66r",
+  "entry_id": "razor/parker-66r-heavyweight-chrome-butterfly-open-safety-razor",
+  "entry": "Parker 66R Heavyweight Chrome Butterfly Open Safety Razor"
+ },
+ {
+  "uses": 15,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Barrister and Mann - Passifloria",
+  "typed_norm": "barrister and mann passifloria",
+  "dist": 1,
+  "target_norm": "barrister and mann passiflora",
+  "entry_id": "soap/barrister-and-mann-passiflora",
+  "entry": "Barrister and Mann Passiflora"
+ },
+ {
+  "uses": 15,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Razo*Rock Mission",
+  "typed_norm": "razo rock mission",
+  "dist": 1,
+  "target_norm": "razorock mission",
+  "entry_id": "razor/razorock-mission",
+  "entry": "RazoRock Mission"
+ },
+ {
+  "uses": 15,
+  "authors": 3,
+  "fields": [
+   "fragrance",
+   "soap"
+  ],
+  "typed": "Summer Break Soaps - ROTY 2024",
+  "typed_norm": "summer break soaps roty 2024",
+  "dist": 1,
+  "target_norm": "summer break soaps roty 2023",
+  "entry_id": "soap/summer-break-soaps-rookie-of-the-year-2023",
+  "entry": "Summer Break Soaps Rookie of the Year 2023"
+ },
+ {
+  "uses": 15,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Stirling Soap Co. - Falskally - Eau de Toilette",
+  "typed_norm": "stirling soap co falskally eau de toilette",
+  "dist": 1,
+  "target_norm": "stirling soap co faskally eau de toilette",
+  "entry_id": "fragrance/stirling-soap-co-faskally",
+  "entry": "Stirling Soap Co. Faskally"
+ },
+ {
+  "uses": 15,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Chanel - Bleau de Chanel",
+  "typed_norm": "chanel bleau de chanel",
+  "dist": 1,
+  "target_norm": "chanel bleu de chanel",
+  "entry_id": "fragrance/chanel-bleu-de-chanel",
+  "entry": "Chanel Bleu de Chanel"
+ },
+ {
+  "uses": 15,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "AcuTech Pro",
+  "typed_norm": "acutech pro",
+  "dist": 1,
+  "target_norm": "accutech pro",
+  "entry_id": "GEM/gem-gem-coated-single-edge-accutec-pro",
+  "entry": "GEM GEM Coated Single Edge (AccuTec PRO)"
+ },
+ {
+  "uses": 15,
+  "authors": 3,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "alum",
+  "typed_norm": "alum",
+  "dist": 2,
+  "target_norm": "alt",
+  "entry_id": "fragrance/alt-the-scent-of-beach",
+  "entry": "ALT The Scent of Beach"
+ },
+ {
+  "uses": 15,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Parker 87R",
+  "typed_norm": "parker 87r",
+  "dist": 2,
+  "target_norm": "parker 96r",
+  "entry_id": "razor/parker-96r-black-long-handle-butterfly-open-safety-razor",
+  "entry": "Parker 96R Black Long Handle Butterfly Open Safety Razor"
+ },
+ {
+  "uses": 15,
+  "authors": 8,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "[Barrister &amp; Mann - Roam - Splash](https://trythatsoap.com/collection/256/?product_type=splash)",
+  "typed_norm": "barrister amp mann roam splash https trythatsoap com collection 256 product type splash",
+  "dist": 2,
+  "target_norm": "barrister and mann roam splash https trythatsoap com collection 256 product type splash",
+  "entry_id": "aftershave/barrister-and-mann-roam",
+  "entry": "Barrister and Mann Roam"
+ },
+ {
+  "uses": 15,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Shower 🚿",
+  "typed_norm": "shower",
+  "dist": 2,
+  "target_norm": "shore",
+  "entry_id": "soap/declaration-grooming-shore",
+  "entry": "Declaration Grooming Shore"
+ },
+ {
+  "uses": 15,
+  "authors": 4,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Stirling Slant",
+  "typed_norm": "stirling slant",
+  "dist": 3,
+  "target_norm": "stirling scarn",
+  "entry_id": "soap/stirling-soap-co-scarn",
+  "entry": "Stirling Soap Co. Scarn"
+ },
+ {
+  "uses": 15,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "PannaCrema - Nuàvia Nera",
+  "typed_norm": "pannacrema nuavia nera",
+  "dist": 3,
+  "target_norm": "pannacrema nuavia verde",
+  "entry_id": "soap/pannacrema-verde",
+  "entry": "Pannacrema Verde"
+ },
+ {
+  "uses": 15,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Barrister and Mann PP7",
+  "typed_norm": "barrister and mann pp7",
+  "dist": 3,
+  "target_norm": "barrister and mann 42",
+  "entry_id": "aftershave/barrister-and-mann-42",
+  "entry": "Barrister and Mann 42"
+ },
+ {
+  "uses": 14,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "ATT H1",
+  "typed_norm": "att h1",
+  "dist": 1,
+  "target_norm": "att s1",
+  "entry_id": "razor/above-the-tie-s1-slant",
+  "entry": "Above the Tie S1 Slant"
+ },
+ {
+  "uses": 14,
+  "authors": 6,
+  "fields": [
+   "fragrance",
+   "soap"
+  ],
+  "typed": "Rhino",
+  "typed_norm": "rhino",
+  "dist": 2,
+  "target_norm": "rain",
+  "entry_id": "soap/declaration-grooming-rain",
+  "entry": "Declaration Grooming Rain"
+ },
+ {
+  "uses": 14,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merkur MK23C",
+  "typed_norm": "merkur mk23c",
+  "dist": 2,
+  "target_norm": "merkur 23c",
+  "entry_id": "razor/merkur-23c",
+  "entry": "Merkur 23C"
+ },
+ {
+  "uses": 14,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Karve OC E-plate",
+  "typed_norm": "karve oc e plate",
+  "dist": 2,
+  "target_norm": "karve cb e plate",
+  "entry_id": "razor/karve-christopher-bradley",
+  "entry": "Karve Christopher Bradley"
+ },
+ {
+  "uses": 14,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Bolanzo",
+  "typed_norm": "bolanzo",
+  "dist": 2,
+  "target_norm": "bolzano",
+  "entry_id": "DE/bolzano-superinox",
+  "entry": "Bolzano Superinox"
+ },
+ {
+  "uses": 14,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "London Razors – Coffee and Contemplation",
+  "typed_norm": "london razors coffee and contemplation",
+  "dist": 2,
+  "target_norm": "london razors coffee amp contemplation",
+  "entry_id": "soap/london-razors-coffee-contemplation",
+  "entry": "London Razors Coffee & Contemplation"
+ },
+ {
+  "uses": 14,
+  "authors": 2,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "WK Tempest AS",
+  "typed_norm": "wk tempest as",
+  "dist": 3,
+  "target_norm": "wk tempest",
+  "entry_id": "soap/wholly-kaw-tempest",
+  "entry": "Wholly Kaw Tempest"
+ },
+ {
+  "uses": 14,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "T+S Sicily AS",
+  "typed_norm": "t s sicily as",
+  "dist": 3,
+  "target_norm": "t s sicily",
+  "entry_id": "soap/tallow-steel-sicily",
+  "entry": "Tallow + Steel Sicily"
+ },
+ {
+  "uses": 13,
+  "authors": 5,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "B&M LPC",
+  "typed_norm": "b m lpc",
+  "dist": 1,
+  "target_norm": "b m lgc",
+  "entry_id": "soap/barrister-and-mann-le-grand-chypre",
+  "entry": "Barrister and Mann Le Grand Chypre"
+ },
+ {
+  "uses": 13,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Caitie's Bubbles Berry Good Noah.",
+  "typed_norm": "caitie s bubbles berry good noah",
+  "dist": 1,
+  "target_norm": "catie s bubbles berry good noah",
+  "entry_id": "soap/catie-s-bubbles-berry-good-noah",
+  "entry": "Catie's Bubbles Berry Good Noah"
+ },
+ {
+  "uses": 13,
+  "authors": 6,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "[Barrister and Mann - Dickens Revisted - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)",
+  "typed_norm": "barrister and mann dickens revisted aftershave https trythatsoap com collection 1612 product type aftershave",
+  "dist": 1,
+  "target_norm": "barrister and mann dickens revisited aftershave https trythatsoap com collection 1612 product type aftershave",
+  "entry_id": "aftershave/barrister-and-mann-dickens-revisited",
+  "entry": "Barrister and Mann Dickens Revisited"
+ },
+ {
+  "uses": 13,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Chatillion Lux Sunrise on LaSalle",
+  "typed_norm": "chatillion lux sunrise on lasalle",
+  "dist": 1,
+  "target_norm": "chatillon lux sunrise on lasalle",
+  "entry_id": "fragrance/chatillon-lux-sunrise-on-lasalle",
+  "entry": "Chatillon Lux Sunrise on LaSalle"
+ },
+ {
+  "uses": 13,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Summer Break Soaps *Wood Shop* EdP",
+  "typed_norm": "summer break soaps wood shop edp",
+  "dist": 1,
+  "target_norm": "summer break soaps woodshop edp",
+  "entry_id": "fragrance/summer-break-soaps-woodshop",
+  "entry": "Summer Break Soaps Woodshop"
+ },
+ {
+  "uses": 13,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Mühle  R106",
+  "typed_norm": "muhle r106",
+  "dist": 1,
+  "target_norm": "muhle r103",
+  "entry_id": "razor/muhle-r41",
+  "entry": "Mühle R41"
+ },
+ {
+  "uses": 13,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "GEM Micro-Magic Open Comb (1st gen)",
+  "typed_norm": "gem micro magic open comb 1st gen",
+  "dist": 1,
+  "target_norm": "gem micro matic open comb 1st gen",
+  "entry_id": "razor/gem-micromatic-open-comb",
+  "entry": "GEM Micromatic Open Comb"
+ },
+ {
+  "uses": 13,
+  "authors": 8,
+  "fields": [
+   "blade",
+   "razor"
+  ],
+  "typed": "Weishi",
+  "typed_norm": "weishi",
+  "dist": 2,
+  "target_norm": "weight",
+  "entry_id": "fragrance/first-line-shave-weight",
+  "entry": "First Line Shave Weight"
+ },
+ {
+  "uses": 13,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Weber ARC",
+  "typed_norm": "weber arc",
+  "dist": 2,
+  "target_norm": "weber 33c",
+  "entry_id": "razor/merkur-33c",
+  "entry": "Merkur 33C"
+ },
+ {
+  "uses": 13,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggards v3",
+  "typed_norm": "maggards v3",
+  "dist": 2,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 13,
+  "authors": 4,
+  "fields": [
+   "blade"
+  ],
+  "typed": "vokshod",
+  "typed_norm": "vokshod",
+  "dist": 2,
+  "target_norm": "voskhod",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 13,
+  "authors": 2,
+  "fields": [
+   "blade",
+   "razor"
+  ],
+  "typed": "Star",
+  "typed_norm": "star",
+  "dist": 2,
+  "target_norm": "sea",
+  "entry_id": "fragrance/duke-cannon-sea",
+  "entry": "Duke Cannon Sea"
+ },
+ {
+  "uses": 13,
+  "authors": 1,
+  "fields": [
+   "bowl"
+  ],
+  "typed": "Green Mug",
+  "typed_norm": "green mug",
+  "dist": 2,
+  "target_norm": "green fig",
+  "entry_id": "soap/elysian-green-fig",
+  "entry": "Elysian Green Fig"
+ },
+ {
+  "uses": 13,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Lucky Tiger, OoO",
+  "typed_norm": "lucky tiger ooo",
+  "dist": 3,
+  "target_norm": "lucky tiger as",
+  "entry_id": "aftershave/lucky-tiger-after-shave-and-face-tonic",
+  "entry": "Lucky Tiger After Shave and Face Tonic"
+ },
+ {
+  "uses": 13,
+  "authors": 7,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggards V3A",
+  "typed_norm": "maggards v3a",
+  "dist": 3,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 13,
+  "authors": 4,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "CL Rose Santal AS",
+  "typed_norm": "cl rose santal as",
+  "dist": 3,
+  "target_norm": "cl rose santal",
+  "entry_id": "fragrance/chatillon-lux-rose-santal",
+  "entry": "Chatillon Lux Rose Santal"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard Razors - MR18",
+  "typed_norm": "maggard razors mr18",
+  "dist": 1,
+  "target_norm": "maggard razors mr18c",
+  "entry_id": "razor/maggard-razors-de-safety-razor-mr18c-multicolor-titanium-anodized-stainless-steel-handle-only",
+  "entry": "Maggard Razors DE Safety Razor MR18C Multicolor Titanium Anodized Stainless Steel, Handle Only"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Stirling Conifferous",
+  "typed_norm": "stirling conifferous",
+  "dist": 1,
+  "target_norm": "stirling coniferous",
+  "entry_id": "aftershave/stirling-soap-co-coniferous",
+  "entry": "Stirling Soap Co. Coniferous"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Karve alum SB-B",
+  "typed_norm": "karve alum sb b",
+  "dist": 1,
+  "target_norm": "karve alum sb d",
+  "entry_id": "razor/karve-christopher-bradley",
+  "entry": "Karve Christopher Bradley"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "A&E Vanilla Vendetta",
+  "typed_norm": "a e vanilla vendetta",
+  "dist": 1,
+  "target_norm": "a e vanille vendetta",
+  "entry_id": "aftershave/ariana-evans-vanille-vendetta-aftershave-splash-5oz",
+  "entry": "Ariana & Evans Vanille Vendetta Aftershave Splash 5oz"
+ },
+ {
+  "uses": 12,
+  "authors": 4,
+  "fields": [
+   "aftershave",
+   "fragrance",
+   "soap"
+  ],
+  "typed": "Southern Witchcraft - Fougere Nemeta",
+  "typed_norm": "southern witchcraft fougere nemeta",
+  "dist": 1,
+  "target_norm": "southern witchcrafts fougere nemeta",
+  "entry_id": "soap/southern-witchcrafts-foug-re-nemeta",
+  "entry": "Southern Witchcrafts Fougère Nemeta"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Barrister and Mann - Chesire Balm",
+  "typed_norm": "barrister and mann chesire balm",
+  "dist": 1,
+  "target_norm": "barrister and mann cheshire balm",
+  "entry_id": "aftershave/barrister-and-mann-cheshire",
+  "entry": "Barrister and Mann Cheshire"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "ZingariMan  – Unscented After Shave Balm",
+  "typed_norm": "zingariman unscented after shave balm",
+  "dist": 1,
+  "target_norm": "zingariman unscented aftershave balm",
+  "entry_id": "aftershave/zingari-man-sego-after-shave-balm-unscented",
+  "entry": "Zingari Man Sego After Shave Balm — Unscented"
+ },
+ {
+  "uses": 12,
+  "authors": 4,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Dr. Jon's 1803",
+  "typed_norm": "dr jon s 1803",
+  "dist": 2,
+  "target_norm": "dr jon s 13",
+  "entry_id": "soap/dr-jon-s-13",
+  "entry": "Dr. Jon's 13"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "CL US",
+  "typed_norm": "cl us",
+  "dist": 2,
+  "target_norm": "cloud",
+  "entry_id": "DE/cloud-super-blades",
+  "entry": "Cloud Super Blades (Bruce Lee)"
+ },
+ {
+  "uses": 12,
+  "authors": 3,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "[Barrister &amp; Mann - Tuesday - Aftershave](https://trythatsoap.com/collection/978/?product_type=aftershave)",
+  "typed_norm": "barrister amp mann tuesday aftershave https trythatsoap com collection 978 product type aftershave",
+  "dist": 2,
+  "target_norm": "barrister and mann tuesday aftershave https trythatsoap com collection 978 product type aftershave",
+  "entry_id": "aftershave/barrister-and-mann-tuesday",
+  "entry": "Barrister and Mann Tuesday"
+ },
+ {
+  "uses": 12,
+  "authors": 4,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merkur 42c",
+  "typed_norm": "merkur 42c",
+  "dist": 2,
+  "target_norm": "merkur 23c",
+  "entry_id": "razor/merkur-23c",
+  "entry": "Merkur 23C"
+ },
+ {
+  "uses": 12,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Kai AC",
+  "typed_norm": "kai ac",
+  "dist": 2,
+  "target_norm": "kai de",
+  "entry_id": "DE/kai-stainless",
+  "entry": "Kai Stainless"
+ },
+ {
+  "uses": 12,
+  "authors": 4,
+  "fields": [
+   "soap"
+  ],
+  "typed": "SV Stella Alpina",
+  "typed_norm": "sv stella alpina",
+  "dist": 3,
+  "target_norm": "stella alpina",
+  "entry_id": "aftershave/saponificio-varesino-stella-alpina",
+  "entry": "Saponificio Varesino | Stella Alpina"
+ },
+ {
+  "uses": 12,
+  "authors": 6,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "CL Pure Lavender",
+  "typed_norm": "cl pure lavender",
+  "dist": 3,
+  "target_norm": "cl dg pure lavender",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-pure-lavender-shaving-soap",
+  "entry": "Declaration Grooming / Chatillon Lux Pure Lavender Shaving Soap"
+ },
+ {
+  "uses": 12,
+  "authors": 5,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Personna PDG",
+  "typed_norm": "personna pdg",
+  "dist": 3,
+  "target_norm": "personna gem",
+  "entry_id": "GEM/gem-gem-coated-single-edge-accutec-pro",
+  "entry": "GEM GEM Coated Single Edge (AccuTec PRO)"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard MR1",
+  "typed_norm": "maggard mr1",
+  "dist": 1,
+  "target_norm": "maggard mr14",
+  "entry_id": "razor/maggard-razors-de-safety-razor-mr14-aluminum-gray-handle-only",
+  "entry": "Maggard Razors DE Safety Razor MR14 Aluminum Gray, Handle Only"
+ },
+ {
+  "uses": 11,
+  "authors": 7,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Maggard Lime and Bergamot",
+  "typed_norm": "maggard lime and bergamot",
+  "dist": 1,
+  "target_norm": "maggard limes and bergamot",
+  "entry_id": "soap/maggard-razors-limes-bergamot",
+  "entry": "Maggard Razors Limes & Bergamot"
+ },
+ {
+  "uses": 11,
+  "authors": 5,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Balzano",
+  "typed_norm": "balzano",
+  "dist": 1,
+  "target_norm": "bolzano",
+  "entry_id": "DE/bolzano-superinox",
+  "entry": "Bolzano Superinox"
+ },
+ {
+  "uses": 11,
+  "authors": 3,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Penhaligons Sartorial",
+  "typed_norm": "penhaligons sartorial",
+  "dist": 1,
+  "target_norm": "penhaligon sartorial",
+  "entry_id": "fragrance/penhaligon-s-sartorial-eau-de-toilette",
+  "entry": "Penhaligon's Sartorial Eau de Toilette"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Personna Blues",
+  "typed_norm": "personna blues",
+  "dist": 1,
+  "target_norm": "persona blues",
+  "entry_id": "DE/personna-platinum",
+  "entry": "Personna Platinum"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Schick Pro Line P-30",
+  "typed_norm": "schick pro line p 30",
+  "dist": 1,
+  "target_norm": "schick proline p 30",
+  "entry_id": "AC/schick-proline-p-30",
+  "entry": "Schick Proline P-30"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette 7o clock Super stainless",
+  "typed_norm": "gillette 7o clock super stainless",
+  "dist": 1,
+  "target_norm": "gillette 7 o clock super stainless",
+  "entry_id": "DE/gillette-7-o-clock-super-stainless",
+  "entry": "Gillette 7 O'Clock Super Stainless"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Astras",
+  "typed_norm": "astras",
+  "dist": 1,
+  "target_norm": "astra",
+  "entry_id": "DE/astra-superior-platinum",
+  "entry": "Astra Superior Platinum"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Permasharps",
+  "typed_norm": "permasharps",
+  "dist": 1,
+  "target_norm": "permasharp",
+  "entry_id": "DE/gillette-perma-sharp-super",
+  "entry": "Gillette Perma-Sharp Super"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Wilkison Sword",
+  "typed_norm": "wilkison sword",
+  "dist": 1,
+  "target_norm": "wilkinson sword",
+  "entry_id": "DE/gillette-wilkinson-sword",
+  "entry": "Gillette Wilkinson Sword"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "London Razos - Mountain Laurel - EdP",
+  "typed_norm": "london razos mountain laurel edp",
+  "dist": 1,
+  "target_norm": "london razors mountain laurel edp",
+  "entry_id": "fragrance/london-razors-mountain-laurel",
+  "entry": "London Razors Mountain Laurel"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Creed - Adventus",
+  "typed_norm": "creed adventus",
+  "dist": 1,
+  "target_norm": "creed aventus",
+  "entry_id": "fragrance/creed-aventus",
+  "entry": "Creed Aventus"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "BIC Chrome Platinium",
+  "typed_norm": "bic chrome platinium",
+  "dist": 1,
+  "target_norm": "bic chrome platinum",
+  "entry_id": "DE/bic-chrome-platinum",
+  "entry": "BIC Chrome Platinum"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Gentlemen's Nod  –  Musashi",
+  "typed_norm": "gentlemen s nod musashi",
+  "dist": 1,
+  "target_norm": "gentleman s nod musashi",
+  "entry_id": "soap/gentleman-s-nod-musashi-origins-series",
+  "entry": "Gentleman's Nod Musashi Origins Series"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Barrister and Mann Vanille",
+  "typed_norm": "barrister and mann vanille",
+  "dist": 2,
+  "target_norm": "barrister and mann lavanille",
+  "entry_id": "soap/barrister-and-mann-lavanille",
+  "entry": "Barrister and Mann Lavanille"
+ },
+ {
+  "uses": 11,
+  "authors": 4,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Racer",
+  "typed_norm": "racer",
+  "dist": 2,
+  "target_norm": "rawr",
+  "entry_id": "aftershave/noble-otter-rawr",
+  "entry": "Noble Otter Rawr"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "iKon",
+  "typed_norm": "ikon",
+  "dist": 2,
+  "target_norm": "ione",
+  "entry_id": "aftershave/bennesere-natural-ione",
+  "entry": "Bennesere Natural Ione"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Coldwater",
+  "typed_norm": "coldwater",
+  "dist": 2,
+  "target_norm": "cool water",
+  "entry_id": "fragrance/davidoff-cool-water",
+  "entry": "Davidoff Cool Water"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "DG 88 Chestnut St AS",
+  "typed_norm": "dg 88 chestnut st as",
+  "dist": 2,
+  "target_norm": "dg 88 chestnut st m",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-88-chestnut-street",
+  "entry": "Declaration Grooming + Chatillon Lux 88 Chestnut Street"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Barrister and Mann - Limon",
+  "typed_norm": "barrister and mann limon",
+  "dist": 2,
+  "target_norm": "barrister and mann lime",
+  "entry_id": "soap/barrister-and-mann-lime",
+  "entry": "Barrister and Mann Lime"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Shavent.",
+  "typed_norm": "shavent",
+  "dist": 2,
+  "target_norm": "shaken",
+  "entry_id": "soap/storybook-soapworks-shaken",
+  "entry": "Storybook Soapworks Shaken"
+ },
+ {
+  "uses": 11,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "ATT Windsor CM1",
+  "typed_norm": "att windsor cm1",
+  "dist": 3,
+  "target_norm": "att windsor r",
+  "entry_id": "razor/above-the-tie-windsor",
+  "entry": "Above the Tie Windsor"
+ },
+ {
+  "uses": 11,
+  "authors": 3,
+  "fields": [
+   "aftershave",
+   "fragrance"
+  ],
+  "typed": "CL Nefertiti",
+  "typed_norm": "cl nefertiti",
+  "dist": 3,
+  "target_norm": "cl dg nefertiti",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-nefertiti",
+  "entry": "Declaration Grooming / Chatillon Lux Nefertiti"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Zing unscented balm",
+  "typed_norm": "zing unscented balm",
+  "dist": 3,
+  "target_norm": "zingari unscented balm",
+  "entry_id": "aftershave/zingari-man-sego-after-shave-balm-unscented",
+  "entry": "Zingari Man Sego After Shave Balm — Unscented"
+ },
+ {
+  "uses": 11,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "HoM/DG - Cerberus",
+  "typed_norm": "hom dg cerberus",
+  "dist": 3,
+  "target_norm": "hom dg no cerberus",
+  "entry_id": "fragrance/declaration-grooming-cerberus-eau-de-parfum",
+  "entry": "Declaration Grooming Cerberus Eau de Parfum"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Terre du Hermes",
+  "typed_norm": "terre du hermes",
+  "dist": 1,
+  "target_norm": "terre d hermes",
+  "entry_id": "fragrance/hermes-terre-d-hermes",
+  "entry": "Hermes Terre d'Hermes"
+ },
+ {
+  "uses": 10,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "ZaZa",
+  "typed_norm": "zaza",
+  "dist": 1,
+  "target_norm": "zara",
+  "entry_id": "fragrance/zara-tobacco-collection-rich-warm-addictive",
+  "entry": "Zara Tobacco Collection Rich Warm Addictive"
+ },
+ {
+  "uses": 10,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette Permasharps",
+  "typed_norm": "gillette permasharps",
+  "dist": 1,
+  "target_norm": "gillette permasharp",
+  "entry_id": "DE/gillette-7-o-clock-super-stainless",
+  "entry": "Gillette 7 O'Clock Super Stainless"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Zingariman Sego unscented balm",
+  "typed_norm": "zingariman sego unscented balm",
+  "dist": 1,
+  "target_norm": "zingari man sego unscented balm",
+  "entry_id": "aftershave/zingari-man-sego-after-shave-balm-unscented",
+  "entry": "Zingari Man Sego After Shave Balm — Unscented"
+ },
+ {
+  "uses": 10,
+  "authors": 2,
+  "fields": [
+   "fragrance",
+   "soap"
+  ],
+  "typed": "Summer Break Soaps - ROTY 2022",
+  "typed_norm": "summer break soaps roty 2022",
+  "dist": 1,
+  "target_norm": "summer break soaps roty 2023",
+  "entry_id": "soap/summer-break-soaps-rookie-of-the-year-2023",
+  "entry": "Summer Break Soaps Rookie of the Year 2023"
+ },
+ {
+  "uses": 10,
+  "authors": 5,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Imaginary Authors - A Whiff of Wafflecone",
+  "typed_norm": "imaginary authors a whiff of wafflecone",
+  "dist": 1,
+  "target_norm": "imaginary authors a whiff of waffle cone",
+  "entry_id": "fragrance/imaginary-authors-a-whiff-of-waffle-cone",
+  "entry": "Imaginary Authors A Whiff of Waffle Cone"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Catie’s Bubbles – Maggard Razors 2023 Meetup",
+  "typed_norm": "caties bubbles maggard razors 2023 meetup",
+  "dist": 1,
+  "target_norm": "caties bubbles maggard razors 2024 meetup",
+  "entry_id": "soap/catie-s-bubbles-maggard-razors-2024-meetup",
+  "entry": "Catie's Bubbles Maggard Razors 2024 Meetup"
+ },
+ {
+  "uses": 10,
+  "authors": 2,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Summer Break Soaps - Wood Shop - Aftershave",
+  "typed_norm": "summer break soaps wood shop aftershave",
+  "dist": 1,
+  "target_norm": "summer break soaps woodshop aftershave",
+  "entry_id": "aftershave/summer-break-soaps-woodshop",
+  "entry": "Summer Break Soaps Woodshop"
+ },
+ {
+  "uses": 10,
+  "authors": 3,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Capri",
+  "typed_norm": "capri",
+  "dist": 2,
+  "target_norm": "cairo",
+  "entry_id": "soap/tallow-steel-cairo",
+  "entry": "Tallow + Steel Cairo"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard* v2oc",
+  "typed_norm": "maggard v2oc",
+  "dist": 2,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 10,
+  "authors": 3,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Stirling Rose",
+  "typed_norm": "stirling rose",
+  "dist": 2,
+  "target_norm": "stirling one",
+  "entry_id": "fragrance/stirling-soap-co-stirling-one",
+  "entry": "Stirling Soap Co Stirling One"
+ },
+ {
+  "uses": 10,
+  "authors": 4,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Barrister and Mann Ferox",
+  "typed_norm": "barrister and mann ferox",
+  "dist": 2,
+  "target_norm": "barrister and mann fern",
+  "entry_id": "soap/barrister-and-mann-fern",
+  "entry": "Barrister and Mann Fern"
+ },
+ {
+  "uses": 10,
+  "authors": 7,
+  "fields": [
+   "soap"
+  ],
+  "typed": "B&M SoA",
+  "typed_norm": "b m soa",
+  "dist": 2,
+  "target_norm": "b m roam",
+  "entry_id": "aftershave/barrister-and-mann-b-m-roam",
+  "entry": "Barrister and Mann B&M Roam"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Via Barberia 4 Aquae",
+  "typed_norm": "via barberia 4 aquae",
+  "dist": 2,
+  "target_norm": "via barberia aquae",
+  "entry_id": "soap/omega-via-barberia-aquae",
+  "entry": "Omega Via Barberia Aquae"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Through the Fire Fine Craft - M",
+  "typed_norm": "through the fire fine craft m",
+  "dist": 2,
+  "target_norm": "through the fire fine crafts",
+  "entry_id": "soap/through-the-fire-fine-crafts-northern-lights",
+  "entry": "Through the Fire Fine Crafts Northern Lights"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "EVOO",
+  "typed_norm": "evoo",
+  "dist": 2,
+  "target_norm": "eco",
+  "entry_id": "razor/razorock-eco",
+  "entry": "RazoRock ECO"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Houses Of Mammoth  - Tabacconist",
+  "typed_norm": "houses of mammoth tabacconist",
+  "dist": 2,
+  "target_norm": "house of mammoth tobacconist",
+  "entry_id": "soap/house-of-mammoth-tobacconist",
+  "entry": "House of Mammoth Tobacconist"
+ },
+ {
+  "uses": 10,
+  "authors": 3,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Yves Saint Laurent - Y",
+  "typed_norm": "yves saint laurent y",
+  "dist": 2,
+  "target_norm": "yves saint laurent",
+  "entry_id": "fragrance/yves-saint-laurent-kouros",
+  "entry": "Yves Saint Laurent Kouros"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "bowl"
+  ],
+  "typed": "Green Mug -",
+  "typed_norm": "green mug",
+  "dist": 2,
+  "target_norm": "green fig",
+  "entry_id": "soap/elysian-green-fig",
+  "entry": "Elysian Green Fig"
+ },
+ {
+  "uses": 10,
+  "authors": 5,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Bufflehead A1A",
+  "typed_norm": "bufflehead a1a",
+  "dist": 3,
+  "target_norm": "bufflehead mfp",
+  "entry_id": "soap/bufflehead-mots-francais-pretentieux",
+  "entry": "Bufflehead Mots Français Prétentieux"
+ },
+ {
+  "uses": 10,
+  "authors": 6,
+  "fields": [
+   "aftershave",
+   "fragrance"
+  ],
+  "typed": "CL Santal Auster",
+  "typed_norm": "cl santal auster",
+  "dist": 3,
+  "target_norm": "cl dg santal auster",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-santal-auster",
+  "entry": "Declaration Grooming + Chatillon Lux Santal Auster"
+ },
+ {
+  "uses": 10,
+  "authors": 2,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "NO Barrbarr AS",
+  "typed_norm": "no barrbarr as",
+  "dist": 3,
+  "target_norm": "no barrbarr",
+  "entry_id": "soap/noble-otter-barrbarr",
+  "entry": "Noble Otter Barrbarr"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Arkadia oil",
+  "typed_norm": "stirling arkadia oil",
+  "dist": 3,
+  "target_norm": "stirling arkadia edt",
+  "entry_id": "fragrance/stirling-soap-co-arkadia",
+  "entry": "Stirling Soap Co. Arkadia"
+ },
+ {
+  "uses": 10,
+  "authors": 2,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Stirling Soap Company - Tsuka",
+  "typed_norm": "stirling soap company tsuka",
+  "dist": 3,
+  "target_norm": "stirling soap company duke",
+  "entry_id": "soap/stirling-soap-co-duke",
+  "entry": "Stirling Soap Co. Duke"
+ },
+ {
+  "uses": 10,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Proraso white Pre",
+  "typed_norm": "proraso white pre",
+  "dist": 3,
+  "target_norm": "proraso white puck",
+  "entry_id": "soap/proraso-white",
+  "entry": "Proraso White"
+ },
+ {
+  "uses": 10,
+  "authors": 2,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Imaginary Authors - Whiff of Wafflecone",
+  "typed_norm": "imaginary authors whiff of wafflecone",
+  "dist": 3,
+  "target_norm": "imaginary authors a whiff of waffle cone",
+  "entry_id": "fragrance/imaginary-authors-a-whiff-of-waffle-cone",
+  "entry": "Imaginary Authors A Whiff of Waffle Cone"
+ },
+ {
+  "uses": 9,
+  "authors": 2,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Penhaligons Blenheim Bouquet",
+  "typed_norm": "penhaligons blenheim bouquet",
+  "dist": 1,
+  "target_norm": "penhaligon s blenheim bouquet",
+  "entry_id": "soap/penhaligons-blenheim-bouquet",
+  "entry": "Penhaligon's Blenheim Bouquet"
+ },
+ {
+  "uses": 9,
+  "authors": 3,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Voskhods",
+  "typed_norm": "voskhods",
+  "dist": 1,
+  "target_norm": "voskhod",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 9,
+  "authors": 4,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "B&M LLC",
+  "typed_norm": "b m llc",
+  "dist": 1,
+  "target_norm": "b m lgc",
+  "entry_id": "soap/barrister-and-mann-le-grand-chypre",
+  "entry": "Barrister and Mann Le Grand Chypre"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "fragrance",
+   "soap"
+  ],
+  "typed": "SB Shaken",
+  "typed_norm": "sb shaken",
+  "dist": 1,
+  "target_norm": "sbs shaken",
+  "entry_id": "soap/storybook-soapworks-shaken",
+  "entry": "Storybook Soapworks Shaken"
+ },
+ {
+  "uses": 9,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Razo Rock Baby Smooth",
+  "typed_norm": "razo rock baby smooth",
+  "dist": 1,
+  "target_norm": "razorock baby smooth",
+  "entry_id": "razor/razorock-baby-smooth",
+  "entry": "RazoRock Baby Smooth"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette yellows",
+  "typed_norm": "gillette yellows",
+  "dist": 1,
+  "target_norm": "gillette yellow",
+  "entry_id": "DE/gillette-7-o-clock-sharpedge",
+  "entry": "Gillette 7 O'Clock SharpEdge"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Shick G4",
+  "typed_norm": "shick g4",
+  "dist": 1,
+  "target_norm": "schick g4",
+  "entry_id": "razor/schick-injector",
+  "entry": "Schick Injector"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Chatillion Lux Vide Poche",
+  "typed_norm": "chatillion lux vide poche",
+  "dist": 1,
+  "target_norm": "chatillon lux vide poche",
+  "entry_id": "aftershave/chatillon-lux-vide-poche",
+  "entry": "Chatillon Lux Vide Poche"
+ },
+ {
+  "uses": 9,
+  "authors": 2,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "bath",
+  "typed_norm": "bath",
+  "dist": 1,
+  "target_norm": "bash",
+  "entry_id": "soap/stirling-soap-co-bash",
+  "entry": "Stirling Soap Co. Bash"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Proraso Pre",
+  "typed_norm": "proraso pre",
+  "dist": 1,
+  "target_norm": "proraso pro",
+  "entry_id": "brush/proraso-professional",
+  "entry": "Proraso Professional Shaving Brush"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Mühle R106",
+  "typed_norm": "muhle r106",
+  "dist": 1,
+  "target_norm": "muhle r103",
+  "entry_id": "razor/muhle-r41",
+  "entry": "Mühle R41"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Caties Bubbles\tRevolutions",
+  "typed_norm": "caties bubbles revolutions",
+  "dist": 1,
+  "target_norm": "caties bubbles revolution",
+  "entry_id": "soap/catie-s-bubbles-revolution-luxury-cream",
+  "entry": "Catie's Bubbles | Revolution Luxury Cream"
+ },
+ {
+  "uses": 9,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "BIC Chrome Platimum",
+  "typed_norm": "bic chrome platimum",
+  "dist": 1,
+  "target_norm": "bic chrome platinum",
+  "entry_id": "DE/bic-chrome-platinum",
+  "entry": "BIC Chrome Platinum"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Via Barberia 2 Aquae",
+  "typed_norm": "via barberia 2 aquae",
+  "dist": 2,
+  "target_norm": "via barberia aquae",
+  "entry_id": "soap/omega-via-barberia-aquae",
+  "entry": "Omega Via Barberia Aquae"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Shick super stainless",
+  "typed_norm": "shick super stainless",
+  "dist": 2,
+  "target_norm": "shark super stainless",
+  "entry_id": "DE/shark-super-stainless",
+  "entry": "Shark Super Stainless"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Blacklands Vector AC",
+  "typed_norm": "blacklands vector ac",
+  "dist": 2,
+  "target_norm": "blackland vector oc",
+  "entry_id": "razor/blackland-vector",
+  "entry": "Blackland Vector"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "GC0.84P",
+  "typed_norm": "gc0 84p",
+  "dist": 2,
+  "target_norm": "gc 84",
+  "entry_id": "razor/razorock-game-changer",
+  "entry": "RazoRock Game Changer"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Proraso - Refrescante - Aftershave",
+  "typed_norm": "proraso refrescante aftershave",
+  "dist": 2,
+  "target_norm": "proraso rinfrescante aftershave",
+  "entry_id": "aftershave/proraso-rinfrescante-balm",
+  "entry": "Proraso Rinfrescante Balm"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Sperahead Shaving Company – 3 Scots",
+  "typed_norm": "sperahead shaving company 3 scots",
+  "dist": 2,
+  "target_norm": "spearhead shaving company 3 scots",
+  "entry_id": "soap/spearhead-shaving-company-seaforth-3-scots",
+  "entry": "Spearhead Shaving Company Seaforth 3 Scots"
+ },
+ {
+  "uses": 9,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Razorock de1",
+  "typed_norm": "razorock de1",
+  "dist": 3,
+  "target_norm": "razorock x",
+  "entry_id": "soap/razorock-one-x-artisan",
+  "entry": "RazoRock One X Artisan"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Oleo Animal Crackers AS",
+  "typed_norm": "oleo animal crackers as",
+  "dist": 3,
+  "target_norm": "oleo animal crackers",
+  "entry_id": "soap/chicago-grooming-co-oleo-animal-crackers",
+  "entry": "Chicago Grooming Co. Oleo Animal Crackers"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Zingari Balm - The Essentials",
+  "typed_norm": "zingari balm the essentials",
+  "dist": 3,
+  "target_norm": "zingari man the essentials",
+  "entry_id": "soap/zingari-man-the-essentials",
+  "entry": "Zingari Man The Essentials"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "@stirlingsoap",
+  "typed_norm": "stirlingsoap",
+  "dist": 3,
+  "target_norm": "stirling one",
+  "entry_id": "fragrance/stirling-soap-co-stirling-one",
+  "entry": "Stirling Soap Co Stirling One"
+ },
+ {
+  "uses": 9,
+  "authors": 3,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Stirling - EMP",
+  "typed_norm": "stirling emp",
+  "dist": 3,
+  "target_norm": "stirling blu",
+  "entry_id": "soap/stirling-soap-co-stirling-blu-shaving-soap-5-8oz",
+  "entry": "Stirling Soap Co. Stirling Blu Shaving Soap, 5.8oz"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Proraso white pre",
+  "typed_norm": "proraso white pre",
+  "dist": 3,
+  "target_norm": "proraso white puck",
+  "entry_id": "soap/proraso-white",
+  "entry": "Proraso White"
+ },
+ {
+  "uses": 9,
+  "authors": 2,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Old Spice AS",
+  "typed_norm": "old spice as",
+  "dist": 3,
+  "target_norm": "old spice",
+  "entry_id": "aftershave/old-spice-classic",
+  "entry": "Old Spice Classic"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Le Père Lucien - Nature AS",
+  "typed_norm": "le pere lucien nature as",
+  "dist": 3,
+  "target_norm": "le pere lucien nature",
+  "entry_id": "soap/le-p-re-lucien-nature",
+  "entry": "Le Père Lucien Nature"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "HAGS - Darkside",
+  "typed_norm": "hags darkside",
+  "dist": 3,
+  "target_norm": "haku darktide",
+  "entry_id": "aftershave/haku-darktide",
+  "entry": "Haku Darktide"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Tallow + Steel – 1 Up",
+  "typed_norm": "tallow steel 1 up",
+  "dist": 3,
+  "target_norm": "tallow steel 150",
+  "entry_id": "soap/tallow-steel-150",
+  "entry": "Tallow + Steel 150"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Royall Bay Rhum 57",
+  "typed_norm": "royall bay rhum 57",
+  "dist": 3,
+  "target_norm": "royall bay rhum",
+  "entry_id": "aftershave/royall-bay-rhum",
+  "entry": "Royall Bay Rhum"
+ },
+ {
+  "uses": 9,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Personna GPDG",
+  "typed_norm": "personna gpdg",
+  "dist": 3,
+  "target_norm": "personna gem",
+  "entry_id": "GEM/gem-gem-coated-single-edge-accutec-pro",
+  "entry": "GEM GEM Coated Single Edge (AccuTec PRO)"
+ },
+ {
+  "uses": 8,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Muhle R106",
+  "typed_norm": "muhle r106",
+  "dist": 1,
+  "target_norm": "muhle r103",
+  "entry_id": "razor/muhle-r41",
+  "entry": "Mühle R41"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Chiseledface Summer Storm Aftershave",
+  "typed_norm": "chiseledface summer storm aftershave",
+  "dist": 1,
+  "target_norm": "chiseled face summer storm aftershave",
+  "entry_id": "aftershave/chiseled-face-summer-storm",
+  "entry": "Chiseled Face Summer Storm"
+ },
+ {
+  "uses": 8,
+  "authors": 5,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Voskshod",
+  "typed_norm": "voskshod",
+  "dist": 1,
+  "target_norm": "voskhod",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 8,
+  "authors": 6,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Voskod",
+  "typed_norm": "voskod",
+  "dist": 1,
+  "target_norm": "voskhod",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Astra - Superior Platium",
+  "typed_norm": "astra superior platium",
+  "dist": 1,
+  "target_norm": "astra superior platinum",
+  "entry_id": "DE/astra-superior-platinum",
+  "entry": "Astra Superior Platinum"
+ },
+ {
+  "uses": 8,
+  "authors": 2,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "APR Velours Noir EdT",
+  "typed_norm": "apr velours noir edt",
+  "dist": 1,
+  "target_norm": "apr velours noir edp",
+  "entry_id": "fragrance/australian-private-reserve-velours-noir",
+  "entry": "Australian Private Reserve Velours Noir"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Summer Break Soaps - Shhh!",
+  "typed_norm": "summer break soaps shhh",
+  "dist": 1,
+  "target_norm": "summer break soaps shh",
+  "entry_id": "soap/summer-break-soaps-shh",
+  "entry": "Summer Break Soaps Shh!"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Wolfman MR2",
+  "typed_norm": "wolfman mr2",
+  "dist": 1,
+  "target_norm": "wolfman wr2",
+  "entry_id": "razor/wolfman-wr2",
+  "entry": "Wolfman WR2"
+ },
+ {
+  "uses": 8,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Schick Pro Line",
+  "typed_norm": "schick pro line",
+  "dist": 1,
+  "target_norm": "schick proline",
+  "entry_id": "AC/schick-proline-p-30",
+  "entry": "Schick Proline P-30"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gillette Platnum",
+  "typed_norm": "gillette platnum",
+  "dist": 1,
+  "target_norm": "gillette platinum",
+  "entry_id": "DE/gillette-platinum",
+  "entry": "Gillette Platinum"
+ },
+ {
+  "uses": 8,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Karve Brass SB A",
+  "typed_norm": "karve brass sb a",
+  "dist": 1,
+  "target_norm": "karve brass sb b",
+  "entry_id": "razor/karve-christopher-bradley",
+  "entry": "Karve Christopher Bradley"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Voskod Teflon",
+  "typed_norm": "voskod teflon",
+  "dist": 1,
+  "target_norm": "voskhod teflon",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Southern Witchcrafts - Grapefruit splash",
+  "typed_norm": "southern witchcrafts grapefruit splash",
+  "dist": 1,
+  "target_norm": "southern witchcrafts gravefruit splash",
+  "entry_id": "aftershave/southern-witchcrafts-gravefruit",
+  "entry": "Southern Witchcrafts Gravefruit"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Wolfman WR 2",
+  "typed_norm": "wolfman wr 2",
+  "dist": 1,
+  "target_norm": "wolfman wr2",
+  "entry_id": "razor/wolfman-wr2",
+  "entry": "Wolfman WR2"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Parker Solo Edge",
+  "typed_norm": "parker solo edge",
+  "dist": 1,
+  "target_norm": "parker soloedge",
+  "entry_id": "razor/parker-soloedge-two-piece-single-edge-safety-razor",
+  "entry": "Parker SoloEdge Two-Piece Single Edge Safety Razor"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Reminiscence- Patchouli",
+  "typed_norm": "reminiscence patchouli",
+  "dist": 1,
+  "target_norm": "reminisence patchouli",
+  "entry_id": "fragrance/reminisence-patchouli",
+  "entry": "Reminisence Patchouli"
+ },
+ {
+  "uses": 8,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Parker 29L",
+  "typed_norm": "parker 29l",
+  "dist": 2,
+  "target_norm": "parker 24c",
+  "entry_id": "razor/parker-24c-open-comb-safety-razor",
+  "entry": "Parker 24C Open Comb Safety Razor"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Gilette 7 O’clock Sharp Edge",
+  "typed_norm": "gilette 7 oclock sharp edge",
+  "dist": 2,
+  "target_norm": "gillette 7 o clock sharp edge",
+  "entry_id": "DE/gillette-7-o-clock-sharpedge",
+  "entry": "Gillette 7 O'Clock SharpEdge"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Noble Otter (NOBC1)",
+  "typed_norm": "noble otter nobc1",
+  "dist": 2,
+  "target_norm": "noble otter no1c",
+  "entry_id": "razor/noble-otter-stainless-steel-double-edge-razor-no1c",
+  "entry": "Noble Otter Stainless Steel Double Edge Razor (NO1C)"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "nowt",
+  "typed_norm": "nowt",
+  "dist": 2,
+  "target_norm": "new",
+  "entry_id": "razor/gillette-new",
+  "entry": "Gillette NEW"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "[Rouge Perfumery Mousse Illuminee] (https://www.fragrantica.com/perfume/Rogue-Perfumery/Mousse-Illuminee-53821.html)",
+  "typed_norm": "rouge perfumery mousse illuminee https www fragrantica com perfume rogue perfumery mousse illuminee 53821 html",
+  "dist": 2,
+  "target_norm": "rogue perfumery mousse illuminee https www fragrantica com perfume rogue perfumery mousse illuminee 53821 html",
+  "entry_id": "fragrance/rogue-perfumery-mousse-illuminee",
+  "entry": "Rogue Perfumery Mousse Illuminee"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Eleven - 5",
+  "typed_norm": "eleven 5",
+  "dist": 2,
+  "target_norm": "eleven",
+  "entry_id": "aftershave/eleven-blue-spruce",
+  "entry": "Eleven Blue Spruce"
+ },
+ {
+  "uses": 8,
+  "authors": 3,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Stirling SDM",
+  "typed_norm": "stirling sdm",
+  "dist": 3,
+  "target_norm": "stirling blu",
+  "entry_id": "soap/stirling-soap-co-stirling-blu-shaving-soap-5-8oz",
+  "entry": "Stirling Soap Co. Stirling Blu Shaving Soap, 5.8oz"
+ },
+ {
+  "uses": 8,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "WK Washington's Blend",
+  "typed_norm": "wk washington s blend",
+  "dist": 3,
+  "target_norm": "washington s blend",
+  "entry_id": "aftershave/wholly-kaw-washington-s-blend",
+  "entry": "Wholly Kaw Washington's Blend"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Stirling Executive Man oil",
+  "typed_norm": "stirling executive man oil",
+  "dist": 3,
+  "target_norm": "stirling executive man edt",
+  "entry_id": "fragrance/stirling-soap-co-executive-man",
+  "entry": "Stirling Soap Co. Executive Man"
+ },
+ {
+  "uses": 8,
+  "authors": 2,
+  "fields": [
+   "blade",
+   "razor"
+  ],
+  "typed": "Gillette Mach3",
+  "typed_norm": "gillette mach3",
+  "dist": 3,
+  "target_norm": "gillette tech",
+  "entry_id": "razor/gillette-tech",
+  "entry": "Gillette Tech"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Chicago Grooming - Fomo",
+  "typed_norm": "chicago grooming fomo",
+  "dist": 3,
+  "target_norm": "chicago grooming co",
+  "entry_id": "aftershave/chicago-grooming-co-40",
+  "entry": "Chicago Grooming Co. 40"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Strike Gold Shave  –  TDS",
+  "typed_norm": "strike gold shave tds",
+  "dist": 3,
+  "target_norm": "strike gold shave teddy",
+  "entry_id": "soap/strike-gold-shave-teddy-shave-soap-5oz",
+  "entry": "Strike Gold Shave Teddy Shave Soap 5oz"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "RazoRock Smile",
+  "typed_norm": "razorock smile",
+  "dist": 3,
+  "target_norm": "razorock smdf",
+  "entry_id": "soap/razorock-santa-maria-del-fiore",
+  "entry": "RazoRock Santa Maria del Fiore"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Personna - PDG",
+  "typed_norm": "personna pdg",
+  "dist": 3,
+  "target_norm": "personna gem",
+  "entry_id": "GEM/gem-gem-coated-single-edge-accutec-pro",
+  "entry": "GEM GEM Coated Single Edge (AccuTec PRO)"
+ },
+ {
+  "uses": 8,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "preshave"
+  ],
+  "typed": "Proraso - Pre Shave Cream",
+  "typed_norm": "proraso pre shave cream",
+  "dist": 3,
+  "target_norm": "proraso blue shave cream",
+  "entry_id": "soap/proraso-blue-shaving-cream-with-aloe-and-vitamin-e",
+  "entry": "Proraso Blue Shaving Cream with Aloe and Vitamin E"
+ },
+ {
+  "uses": 7,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Above The Tie Atlas S2",
+  "typed_norm": "above the tie atlas s2",
+  "dist": 1,
+  "target_norm": "above the tie atlas s1",
+  "entry_id": "razor/above-the-tie-s1-slant",
+  "entry": "Above the Tie S1 Slant"
+ },
+ {
+  "uses": 7,
+  "authors": 6,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Bath",
+  "typed_norm": "bath",
+  "dist": 1,
+  "target_norm": "bash",
+  "entry_id": "soap/stirling-soap-co-bash",
+  "entry": "Stirling Soap Co. Bash"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "EJ de86",
+  "typed_norm": "ej de86",
+  "dist": 1,
+  "target_norm": "ej de89",
+  "entry_id": "razor/edwin-jagger-de89",
+  "entry": "Edwin Jagger DE89"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "B&M ***LLC*",
+  "typed_norm": "b m llc",
+  "dist": 1,
+  "target_norm": "b m lgc",
+  "entry_id": "soap/barrister-and-mann-le-grand-chypre",
+  "entry": "Barrister and Mann Le Grand Chypre"
+ },
+ {
+  "uses": 7,
+  "authors": 3,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Skinbracer",
+  "typed_norm": "skinbracer",
+  "dist": 1,
+  "target_norm": "skin bracer",
+  "entry_id": "aftershave/mennen-skin-bracer",
+  "entry": "Mennen Skin Bracer"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Shick Injector blade.",
+  "typed_norm": "shick injector blade",
+  "dist": 1,
+  "target_norm": "schick injector blade",
+  "entry_id": "Injector/schick-injector-blades",
+  "entry": "Schick Injector Blades"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "pol silver",
+  "typed_norm": "pol silver",
+  "dist": 1,
+  "target_norm": "polsilver",
+  "entry_id": "DE/polsilver-super-iridium",
+  "entry": "Polsilver Super Iridium"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Poli Silver",
+  "typed_norm": "poli silver",
+  "dist": 1,
+  "target_norm": "polisilver",
+  "entry_id": "DE/polsilver-super-iridium",
+  "entry": "Polsilver Super Iridium"
+ },
+ {
+  "uses": 7,
+  "authors": 4,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Personna Lab Blues",
+  "typed_norm": "personna lab blues",
+  "dist": 1,
+  "target_norm": "personna lab blue",
+  "entry_id": "DE/personna-comfort-coated-lab-blue",
+  "entry": "Personna Comfort Coated (Lab Blue)"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "ATT G1",
+  "typed_norm": "att g1",
+  "dist": 1,
+  "target_norm": "att s1",
+  "entry_id": "razor/above-the-tie-s1-slant",
+  "entry": "Above the Tie S1 Slant"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "[Giorgio Armani Aqua Di Gio](https://www.fragrantica.com/perfume/Giorgio-Armani/Acqua-di-Gio-410.html)",
+  "typed_norm": "giorgio armani aqua di gio https www fragrantica com perfume giorgio armani acqua di gio 410 html",
+  "dist": 1,
+  "target_norm": "giorgio armani acqua di gio https www fragrantica com perfume giorgio armani acqua di gio 410 html",
+  "entry_id": "fragrance/giorgio-armani-acqua-di-gio",
+  "entry": "Giorgio Armani Acqua di Gio"
+ },
+ {
+  "uses": 7,
+  "authors": 4,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Carbon",
+  "typed_norm": "carbon",
+  "dist": 1,
+  "target_norm": "caron",
+  "entry_id": "fragrance/caron-le-troisi-me-homme",
+  "entry": "Caron Le Troisième Homme"
+ },
+ {
+  "uses": 7,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Parker 91r",
+  "typed_norm": "parker 91r",
+  "dist": 1,
+  "target_norm": "parker 96r",
+  "entry_id": "razor/parker-96r-black-long-handle-butterfly-open-safety-razor",
+  "entry": "Parker 96R Black Long Handle Butterfly Open Safety Razor"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Zingari Man - The Sea Farer",
+  "typed_norm": "zingari man the sea farer",
+  "dist": 1,
+  "target_norm": "zingari man the seafarer",
+  "entry_id": "soap/zingari-man-the-seafarer",
+  "entry": "Zingari Man The SeaFarer"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Soap Commander Honour",
+  "typed_norm": "soap commander honour",
+  "dist": 1,
+  "target_norm": "soap commander honor",
+  "entry_id": "soap/soap-commander-honor",
+  "entry": "Soap Commander Honor"
+ },
+ {
+  "uses": 7,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Stirling Arcadia",
+  "typed_norm": "stirling arcadia",
+  "dist": 1,
+  "target_norm": "stirling arkadia",
+  "entry_id": "soap/stirling-soap-co-arkadia",
+  "entry": "Stirling Soap Co. Arkadia"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Declaration Grooming La Petit Prairie",
+  "typed_norm": "declaration grooming la petit prairie",
+  "dist": 1,
+  "target_norm": "declaration grooming la petite prairie",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-la-petite-prairie",
+  "entry": "Declaration Grooming / Chatillon Lux La Petite Prairie"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Stirling - Unsented - Balm",
+  "typed_norm": "stirling unsented balm",
+  "dist": 1,
+  "target_norm": "stirling unscented balm",
+  "entry_id": "aftershave/stirling-soap-co-unscented",
+  "entry": "Stirling Soap Co. Unscented"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "B&M - Full measure of men",
+  "typed_norm": "b m full measure of men",
+  "dist": 1,
+  "target_norm": "b m full measure of man",
+  "entry_id": "soap/barrister-and-mann-the-full-measure-of-man",
+  "entry": "Barrister and Mann The Full Measure of Man"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Creed – Adventus Cologne",
+  "typed_norm": "creed adventus cologne",
+  "dist": 1,
+  "target_norm": "creed aventus cologne",
+  "entry_id": "fragrance/creed-aventus",
+  "entry": "Creed Aventus"
+ },
+ {
+  "uses": 7,
+  "authors": 2,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Highland Spring Soap Co. - Green Door",
+  "typed_norm": "highland spring soap co green door",
+  "dist": 1,
+  "target_norm": "highland springs soap co green door",
+  "entry_id": "soap/highland-springs-soap-co-green-door",
+  "entry": "Highland Springs Soap Co. Green Door"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Astra s/p",
+  "typed_norm": "astra s p",
+  "dist": 1,
+  "target_norm": "astra sp",
+  "entry_id": "DE/astra-superior-platinum",
+  "entry": "Astra Superior Platinum"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Cella - Bongiorno al Sandalo",
+  "typed_norm": "cella bongiorno al sandalo",
+  "dist": 1,
+  "target_norm": "cella buongiorno al sandalo",
+  "entry_id": "soap/cella-buongiorno-al-sandalo",
+  "entry": "Cella Buongiorno al Sandalo"
+ },
+ {
+  "uses": 7,
+  "authors": 4,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Maggard V3a",
+  "typed_norm": "maggard v3a",
+  "dist": 2,
+  "target_norm": "maggard v2",
+  "entry_id": "razor/maggard-razors-v2-chrome-open-comb-de-safety-razor-head",
+  "entry": "Maggard Razors V2 Chrome Open Comb DE Safety Razor Head"
+ },
+ {
+  "uses": 7,
+  "authors": 3,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merkur 42C",
+  "typed_norm": "merkur 42c",
+  "dist": 2,
+  "target_norm": "merkur 23c",
+  "entry_id": "razor/merkur-23c",
+  "entry": "Merkur 23C"
+ },
+ {
+  "uses": 7,
+  "authors": 3,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Sylva",
+  "typed_norm": "sylva",
+  "dist": 2,
+  "target_norm": "solea",
+  "entry_id": "soap/solea-d-amaris",
+  "entry": "Solea D'Amaris"
+ },
+ {
+  "uses": 7,
+  "authors": 2,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Vokshod Teflon",
+  "typed_norm": "vokshod teflon",
+  "dist": 2,
+  "target_norm": "voskhod teflon",
+  "entry_id": "DE/voskhod-voskhod",
+  "entry": "Voskhod Voskhod"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Mickey Lee Soapworks Colonia di Agrumes",
+  "typed_norm": "mickey lee soapworks colonia di agrumes",
+  "dist": 2,
+  "target_norm": "mickey lee soapworks colonia di agrumi",
+  "entry_id": "aftershave/mickey-lee-soapworks-colonia-di-agrumi",
+  "entry": "Mickey Lee Soapworks Colonia Di Agrumi"
+ },
+ {
+  "uses": 7,
+  "authors": 5,
+  "fields": [
+   "fragrance",
+   "preshave",
+   "razor",
+   "soap"
+  ],
+  "typed": "Nope",
+  "typed_norm": "nope",
+  "dist": 2,
+  "target_norm": "no 1",
+  "entry_id": "aftershave/zingari-man-byron-no-1",
+  "entry": "Zingari Man / Byron No.1"
+ },
+ {
+  "uses": 7,
+  "authors": 3,
+  "fields": [
+   "blade"
+  ],
+  "typed": "lada",
+  "typed_norm": "lada",
+  "dist": 2,
+  "target_norm": "lea",
+  "entry_id": "soap/lea-shave-stick",
+  "entry": "LEA Shave Stick"
+ },
+ {
+  "uses": 7,
+  "authors": 2,
+  "fields": [
+   "aftershave",
+   "preshave"
+  ],
+  "typed": "None.",
+  "typed_norm": "none",
+  "dist": 2,
+  "target_norm": "no 1",
+  "entry_id": "aftershave/zingari-man-byron-no-1",
+  "entry": "Zingari Man / Byron No.1"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "RACER",
+  "typed_norm": "racer",
+  "dist": 2,
+  "target_norm": "rawr",
+  "entry_id": "aftershave/noble-otter-rawr",
+  "entry": "Noble Otter Rawr"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merkur 15 c",
+  "typed_norm": "merkur 15 c",
+  "dist": 2,
+  "target_norm": "merkur 34 c",
+  "entry_id": "razor/merkur-34c",
+  "entry": "Merkur 34C"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "fragrance"
+  ],
+  "typed": "CB V",
+  "typed_norm": "cb v",
+  "dist": 2,
+  "target_norm": "cbl",
+  "entry_id": "aftershave/cbl-doc-holiday-aftershave",
+  "entry": "CBL Doc Holiday Aftershave"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Shaving soap I made",
+  "typed_norm": "shaving soap i made",
+  "dist": 3,
+  "target_norm": "shaving soap amande",
+  "entry_id": "soap/henri-et-victoria-shaving-soap-amande",
+  "entry": "Henri et Victoria Shaving Soap - Amande"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "WK Fougère Bouquet AS",
+  "typed_norm": "wk fougere bouquet as",
+  "dist": 3,
+  "target_norm": "wk fougere bouquet",
+  "entry_id": "soap/wholly-kaw-foug-re-bouquet",
+  "entry": "Wholly Kaw Fougère Bouquet"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Barrister and Mann LPC",
+  "typed_norm": "barrister and mann lpc",
+  "dist": 3,
+  "target_norm": "barrister and mann 42",
+  "entry_id": "aftershave/barrister-and-mann-42",
+  "entry": "Barrister and Mann 42"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Declaration Mayflower AS",
+  "typed_norm": "declaration mayflower as",
+  "dist": 3,
+  "target_norm": "declaration mayflower",
+  "entry_id": "soap/declaration-grooming-declaration-mayflower",
+  "entry": "Declaration Grooming Declaration Mayflower"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Razorock \"what the puck\" black",
+  "typed_norm": "razorock what the puck black",
+  "dist": 3,
+  "target_norm": "razorock what the puck blue",
+  "entry_id": "soap/razorock-blue-label",
+  "entry": "RazoRock Blue Label"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "B&M Terror AS",
+  "typed_norm": "b m terror as",
+  "dist": 3,
+  "target_norm": "b m terror",
+  "entry_id": "soap/barrister-and-mann-b-m-terror",
+  "entry": "Barrister and Mann B&M Terror"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Chatillon Lux - 88 Chestnut St - EdC",
+  "typed_norm": "chatillon lux 88 chestnut st edc",
+  "dist": 3,
+  "target_norm": "chatillon lux 88 chestnut street",
+  "entry_id": "aftershave/chatillon-lux-88-chestnut-street",
+  "entry": "Chatillon Lux 88 Chestnut Street"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Rockwell 2C 5/6 plate",
+  "typed_norm": "rockwell 2c 5 6 plate",
+  "dist": 3,
+  "target_norm": "rockwell 6c 5 plate",
+  "entry_id": "razor/rockwell-6c",
+  "entry": "Rockwell 6C"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "B&M Lavender AS",
+  "typed_norm": "b m lavender as",
+  "dist": 3,
+  "target_norm": "b m lavender",
+  "entry_id": "fragrance/barrister-and-mann-lavender-interrupted",
+  "entry": "Barrister and Mann Lavender, Interrupted"
+ },
+ {
+  "uses": 7,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Catie's Bubbles - Miracle EdP",
+  "typed_norm": "catie s bubbles miracle edp",
+  "dist": 3,
+  "target_norm": "catie s bubbles miracle 1",
+  "entry_id": "soap/catie-s-bubbles-miracle-premium-shaving-soap-4oz",
+  "entry": "Catie's Bubbles Miracle Premium Shaving Soap, 4oz"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "CF Orange Creamsicle",
+  "typed_norm": "cf orange creamsicle",
+  "dist": 1,
+  "target_norm": "cfg orange creamsicle",
+  "entry_id": "soap/chiseled-face-orange-creamsicle",
+  "entry": "Chiseled Face Orange Creamsicle"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "soap"
+  ],
+  "typed": "LASSO Topanga Fougere",
+  "typed_norm": "lasso topanga fougere",
+  "dist": 1,
+  "target_norm": "lassco topanga fougere",
+  "entry_id": "soap/the-los-angeles-shaving-soap-company-topanga-fougere",
+  "entry": "The Los Angeles Shaving Soap Company Topanga Fougere"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Merker 34c",
+  "typed_norm": "merker 34c",
+  "dist": 1,
+  "target_norm": "merkur 34c",
+  "entry_id": "razor/merkur-34c",
+  "entry": "Merkur 34C"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Mickey Lee Soapworks Colonia di Agrume",
+  "typed_norm": "mickey lee soapworks colonia di agrume",
+  "dist": 1,
+  "target_norm": "mickey lee soapworks colonia di agrumi",
+  "entry_id": "aftershave/mickey-lee-soapworks-colonia-di-agrumi",
+  "entry": "Mickey Lee Soapworks Colonia Di Agrumi"
+ },
+ {
+  "uses": 6,
+  "authors": 3,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Myrsol Aqua Balsamica",
+  "typed_norm": "myrsol aqua balsamica",
+  "dist": 1,
+  "target_norm": "myrsol agua balsamica",
+  "entry_id": "aftershave/myrsol-agua-balsamica",
+  "entry": "Myrsol Agua Balsamica"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Barrister and Mann - C2",
+  "typed_norm": "barrister and mann c2",
+  "dist": 1,
+  "target_norm": "barrister and mann 42",
+  "entry_id": "aftershave/barrister-and-mann-42",
+  "entry": "Barrister and Mann 42"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Black Ship Grooming “Phillips Fougere”",
+  "typed_norm": "black ship grooming phillips fougere",
+  "dist": 1,
+  "target_norm": "black ship grooming philips fougere",
+  "entry_id": "soap/black-ship-grooming-co-philip-s-fougere",
+  "entry": "Black Ship Grooming Co. Philip's Fougere"
+ },
+ {
+  "uses": 6,
+  "authors": 6,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Aqua di Gio",
+  "typed_norm": "aqua di gio",
+  "dist": 1,
+  "target_norm": "acqua di gio",
+  "entry_id": "fragrance/giorgio-armani-acqua-di-gio",
+  "entry": "Giorgio Armani Acqua di Gio"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "fragrance",
+   "soap"
+  ],
+  "typed": "Talbot Author's Ridge",
+  "typed_norm": "talbot author s ridge",
+  "dist": 1,
+  "target_norm": "talbot authors ridge",
+  "entry_id": "soap/talbot-shaving-authors-ridge",
+  "entry": "Talbot Shaving Authors Ridge"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Rockwell 2C - R3",
+  "typed_norm": "rockwell 2c r3",
+  "dist": 1,
+  "target_norm": "rockwell 6c r3",
+  "entry_id": "razor/rockwell-6c",
+  "entry": "Rockwell 6C"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Muhle R108",
+  "typed_norm": "muhle r108",
+  "dist": 1,
+  "target_norm": "muhle r103",
+  "entry_id": "razor/muhle-r41",
+  "entry": "Mühle R41"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Ever Ready Stream Line",
+  "typed_norm": "ever ready stream line",
+  "dist": 1,
+  "target_norm": "ever ready streamline",
+  "entry_id": "razor/ever-ready-streamline",
+  "entry": "Ever-Ready Streamline"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Shick ProLine",
+  "typed_norm": "shick proline",
+  "dist": 1,
+  "target_norm": "schick proline",
+  "entry_id": "AC/schick-proline-p-30",
+  "entry": "Schick Proline P-30"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Karve Brass SB F",
+  "typed_norm": "karve brass sb f",
+  "dist": 1,
+  "target_norm": "karve brass sb b",
+  "entry_id": "razor/karve-christopher-bradley",
+  "entry": "Karve Christopher Bradley"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Zingari ManThe Socialite Aftershave",
+  "typed_norm": "zingari manthe socialite aftershave",
+  "dist": 1,
+  "target_norm": "zingari man the socialite aftershave",
+  "entry_id": "aftershave/zingari-man-the-socialite-after-shave-serum",
+  "entry": "Zingari Man The Socialite After Shave Serum"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Stirling Soap Co. - Deep Blu Sea - Eau de Toilette",
+  "typed_norm": "stirling soap co deep blu sea eau de toilette",
+  "dist": 1,
+  "target_norm": "stirling soap co deep blue sea eau de toilette",
+  "entry_id": "fragrance/stirling-soap-co-deep-blue-sea",
+  "entry": "Stirling Soap Co. Deep Blue Sea"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Shannon's Soap - Indigo Oud",
+  "typed_norm": "shannon s soap indigo oud",
+  "dist": 1,
+  "target_norm": "shannon s soaps indigo oud",
+  "entry_id": "aftershave/shannon-s-soaps-indigo-oud-rust-belt-reserve-artisan-aftershave-splash-100ml-alcohol-free",
+  "entry": "Shannon's Soaps Indigo Oud, Rust Belt Reserve Artisan Aftershave Splash, 100ml - Alcohol Free"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Loccitane",
+  "typed_norm": "loccitane",
+  "dist": 1,
+  "target_norm": "l occitane",
+  "entry_id": "soap/l-occitane-cade",
+  "entry": "L'Occitane Cade"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Karve alum SB-C",
+  "typed_norm": "karve alum sb c",
+  "dist": 1,
+  "target_norm": "karve alum sb d",
+  "entry_id": "razor/karve-christopher-bradley",
+  "entry": "Karve Christopher Bradley"
+ },
+ {
+  "uses": 6,
+  "authors": 4,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Chatillon Lux - 1904 - EdP",
+  "typed_norm": "chatillon lux 1904 edp",
+  "dist": 1,
+  "target_norm": "chatillon lux 1904 edt",
+  "entry_id": "fragrance/chatillon-lux-1904-eau-de-toilette",
+  "entry": "Chatillon Lux 1904 Eau de Toilette"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Rockwell 2C (5 plate)",
+  "typed_norm": "rockwell 2c 5 plate",
+  "dist": 1,
+  "target_norm": "rockwell 6c 5 plate",
+  "entry_id": "razor/rockwell-6c",
+  "entry": "Rockwell 6C"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "fragrance",
+   "soap"
+  ],
+  "typed": "SW Fugère Nemata",
+  "typed_norm": "sw fugere nemata",
+  "dist": 1,
+  "target_norm": "sw fugere nemeta",
+  "entry_id": "soap/southern-witchcrafts-fougere-nemeta",
+  "entry": "Southern Witchcrafts Fougere Nemeta"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Schick Pro-line",
+  "typed_norm": "schick pro line",
+  "dist": 1,
+  "target_norm": "schick proline",
+  "entry_id": "AC/schick-proline-p-30",
+  "entry": "Schick Proline P-30"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Chatillon Lux - Yuzu/Rose/Patchoulli",
+  "typed_norm": "chatillon lux yuzu rose patchoulli",
+  "dist": 1,
+  "target_norm": "chatillon lux yuzu rose patchouli",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-yuzu-rose-patchouli",
+  "entry": "Declaration Grooming / Chatillon Lux Yuzu Rose Patchouli"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "Stirling *Arcadia",
+  "typed_norm": "stirling arcadia",
+  "dist": 1,
+  "target_norm": "stirling arkadia",
+  "entry_id": "soap/stirling-soap-co-arkadia",
+  "entry": "Stirling Soap Co. Arkadia"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Pinaud - Clubman Aftershave Lotion",
+  "typed_norm": "pinaud clubman aftershave lotion",
+  "dist": 1,
+  "target_norm": "pinaud clubman after shave lotion",
+  "entry_id": "aftershave/pinaud-clubman-after-shave-lotion",
+  "entry": "Pinaud Clubman After Shave Lotion"
+ },
+ {
+  "uses": 6,
+  "authors": 4,
+  "fields": [
+   "fragrance"
+  ],
+  "typed": "Imaginary Authors – A Whiff of Wafflecone",
+  "typed_norm": "imaginary authors a whiff of wafflecone",
+  "dist": 1,
+  "target_norm": "imaginary authors a whiff of waffle cone",
+  "entry_id": "fragrance/imaginary-authors-a-whiff-of-waffle-cone",
+  "entry": "Imaginary Authors A Whiff of Waffle Cone"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Stirling Soap Co. - 6ix7even",
+  "typed_norm": "stirling soap co 6ix7even",
+  "dist": 1,
+  "target_norm": "stirling soap co 6ix 7even",
+  "entry_id": "soap/stirling-soap-co-6ix-7even-shave-soap-3oz",
+  "entry": "Stirling Soap Co. 6ix 7even - Shave Soap (3oz)"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "barrister + mann LEVIATHANNN",
+  "typed_norm": "barrister mann leviathannn",
+  "dist": 2,
+  "target_norm": "barrister mann leviathan",
+  "entry_id": "soap/barrister-and-mann-leviathan",
+  "entry": "Barrister and Mann Leviathan"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave"
+  ],
+  "typed": "Stirling Vanilla Sandlewood.",
+  "typed_norm": "stirling vanilla sandlewood",
+  "dist": 2,
+  "target_norm": "stirling vanilla sandalwood",
+  "entry_id": "soap/stirling-soap-co-vanilla-sandalwood",
+  "entry": "Stirling Soap Co. Vanilla Sandalwood"
+ },
+ {
+  "uses": 6,
+  "authors": 4,
+  "fields": [
+   "aftershave",
+   "preshave",
+   "soap"
+  ],
+  "typed": "None!",
+  "typed_norm": "none",
+  "dist": 2,
+  "target_norm": "no 1",
+  "entry_id": "aftershave/zingari-man-byron-no-1",
+  "entry": "Zingari Man / Byron No.1"
+ },
+ {
+  "uses": 6,
+  "authors": 4,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Schick P30",
+  "typed_norm": "schick p30",
+  "dist": 2,
+  "target_norm": "schick e3",
+  "entry_id": "razor/schick-injector",
+  "entry": "Schick Injector"
+ },
+ {
+  "uses": 6,
+  "authors": 3,
+  "fields": [
+   "aftershave",
+   "fragrance",
+   "soap"
+  ],
+  "typed": "SBSW Hook",
+  "typed_norm": "sbsw hook",
+  "dist": 2,
+  "target_norm": "sb hook",
+  "entry_id": "aftershave/storybook-soapworks-hook",
+  "entry": "Storybook Soapworks Hook"
+ },
+ {
+  "uses": 6,
+  "authors": 6,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "Barrister and Mann - Ferox",
+  "typed_norm": "barrister and mann ferox",
+  "dist": 2,
+  "target_norm": "barrister and mann fern",
+  "entry_id": "soap/barrister-and-mann-fern",
+  "entry": "Barrister and Mann Fern"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "soap"
+  ],
+  "typed": "DG YPR",
+  "typed_norm": "dg ypr",
+  "dist": 2,
+  "target_norm": "dg yrp",
+  "entry_id": "soap/declaration-grooming-chatillon-lux-yuzu-rose-patchouli",
+  "entry": "Declaration Grooming / Chatillon Lux Yuzu Rose Patchouli"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "shower;",
+  "typed_norm": "shower",
+  "dist": 2,
+  "target_norm": "shore",
+  "entry_id": "soap/declaration-grooming-shore",
+  "entry": "Declaration Grooming Shore"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "aftershave",
+   "soap"
+  ],
+  "typed": "@catiesbubbles",
+  "typed_norm": "catiesbubbles",
+  "dist": 2,
+  "target_norm": "catie s bubbles",
+  "entry_id": "soap/caties-bubbles-322",
+  "entry": "Catie's Bubbles 322"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "splash",
+  "typed_norm": "splash",
+  "dist": 2,
+  "target_norm": "smash",
+  "entry_id": "aftershave/house-of-mammoth-smash",
+  "entry": "House of Mammoth | Smash"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Fatip Picollo",
+  "typed_norm": "fatip picollo",
+  "dist": 2,
+  "target_norm": "fatip piccolo",
+  "entry_id": "razor/fatip-piccolo",
+  "entry": "Fatip Piccolo"
+ },
+ {
+  "uses": 6,
+  "authors": 2,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Wash",
+  "typed_norm": "wash",
+  "dist": 2,
+  "target_norm": "wcs",
+  "entry_id": "soap/wcs-pear-brrr-shoppe",
+  "entry": "WCS Pear-Brrr Shoppe"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "razor"
+  ],
+  "typed": "Edwin Jagger - 89",
+  "typed_norm": "edwin jagger 89",
+  "dist": 2,
+  "target_norm": "edwin jagger de89",
+  "entry_id": "razor/edwin-jagger-de89",
+  "entry": "Edwin Jagger DE89"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "preshave"
+  ],
+  "typed": "Rinse",
+  "typed_norm": "rinse",
+  "dist": 2,
+  "target_norm": "rose",
+  "entry_id": "soap/martin-de-candre-rose",
+  "entry": "Martin de Candre Rose"
+ },
+ {
+  "uses": 6,
+  "authors": 1,
+  "fields": [
+   "blade"
+  ],
+  "typed": "Solimo",
+  "typed_norm": "solimo",
+  "dist": 2,
+  "target_norm": "slim",
+  "entry_id": "razor/gillette-slim",
+  "entry": "Gillette Slim"
+ }
+]

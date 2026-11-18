@@ -1,0 +1,45 @@
+rows: 241364  lockhart rows: 93
+soap-field: 22 | aftershave-field: 16 | fragrance-field: 2
+--- Lockhart soap/aftershave-field rows ---
+2025-03-09 Jrmicide | soap: Lockharts - Barbershop | as: 
+2025-03-15 Jrmicide | soap: Lockharts - Mariana Trench | as: 
+2025-03-24 BostonPhotoTourist | soap: Barrister and Mann/Lockhart's Grooming Behold the Whatsis! Reborn | as: Barrister and Mann Lime
+2025-03-24 Jrmicide | soap: Lockharts - Barbershop | as: 
+2025-04-29 Jrmicide | soap: Lockharts - Mariana Trench | as: 
+2025-05-08 Jrmicide | soap: Lockharts - Barbershop | as: 
+2025-05-21 Jrmicide | soap: Lockharts - Mariana Trench | as: 
+2025-06-08 Jrmicide | soap: Lockharts - Barbershop | as: 
+2025-07-06 PhilosphicalZombie | soap: Lockhart’s Authentic Grooming Co., LLC – [Sex Machine](https://imgur.com/a/machine-shave-s | as: Lockhart’s Authentic Grooming Co., LLC - Sex Machine\](https://imgur.com/a/machine-aftersh
+2025-08-31 PhilosphicalZombie | soap: Lockhart’s Authentic Grooming Co., LLC – [Sex Machine](https://imgur.com/a/machine-shave-s | as: Lockhart’s Authentic Grooming Co., LLC - Sex Machine\](https://imgur.com/a/machine-aftersh
+2025-11-16 JohnnyTomatoSauce | soap: Lockharts Mariana Trench | as: Lockharts Goons Milk Mariana Trench | Zingari Man Sego Balm
+2025-11-17 JohnnyTomatoSauce | soap: Lockharts Barbershop | as: Lockharts Goons Milk Barbershop | Zingari Man Sego Balm
+2026-01-29 BrysonOnDrums | soap: Lockhart’s Goon Grease | as: Lockhart’s Goon’s Milk | Bee Bald Post Shave Healing Balm | Gentleman Jon Alum Block | Cer
+2026-03-01 Jrmicide | soap: Lockharts - Mariana Trench | as: 
+2026-06-23 PhilosphicalZombie | soap: Lockhart’s Authentic Grooming Co., LLC – [Sex Machine](https://imgur.com/a/machine-shave-s | as: Lockhart’s Authentic Grooming Co., LLC - Sex Machine](https://imgur.com/a/machine-aftersha
+2026-07-03 pi-rho | soap: Stirling Soap Co. - Sheep | Lockhart's Authentic - Sex Machine | as: Lockhart's Authentic - Sex Machine Aftershave | Stirling Soap Co. - Glacial Unscented Balm
+2026-07-04 coco_for_cocoapuffs | soap: Barrister & Mann x Lockhart - Terror Again | as: Barrister & Mann x Lockhart - Terror Again
+2026-07-15 coco_for_cocoapuffs | soap: Barrister and Mann x Lockhart - Terror Again | as: Barrister and Mann x Lockhart - Terror Again
+2026-07-20 coco_for_cocoapuffs | soap: Homemade MdC Clone | as: Barrister and Mann x Lockhart - Terror Again
+2026-07-21 coco_for_cocoapuffs | soap: Barrister and Mann x Lockhart - Terror Again | as: Summer Break Soaps - Valedictorian
+2026-07-23 coco_for_cocoapuffs | soap: Barrister and Mann x Lockhart - Terror Again | as: Stirling Soap Co. - Glacial Hipster
+2026-07-24 coco_for_cocoapuffs | soap: Stirling Soap Co. - Ben Franklin | as: Barrister and Mann x Lockhart - Terror Again
+2026-08-27 jbird996 | soap: Stirling Soap Co. Margaritas in the Arctic | as: Lockhart’s / Barrister & Mann Terror Again
+2026-09-21 coco_for_cocoapuffs | soap: Barrister and Mann - Terror | as: Barrister and Mann x Lockhart - Terror Again
+2026-10-20 coco_for_cocoapuffs | soap: Barrister and Mann - Terror | as: Barrister and Mann x Lockhart - Terror Again
+2026-10-28 coco_for_cocoapuffs | soap: Barrister and Mann - Terror | as: Barrister and Mann x Lockhart - Terror Again
+2026-10-30 pi-rho | soap: Lockhart's Authentic - Sex Machine | as: 
+2026-10-30 pi-rho | soap: Lockhart's Authentic - Sex Machine | as: Lockhart's Authentic - Sex Machine Aftershave | Stirling Soap Co. - Glacial Unscented Balm
+--- 'terror again' rows (all fields): 13 ---
+2020-07-27 Ramjet615 | soap: [Barrister and Mann - Terror - Soap](https://trythatsoap.com/collection/1384/?pr | as: [Barrister and Mann - Terror - Aftershave](https://trythatsoap.com/collection/13
+2026-07-04 coco_for_cocoapuffs | soap: Barrister & Mann x Lockhart - Terror Again | as: Barrister & Mann x Lockhart - Terror Again
+2026-07-15 coco_for_cocoapuffs | soap: Barrister and Mann x Lockhart - Terror Again | as: Barrister and Mann x Lockhart - Terror Again
+2026-07-20 coco_for_cocoapuffs | soap: Homemade MdC Clone | as: Barrister and Mann x Lockhart - Terror Again
+2026-07-21 coco_for_cocoapuffs | soap: Barrister and Mann x Lockhart - Terror Again | as: Summer Break Soaps - Valedictorian
+2026-07-23 coco_for_cocoapuffs | soap: Barrister and Mann x Lockhart - Terror Again | as: Stirling Soap Co. - Glacial Hipster
+2026-07-24 coco_for_cocoapuffs | soap: Stirling Soap Co. - Ben Franklin | as: Barrister and Mann x Lockhart - Terror Again
+2026-08-27 jbird996 | soap: Stirling Soap Co. Margaritas in the Arctic | as: Lockhart’s / Barrister & Mann Terror Again
+2026-09-11 coco_for_cocoapuffs | soap: Chicago Grooming Co. - Polar Vortex Brushless Cream | as: Summer Break Soaps - Valedictorian
+2026-09-21 coco_for_cocoapuffs | soap: Barrister and Mann - Terror | as: Barrister and Mann x Lockhart - Terror Again
+2026-10-20 coco_for_cocoapuffs | soap: Barrister and Mann - Terror | as: Barrister and Mann x Lockhart - Terror Again
+2026-10-28 coco_for_cocoapuffs | soap: Barrister and Mann - Terror | as: Barrister and Mann x Lockhart - Terror Again
+2026-10-28 Confident_Media_4304 | soap: Stirling Soap Co. - Mango Sunrise | as: Barrister and Mann - The Terror (Again)

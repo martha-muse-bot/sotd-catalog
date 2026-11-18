@@ -44,7 +44,8 @@ products is the primary job; the encyclopedia serves it.**
 | `sotd_parser.py`, `build_2026.py`, `build_year.py`, `fill_gaps.py`, `fill_gaps_year.py`, `lg_sweep.py` | Dataset parser and pull/backfill scripts |
 | `catalog/sotd_db.py` | The only way to read/write the catalog DB |
 | `catalog/match_all.py` | The matcher (P-25 composite split, comma carve-out) |
-| Catalog data | NOT in this repo — the DB (`catalog/catalog.db.gz`) and the JSON exports (`catalog_merged.json`, `validation_queue.json`, `candidate_aliases.json`, `brands.json`) live in the private sibling repo [sotd-catalog-data](https://github.com/martha-muse-bot/sotd-catalog-data). |
+| `catalog/catalog_public.json` | The public catalogue: scrubbed export of the products only (see above). Regenerated from the live DB on every push by `tools/sync_to_github.py`. |
+| Match data | NOT in this repo — the full DB (`catalog/catalog.db.gz`) and the JSON exports (`catalog_merged.json`, `validation_queue.json`, `candidate_aliases.json`, `brands.json`) live in the private sibling repo [sotd-catalog-data](https://github.com/martha-muse-bot/sotd-catalog-data). |
 | `catalog/validation_README.md` | The validator contract: tiers, evidence standard, procedure |
 | `catalog/precedents.md` | The precedent registry (P-01…P-25) — rulings that bind |
 | `catalog/discuss_consolidated.md` | The discuss queue — open identity questions |
@@ -57,7 +58,7 @@ products is the primary job; the encyclopedia serves it.**
 | `GOAL.md` | The goal statement |
 | `tools/sync_to_github.py` | Push-after-change sync script (see below) |
 | `HANDOFF.md` | The handoff document — start here if you inherit this project |
-| `manifest.json` | File inventory with sizes + md5s for this snapshot |
+| `manifest.json` | File inventory with sizes + md5s for this tree state |
 
 ## What is NOT in this repo (and why)
 
@@ -85,6 +86,10 @@ python3 -c "import sys; sys.path.insert(0,'catalog'); import sotd_db; c=sotd_db.
 python3 catalog/match_all.py 2022 2023 2024 2025 2026   # regenerate matched files
 ```
 
+The scrubbed public catalogue (`catalog/catalog_public.json`) is
+already in this repo — it is a read-only product list, not a
+substitute for the DB.
+
 `catalog.db` is the single source of truth. Never edit the JSON
 exports directly — regenerate them with `sotd_db.export_json()`, and
 never write the tables with ad-hoc SQL; all writes go through
@@ -103,13 +108,32 @@ each validated change. `push` refreshes the staging tree from the
 live workspace (fresh DB export, re-gzip, copy) and uploads one
 commit to `main` via the GitHub API. See HANDOFF.md.
 
-## The catalog data lives in a private sibling repo (decided 2026-11-17)
+**These repos are the go-forward working directories (Jim,
+2026-11-18), not a periodic snapshot artifact.** The live workspace
+is mirrored here on every validated change, never on a timer. The
+trigger is explicit: after any validated catalog change, code change,
+or knowledge change, run refresh + push so the repos reflect it the
+same turn. The staging trees are the push source, not a snapshot
+product.
 
-The catalog itself — the DB and its JSON exports — lives in the
-**private** repo
-[martha-muse-bot/sotd-catalog-data](https://github.com/martha-muse-bot/sotd-catalog-data).
-It holds all the Reddit-derived content (raw SOTD text folded into
-entry aliases and cluster labels, plus attestation examples naming
-threads and authors), so it stays private by design. This repo holds
-code, docs, and knowledge only. What a public face for the catalog
+## The catalogue: public products, private match data (decided 2026-11-17)
+
+This repo holds a true public catalogue:
+`catalog/catalog_public.json` — just what all the products in the
+catalogue are (11,979 entries: verified, needs-review, attested,
+corroborated, anecdotal). It is a scrubbed export, regenerated from
+the live DB on every push: no aliases, no loose aliases, no
+author-scoped aliases, no attestation examples or provenance, no
+unverified clusters (those are raw post strings, not products), and
+no decisions or match_notes — the audit trail and working notes are
+excluded by Jim's 2026-11-18 decision, because their prose quoted
+alias strings and Reddit author names. Evidence prose is redacted
+the same way: Reddit author names, u/ handles, thread IDs, and
+quoted alias strings that aren't the product/brand name become
+[redacted]; the bare words "aliases"/"author_scoped" in our own
+notes and reddit.com citation links in evidence remain. The match data — the full DB and its JSON exports, i.e. everything about
+what strings match to which catalog items, plus the queue and
+attestation provenance — lives in the **private** repo
+[martha-muse-bot/sotd-catalog-data](https://github.com/martha-muse-bot/sotd-catalog-data)
+and stays private by design. What a public face for the match data
 might look like is a later decision, not this one. See HANDOFF.md.
