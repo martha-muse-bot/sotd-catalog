@@ -205,8 +205,12 @@ def _verify_gz(gz_path, expect_counts):
 
 
 def _write_manifest(root, counts):
-    """Inventory with sizes + md5s, for verification. NOTE: manifest.json
-    does not list itself (it is written after the inventory loop)."""
+    """Inventory with sizes + md5s, for verification. The manifest
+    lists itself (the previous refresh's bytes/md5 -- inherently one
+    refresh stale, since it is written after the inventory loop); the
+    entry is kept so manifest-vs-tree counts stay consistent. The
+    inventory applies the same exclusions as the push (EXCLUDE_FILES,
+    EXCLUDE_DIRS) so verify never reports a phantom missing file."""
     manifest = {"generated": "refresh from live workspace",
                 "counts": {"entries": counts["entries_total"],
                            "verified": counts["entries_by_status"].get(
@@ -217,6 +221,10 @@ def _write_manifest(root, counts):
                 "files": {}}
     for p in sorted(root.rglob("*")):
         if not p.is_file() or ".git" in p.parts:
+            continue
+        if p.name in EXCLUDE_FILES:
+            continue
+        if any(part in EXCLUDE_DIRS for part in p.relative_to(root).parts):
             continue
         rel = str(p.relative_to(root))
         manifest["files"][rel] = {"bytes": p.stat().st_size,
@@ -789,8 +797,8 @@ def _verify(repo, root):
         manifest = json.loads((root / "manifest.json").read_text())
         local = set(manifest["files"])
         print(f"remote blobs: {len(remote)}, manifest files: {len(local)}")
-        print(f"missing on remote: {sorted(local - remote)[:10]}")
-        print(f"extra on remote: {sorted(remote - local)[:10]}")
+        print(f"missing on remote: {sorted(local - set(remote))[:10]}")
+        print(f"extra on remote: {sorted(set(remote) - local)[:10]}")
         # blob-SHA comparison proves remote content is byte-identical
         mismatched = []
         for rel in sorted(local & set(remote)):

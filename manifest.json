@@ -362,19 +362,15 @@
   },
   "manifest.json": {
    "bytes": 10581,
-   "md5": "c7f4b0996ad0858bd6a84784686f9144"
+   "md5": "36fbec851d8497f45ddb1567234e4b09"
   },
   "sotd_parser.py": {
    "bytes": 13767,
    "md5": "df5f1f5e7464baf8e5bb0c2bf514c464"
   },
-  "tools/__pycache__/sync_to_github.cpython-312.pyc": {
-   "bytes": 40434,
-   "md5": "2e02821f97b0fc1ed11a9040ed3d899f"
-  },
   "tools/sync_to_github.py": {
-   "bytes": 35006,
-   "md5": "ef6c5bbaab84e3bd033ca8f70269a46c"
+   "bytes": 35437,
+   "md5": "561f2a4bb2f668ecd5e050eb114a8dfc"
   }
  }
 }
