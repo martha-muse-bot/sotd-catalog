@@ -1,0 +1,261 @@
+TOTAL ROWS: 241408 MAX THREAD_DATE: 2026-11-17
+Dickens-any rows: 524
+Dickens Revisited rows: 284
+OG Dickens rows: 3
+
+Revisited by month:
+  2019-11 1
+  2019-12 17
+  2020-01 3
+  2020-02 2
+  2020-03 2
+  2020-04 3
+  2020-06 9
+  2020-07 4
+  2020-09 3
+  2020-11 6
+  2020-12 20
+  2021-01 5
+  2021-02 8
+  2021-03 8
+  2021-04 2
+  2021-05 5
+  2021-06 19
+  2021-07 4
+  2021-08 1
+  2021-09 2
+  2021-10 2
+  2021-11 7
+  2021-12 18
+  2022-01 7
+  2022-02 3
+  2022-03 3
+  2022-04 1
+  2022-06 9
+  2022-08 1
+  2022-10 1
+  2022-11 7
+  2022-12 7
+  2023-01 3
+  2023-02 2
+  2023-03 1
+  2023-04 2
+  2023-06 1
+  2023-07 2
+  2023-09 1
+  2023-10 2
+  2023-11 1
+  2023-12 7
+  2024-01 2
+  2024-03 2
+  2024-04 1
+  2024-06 4
+  2024-12 10
+  2025-01 1
+  2025-05 19
+  2025-06 1
+  2025-11 1
+  2025-12 5
+  2026-01 1
+  2026-06 14
+  2026-07 2
+  2026-08 7
+  2026-10 2
+
+Revisited authors: 64
+  SamIAmShepard 54
+  USS-SpongeBob 23
+  Madflava81 18
+  kind_simian 17
+  Sleezey-Sleeze 11
+  chefkoolaid 10
+  FW_Aaron 10
+  chronnoisseur42O 10
+  Impressive_Donut114 10
+  MrLamper1 8
+  _walden_ 8
+  djundjila 7
+  intertextonics 6
+  sahenders 6
+  CosmoBarber 5
+
+Revisited by field: {'notes': 125, 'soap': 176, 'aftershave': 86}
+
+First 5 Revisited rows:
+  2019-11-22 chefkoolaid {'notes': "SOTD 11/22/19\nBrush** Yaqi Tux 26mm\nRazor** Rockwell 6s\nBlade** Astra SP\nLather** B&M Dickens Revisited\nPost** B&M Dickens Revisited\nThis arrived in the mail yesterday. An early holiday gift to myself. I like this scent a lot. The excelsior base is of course very slick and protective and can take a *ton* of water! Deltus aftershave is effective and does not leave the skin feeling dry. The scent is very nice. Sweet and warming just as I hoped. The cherry is balanced out nicely by the crisp lemon which is rounded out nicely by earthy black pepper on the bottom and a hint of cardamom up top. My only real complaint is that the scent doesn't stick around longer. Oh and that I stupidly dropped and broke the lid to my tub on my first use. Need to see about getting a replacement label for a spare lid! The artwork on this set is really great too. I like the vintage look!"}
+  2019-12-01 Sleezey-Sleeze {'soap': '[Barrister and Mann - Dickens Revisited - Soap](https://trythatsoap.com/collection/1612/?product_type=soap)', 'aftershave': '[Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=Aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)', 'notes': "Dec. 1, 2019**\nI waited until today December 1st to try B & M's Dickens Revisited.  I was not disappointed at all!  This was my most enjoyable shave scent wise in a while.  Totally got me in the Christmas mood and had an excellent shave!  My plan is to shave with this combo most of the time this month.\nGoing back to the OC as it gives me the best all around shave feel.  Great day and a great shave!\nHope everyone has a wonderful Sunday!\nEdit:  My daughter just told me my cheek smells like a slushie."}
+  2019-12-02 chefkoolaid {'notes': 'SOTD 12/2/19\nBrush** Lancaster Brushworks Synth\nRazor** Rockwell 6s\nBlade** Astra SP\nLather** Dickens Revisited\nPost** Dickens Revisted\nAnother wondeful shave with Dickens! A really cheert scent that hits all the right notes!'}
+  2019-12-05 Madflava81 {'soap': 'Barrister & Mann - Dickens Revisited (Excelsior base)'}
+  2019-12-06 Sleezey-Sleeze {'soap': '[Barrister and Mann - Dickens Revisited - Soap](https://trythatsoap.com/collection/1612/?product_type=soap)', 'aftershave': '[Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=Aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)', 'notes': 'Dec. 6, 2019**\nThe Lupo shines when you have a new blade but the more shaves you have on a blade the more you feel it with this razor.  I have the aluminium version but wonder if the heavier SS version does the same.\nDickens Revisited is a great seasonal scent and felt in the mood today.  Very smooth shave today and looking forward to the weekend.\nHappy Friday all!'}
+
+Last 5 Revisited rows:
+  2026-08-15 SamIAmShepard {'notes': 'August 15, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music\nNocturne\nNoggin’ on Heaven’s Door'}
+  2026-08-16 SamIAmShepard {'notes': 'August 16, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music\nNocturne\nNoggin’ on Heaven’s Door\nNordost'}
+  2026-08-17 SamIAmShepard {'notes': 'August 17, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music\nNocturne\nNoggin’ on Heaven’s Door\nNordost\nOceana'}
+  2026-10-16 chronnoisseur42O {'aftershave': 'Barrister and Mann - Dickens Revisited'}
+  2026-10-17 SamIAmShepard {'aftershave': 'Barrister and Mann - Dickens Revisited'}
+
+Revisited rows with base terms (excelsior/glissant/omnibus/white label):
+  2019-11-22 chefkoolaid {'notes': "SOTD 11/22/19\nBrush** Yaqi Tux 26mm\nRazor** Rockwell 6s\nBlade** Astra SP\nLather** B&M Dickens Revisited\nPost** B&M Dickens Revisited\nThis arrived in the mail yesterday. An early holiday gift to myself. I like this scent a lot. The excelsior base is of course very slick and protective and can take a *ton* of water! Deltus aftershave is effective and does not leave the skin feeling dry. The scent is very nice. Sweet and warming just as I hoped. The cherry is balanced out nicely by the crisp lemon which is rounded out nicely by earthy black pepper on the bottom and a hint of cardamom up top. My only real complaint is that the scent doesn't stick around longer. Oh and that I stupidly dropped and broke the lid to my tub on my first use. Need to see about getting a replacement label for a spare lid! The artwork on this set is really great too. I like the vintage look!"}
+  2019-12-05 Madflava81 {'soap': 'Barrister & Mann - Dickens Revisited (Excelsior base)'}
+  2019-12-30 Dank_McDankerson {'soap': '[Barrister and Mann - Dickens Revisted - Soap](https://trythatsoap.com/collection/1612/?product_type=soap)', 'notes': 'Dec. 30, 2019 - Dickens Revisited**\nTwo new products for me today. First, Dickens Revisited.\nThis soap was the absolute bomb. Not only was the scent beautiful, the performance was off the charts. I’ve never had the pleasure of using Excelsior before, but this could easily become a favorite base of mine.\nSecond, the Personna Blue razor blade. I’d heard these were many people’s favorite, and I can see why. I got a great shave, with no irritation. I’ll consider buying more of these blades in the future.\nAll-in-all, the best shave I’ve had in a month probably.'}
+  2020-06-27 chefkoolaid {'soap': 'Barrister &Mann Dickensn Revisited', 'aftershave': 'B&M Dickens Revisited', 'notes': "[SOTD - 06/26/20- Scrumptious Saturday](https://imgur.com/a/pedLjRJ)\nWell I'm continuing 'Freeze you Ass off Day' for the next week. For some reason I decided to enroll in u/BeachCaberLBC 's cold shower challenge. Day 1 in the books and it wasn't too bad, worst part was stepping out into the AC. It certainly woke me up from my hungover stupor. I'm hoping the weather stays hot an humid which makes these cold showers much more appealing.\nDicken's Revisited is one of my favorite sets. It comes in Barrister and Mann's awesome Excelsior base, and the scent is rich and charming. It opens with a zesty Lemon note which warms into a sweet cherry scent and is punctuated by a bit of black pepper and cardamom. This scent is based on a cookie recipe that I did make a few batches of this holiday season. The cookies as well as the shave set were loved by my family. I am smelled every day after I shave and given approval or disapproval. But Dickens is a fan favorite. Please make an edt and bring this back next year B&M!\nA wonderful easy shave today. This 2 band badger brush is so soft and amazing! I bowl lather and was satisfied with the performance (and price) of synthetics so never bothered to try a nice badger knot until I got this brush super cheap from Maggard's on black friday. Suffice it to say I'm down the rabbit hole now, I'm grabbing a Maggard SHD knot to try when I get paid next and I imagine some Declaration knots aren't too far down the road.....sigh :)\nDaily Challenge**\nI'm a chef by trade so honestly it's really tough for me to decide on a favorite single recipe. I have a few dishes I'm somewhat known for, and soups are what I think I do best. But for today I'll share my current infatuation: [Kouign Aman](https://www.allrecipes.com/recipe/271049/kouign-amann/)\nI looked through a few online recipes and I think this should be the easiest to pull off at home. All you need is butter, yeast, bread flour, sugar, and salt and a rolling pin and cheese grater. The bread flour is super important. It really defines the texture of the pastry, which is half the joy of the Kouign Aman. I have basically stopped eating croissants because of these. They are So. Damn. Good."}
+  2020-11-18 FW_Aaron {'soap': '[Dickens Revisited](https://trythatsoap.com/collection/1612/) | Perfect, rich, slick', 'notes': "November 18, 2020: [Dickens Revisited](http://imgur.com/a/SLjT731), revisited**\nLoad: scooped, medium light amount\nPasses: 2, wtg, atg\nYesterday Will announced Barrister and Mann is releasing Dickens Revisited as one of their seasonals, on Black Friday, (alas, no Vespers this year), so I thought I'd share a few thoughts about it.\nIf you're not familiar with excelsior base, it's an excellent soap base. Scooping a pretty small amount went a long, long way. Its very slick, and lathers super easily. To me, the ease of lathering is where it really excels.\nThe scent is great. See the scent notes in the link. The main notes I get are the cherry and lemon, but it's rounded out very very nicely with the pepper and spice notes. Kind of reminds me of spice gumdrops. Will says it's inspired by his favorite holiday cookies. I am not huge into gourmand scents but I really like this one."}
+  2020-12-09 FW_Aaron {'soap': 'Barrister and Mann Dickens Revisited | superb'}
+  2021-05-17 djundjila {'soap': 'Barrister and Mann Dickens Revisited', 'aftershave': 'Barrister and Mann Dickens Revisited balm', 'notes': "[**Spring Dickenshole**](https://imgur.com/a/nQBaUGr)\nToday's shave is a bit of an anachronism, but I recently saw *Dickens revisited* on sale on Top of the Chain and couldn't resist because I knew I liked it from a smoosh u/MrLamper1 sent me a while back (thanks again!).\nThe scent is a strong gourmand with fruity, citrussy and spicy notes that immediately puts me in a good mood. The Excelsior base is a great performer and I got to BBS in a quick three-pass shave and barely any touch-ups. The very efficient iKon Tek was a great choice for this although I got a weeper on my chin from rushing.\nMy nose can't distinguish the balm's scent from the soap's. While this is sad and boring in the Dickhole Theory of Wetshaving, I I'll need a few more shaves like this before I get bored of smelling delicious and festive.\nWonderful shave aside from the weeper. Have a great Monday!"}
+  2021-09-13 CosmoBarber {'aftershave': '[Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)'}
+  2021-11-17 USS-SpongeBob {'soap': '[Barrister and Mann - Dickens Revisited - Soap](https://trythatsoap.com/collection/1612/?product_type=soap)'}
+  2022-01-06 kind_simian {'notes': 'SOTD 06January2022 - Tournament day 180\n*\n*\n*\n*\n*\n*\nDefinitely failing this Theme Thursday - I have nothing outright apple scented (maybe not even as a contributing note). Not a scent theme I have any interest in.\nThis go with Vespers was again pleasant, particularly post shave when the vegetal note that comes out heavily when first lathered fades. This is a scent I will finish the sample puck and be happy about but it is not tub worthy, wish they would have brought Dickens Revisited out in Omnibus this winter instead. Oh well, something to hope for next year.\n——\nFight 86, Round 1: Gillette - Nacet (1.1, Russia 🇷🇺) vs. Lord - Tajam (1.0, Egypt 🇪🇬)\nLAST TIME:\nFight 68: Gillette beat Cloud - Super Blades (Bruce Lee)\nFight 36: Gillette lost to Polsilver - Super Iridium\nFight 49: Lord beat ABest - Hi Platinum\nThese were both nice blades to shave with. The Lord had slightly better glide, but the Gillette had noticeably better blade feel and nailed the feedback - that zone where you feel every hair cut but zero pull or discomfort. Unfortunately, that’s where the Lord lost this fight - while not genuinely uncomfortable, it’s feedback was rougher than the Gillette by a wide margin.\nWinner of Round 1: Gillette - Nacet.'}
+  2022-01-14 sahenders {'aftershave': 'Warm Shower/B&M Dickens Revisited Bath Bar | [Spearhead Shaving Company - Seaforth! Sea Spice Lime - Aftershave (Alcohol Free)](https://trythatsoap.com/collection/2518/?product_type=aftershave)'}
+  2022-03-16 djundjila {'soap': 'Barrister and Mann Dickens Revisited (Excelsior)', 'aftershave': 'Barrister and Mann Dickens Revisited balm', 'notes': "I'm going through some winter scents before the official start of spring, and today, that's the delicious Dickens Revisited.\nThe scent of fresh baked cookies scratches my gourmand itch, and Excelsior can do no wrong IMO. Great shave to start this day.\nI'm going to add Wafflecone before leaving the house to keep the sweet gourmand thing going."}
+  2022-06-26 _walden_ {'soap': '[Barrister and Mann - Dickens Revisited - Soap](https://trythatsoap.com/collection/1612/?product_type=soap)'}
+  2022-11-04 kind_simian {'soap': 'Barrister and Mann - Dickens Revisited', 'notes': 'SOTD 04November2022 - Tournament day 482\n*\n*\n*\n*\n*\n*\nBeen a while since I used Dickens Revisited, but I always enjoy this holiday cookie. If it gets released in Omnibus, I would pounce.\nHappy Friday, made it!\n——\n⚔️ Fight 222, Round 1: BIC - Chrome Platinum II (Greece) vs. Tiger - Superior (Czech Republic)\nNote: Reminder that today’s BIC is just a normal BCP, but it’s being run side by side with the remnants of the original BCP tuck that seemed flawed. The II is just a way of keeping them distinct.\nThis is the fight to make me second guess my choices because the Tiger did not play well in the Henson the first two times I used it, nor this time. At least the BCP II was an improvement. I’m not convinced this is the same blade as the tier 3 Astor (will use head to head like with the Pol & Wiz), but this was a much better blade than the the Tiger. The Tiger was an uncomfortable, harsh shave losing on glide, feedback, and blade feel (but at least didn’t tug or pull 😅).\nWinner of Round 1: BIC - Chrome Platinum II'}
+  2022-11-20 kind_simian {'notes': 'SOTD 20November2022 - Tournament day 498\n*\n*\n*\n*\n*\n*\nHappy Sunday, this was first try with BaM’s ‘22 holiday release and… can they just release Dickens Revisited in Omnibus already? It’s mulled wine. Fruitier than mulled wines I’ve smelled, but mulled wine. And it’s pleasant, but I don’t have the nostalgia to this particular smell as, seemingly, Will does, so pretty neutral after this first try.\n——\n⚔️ Fight 230, Round 1: Tatra - Platinum (Czech Republic) vs. Vijay - Stainless (India)\nTatra was decent overall. Feedback was off from where I like, but it was consistent, never painful, and glide was solid. Vijay was pretty good above the jawline and ass below. Feedback was uncomfortable to briefly painful on the jawline and throat was unpleasant.\nWinner of Round 1: Tatra - Platinum'}
+  2022-12-08 teachem4 {'soap': 'Barrister And Mann - Dickens Revisited - Soap', 'aftershave': 'Barrister And Mann - Dickens Revisited - Aftershave | Zingari Man - Sego (Unscented) - Balm | Osma - Alum', 'notes': 'Dec. 8, 2022**\nSolid shave with Dickens Revisited, a classic and nostalgic Christmas scent. Despite being replaced with the admittedly superior Omnibus formula, Excelsior is still a top tier base in wetshaving\nShared from My Shave Den for iOS'}
+  2022-12-22 kind_simian {'soap': 'Barrister and Mann - Dickens Revisited'}
+  2022-12-24 A1_Shaves {'soap': 'Barrister & Mann - Dickens Revisited  - Soap', 'aftershave': "Thayer's  - Unscented  - Aftershave | Barrister&Mann - Dickens Revisited  - Balm"}
+  2023-03-07 kind_simian {'soap': 'Barrister and Mann - Dickens Revisited'}
+  2023-06-01 kind_simian {'soap': 'Barrister and Mann - Dickens Revisited'}
+  2024-01-12 SamIAmShepard {'aftershave': 'Barrister and Mann - Dickens Revisited - Splash'}
+  2026-06-24 SamIAmShepard {'notes': 'June 24, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)'}
+  2026-06-25 SamIAmShepard {'notes': 'June 25, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows'}
+  2026-06-26 SamIAmShepard {'notes': 'June 26, 2026**\nBarrister and Mann A-Z. Used a synthetic brush today for Lavanille. I had some faint memory that maybe the soap can stain natural hair brushes?\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille'}
+  2026-06-27 SamIAmShepard {'notes': 'June 27, 2026**\nBarrister and Mann A-Z. First use of the SS Blackbird Lite. Excellent shave. So smooth. And close.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender'}
+  2026-06-28 SamIAmShepard {'notes': 'June 28, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre'}
+  2026-06-29 SamIAmShepard {'notes': 'June 29, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre'}
+  2026-06-30 SamIAmShepard {'notes': 'June 30, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan'}
+  2026-07-01 SamIAmShepard {'notes': 'July 1, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime'}
+  2026-07-02 SamIAmShepard {'notes': 'July 2, 2026**\nBarrister and Mann A-Z. Photo posted on the discord because my phone and the Reddit sub are not getting along.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn'}
+  2026-08-04 SamIAmShepard {'notes': 'August 4, 2026**\nBack at it after work craziness. Barrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special'}
+  2026-08-05 SamIAmShepard {'notes': 'August 5, 2026**\nBack at it after work craziness. Barrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD'}
+  2026-08-06 SamIAmShepard {'notes': 'August 6, 2026**\nBack at it after work craziness. Barrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music'}
+  2026-08-09 SamIAmShepard {'notes': 'August 9, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music\nNocturne'}
+  2026-08-15 SamIAmShepard {'notes': 'August 15, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music\nNocturne\nNoggin’ on Heaven’s Door'}
+  2026-08-16 SamIAmShepard {'notes': 'August 16, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music\nNocturne\nNoggin’ on Heaven’s Door\nNordost'}
+  2026-08-17 SamIAmShepard {'notes': 'August 17, 2026**\nBarrister and Mann A-Z.\n42\nAdagio\nBay Rum\nBeaudelaire\nCheshire\nDeath\nDickens Revisited\nEigengrau\nFamine\nFigarose\nFirst Snow\nFougère Classique\nFougère Gothique (Reserve Base)\nFougère Gothique (Omnibus Base)\nHallows\nLavanille\nLavender\nLe Grand Chypre\nLe Petit Chypre\nLeviathan\nLime\nMarilyn\nMidnight Special\nMÛIR(E) WOOD\nNight Music\nNocturne\nNoggin’ on Heaven’s Door\nNordost\nOceana'}
+
+OG Dickens rows:
+  2019-12-13 Aresmsu {'soap': 'Barrister and Mann OG Dickens', 'notes': '[SOTD 12.13.19](https://imgur.com/a/e3fgfDC)\nThis tub of Dickens was the first shave soap I ever bought. I still love the lemony cherry slightly spicy scent. I don’t know what the revisited version is like but i love the OG version just the way it is.\nThis is my first time using a Rapira Stainless blade. It was so smooth and comfortable but then again, every shave with my each of my Lupos are incredibly comfortable.'}
+  2020-01-31 ChangoBat {'soap': '[Barrister and Mann - Dickens - Soap](https://trythatsoap.com/collection/321/?product_type=soap)', 'aftershave': '[Barrister and Mann - Dickens - Splash](https://trythatsoap.com/collection/321/?product_type=splash)', 'notes': 'Jan. 31, 2020**\nOG Dickens, great scent. I saw someone trashing Glissant. I think they just aren&#39;t using enough water.'}
+  2020-12-01 ChangoBat {'soap': '[Barrister and Mann - Dickens - Soap](https://trythatsoap.com/collection/321/?product_type=soap)', 'aftershave': '[Barrister and Mann - Dickens - Splash](https://trythatsoap.com/collection/321/?product_type=splash)', 'notes': 'Dec. 1, 2020**\nEasy shave. First OG Dickens shave in a year. Scent is great.'}
+
+Dickens-any by month 2019-2021:
+  2019-02 1
+  2019-04 1
+  2019-05 1
+  2019-06 7
+  2019-08 1
+  2019-10 1
+  2019-11 1
+  2019-12 32
+  2020-01 10
+  2020-02 9
+  2020-03 8
+  2020-04 6
+  2020-05 2
+  2020-06 23
+  2020-07 6
+  2020-09 8
+  2020-10 2
+  2020-11 11
+  2020-12 44
+  2021-01 9
+  2021-02 9
+  2021-03 9
+  2021-04 5
+  2021-05 7
+  2021-06 23
+  2021-07 4
+  2021-08 1
+  2021-09 3
+  2021-10 2
+  2021-11 8
+  2021-12 19
+
+Revisited splash rows:
+  2019-12-01 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=Aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2019-12-06 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=Aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2019-12-08 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=Aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2019-12-14 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2019-12-18 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2019-12-20 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2019-12-23 kakapoopoopipishire Dickens Revisited A/S Splash
+  2019-12-23 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2019-12-25 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave) | [Chatillon Lux - Unscented - Salve](https://trythatsoap.com/collection/903/?product_type=salve2)
+  2020-02-08 Terciel1976 Dickens Revisited (sample) and Thayer's original
+  2020-06-27 chefkoolaid B&M Dickens Revisited
+  2020-12-08 intertextonics B&M Dickens Revisited Balm
+  2020-12-15 chronnoisseur42O Dickens Revisited Balm
+  2020-12-18 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2020-12-19 Wee_Tick_Scot B&M Dickens revisited
+  2020-12-23 intertextonics Barrister & Mann Dickens Revisited Balm
+  2020-12-24 Wee_Tick_Scot Barrister and Mann- Dickens revisited
+  2020-12-25 Wee_Tick_Scot Barrister and Mann- Dickens revisited
+  2020-12-26 MrLamper1 Barrister & Mann, Dickens revisited balm
+  2020-12-27 MrLamper1 Barrister & Mann, Dickens revisited balm
+  2021-01-01 MrLamper1 Barrister & Mann, Dickens Revisited balm
+  2021-01-14 Wolfpocalypse Barrister and Mann - Dickens Revisited Balm
+  2021-01-20 Wolfpocalypse Barrister and Mann - Dickens Revisited Balm
+  2021-02-08 Wolfpocalypse Barrister and Mann - Dickens Revisited Balm
+  2021-02-09 Wolfpocalypse Barrister and Mann - Dickens Revisited Balm
+  2021-02-25 Rdthedo [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2021-04-19 MrLamper1 Barrister and Mann, Dickens Revisited balm
+  2021-05-17 djundjila Barrister and Mann Dickens Revisited balm
+  2021-05-18 djundjila Barrister and Mann Dickens Revisited balm
+  2021-06-05 Rdthedo [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2021-06-25 cb26cpa [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2021-06-25 chronnoisseur42O [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2021-06-27 MrLamper1 [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2021-06-27 SeeREd23 Barrister and Mann - Dickens Revisited
+  2021-06-30 Sleezey-Sleeze [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave) | [Declaration Grooming - Unscented - Liniment](https://trythatsoap.com/collection/897/?product_type=liniment)
+  2021-09-13 CosmoBarber [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2021-09-23 CosmoBarber [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2021-11-06 djundjila Barrister and Mann Dickens Revisited balm
+  2021-11-20 djundjila Barrister and Mann Dickens Revisited balm
+  2021-12-06 MrLamper1 [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2021-12-07 MrLamper1 [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2021-12-11 Rdthedo [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave) | Barrister and Mann - Vespers Aftershave Splash
+  2021-12-20 MrLamper1 [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2021-12-22 cb26cpa [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2021-12-25 intertextonics [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2022-01-10 sahenders Osma - Alum Block | Warm Shower/B&M Dickens Revisited Bath Bar | [House of Mammoth - Embrace - Balm](https://trythatsoap.com/collection/2457/?product_type=balm)
+  2022-01-11 sahenders [Thayers - Unscented - Toner](https://trythatsoap.com/collection/1618/?product_type=toner) | Warm Shower/B&M Dickens Revisited Bath Bar | Mäurer & Wirtz - Tabac Original - Aftershave | La Savonniere du Moulin - Unscented - Balm
+  2022-01-12 sahenders Warm Shower/B&M Dickens Revisited Bath Bar | Shawn Maher/Southern Witchcrafts - Gravefruit II - Aftershave (Alcohol Free) | [House of Mammoth - Restore - Balm](https://trythatsoap.com/collection/2196/?product_type=balm)
+  2022-01-13 sahenders Osma - Alum Block | Warm Shower/B&M Dickens Revisited Bath Bar | [Noble Otter - Lonestar - Aftershave](https://trythatsoap.com/collection/862/?product_type=aftershave) | La Savonniere du Moulin - Unscented - Balm
+  2022-01-14 sahenders Warm Shower/B&M Dickens Revisited Bath Bar | [Spearhead Shaving Company - Seaforth! Sea Spice Lime - Aftershave (Alcohol Free)](https://trythatsoap.com/collection/2518/?product_type=aftershave)
+  2022-01-15 sahenders Warm Shower/B&M Dickens Revisited Bath Bar | [Southern Witchcrafts - Carpathia - Aftershave (Alcohol Free)](https://trythatsoap.com/collection/1591/#aftershave_noalc)
+  2022-03-16 djundjila Barrister and Mann Dickens Revisited balm
+  2022-06-15 The_Real_Shaver [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2022-06-25 Khanair [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2022-06-25 intertextonics [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2022-06-25 chronnoisseur42O [Barrister and Mann - Dickens Revisited - Balm](https://trythatsoap.com/collection/1612/?product_type=balm)
+  2022-06-26 hugbckt [Barrister and Mann - Dickens Revisited - Aftershave](https://trythatsoap.com/collection/1612/?product_type=aftershave)
+  2022-11-06 verdadkc Barrister and Mann - Dickens Revisited AS
+  2022-11-27 RutabagaMysterious19 Barrister & Mann - Dickens Revisited - Aftershave | PAA - Mysterium Serum - Balm
+  2022-12-08 teachem4 Barrister And Mann - Dickens Revisited - Aftershave | Zingari Man - Sego (Unscented) - Balm | Osma - Alum
+  2022-12-24 A1_Shaves Thayer's  - Unscented  - Aftershave | Barrister&Mann - Dickens Revisited  - Balm
+  2023-04-07 chronnoisseur42O Barrister and Mann – Dickens Revisited
+  2023-07-25 djundjila Barrister and Mann – Dickens Revisited
+  2023-07-25 chronnoisseur42O Barrister and Mann – Dickens Revisited
+  2023-09-27 chronnoisseur42O Barrister and Mann – Dickens Revisited
+  2023-11-09 chronnoisseur42O Barrister and Mann - Dickens Revisited
+  2023-12-19 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash
+  2023-12-19 intertextonics Stirling Soap Co. - Unscented - Aftershave | Barrister and Mann - Dickens Revisited - Balm | Osma - Alum
+  2023-12-25 chronnoisseur42O Barrister and Mann - Dickens Revisited Balm
+  2024-01-12 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash
+  2024-01-26 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash
+  2024-03-26 Priusaurus Barrister and Mann - Dickens Revisited Splash | Zingari Man - Unscented Sego Balm
+  2024-06-25 BatmanBrady Barrister and Mann – Dickens Revisited | Dickens Revisited: Next, the splash that brings Christmas past into the present. This aftershave is a merry blend of holiday scents that soothes the skin and lifts the spirits. It's like a Victorian Christmas party in a bottle—full of spice, warmth, and a hint of delicious cherry sweetness. Smoking Bishop and Dickens revisited go together like… Tiny Tim and his crutches - They are perfect for each other! Ebenezer Scrooge wishes he had a companion like this in his life! To cap off this festive shave, a spritz of Hugo Boss - BOSS Bottled Infinite. This fragrance adds a sophisticated touch with its fresh apple, cinnamon, and woodsy notes. The apple and cinnamon go perfectly with the soap and splash and the woodsy base makes is a perfectly wearable fragrance. It’s like stepping into a winter wonderland where style meets the crisp, invigorating air of a December morning.
+  2024-06-25 chronnoisseur42O Barrister and Mann- Dickens Revisited
+  2024-12-12 partyman97_3 Barrister and Mann – Dickens Revisited
+  2024-12-12 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash
+  2024-12-18 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash
+  2025-01-09 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash
+  2025-05-13 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash
+  2025-06-01 SamIAmShepard Barrister and Mann - Dickens Revisited - Splash | Then we hit it with Dickens Revisited, a cherry-cookie-gingerbread hybrid that smells like you just punched a Victorian caroler through a bakery window. It keeps the cherry thread going from the soap, but leans into that “holiday baking with grandma” vibe. If Amaretto Speciale is dessert at a fancy Italian café, Dickens Revisited is sneaking cookies before dinner at your aunt’s house—and getting away with it.
+  2025-11-19 SamIAmShepard Barrister and Mann - Dickens Revisited
+  2025-12-07 SamIAmShepard Barrister and Mann - Dickens Revisited
+  2026-01-30 partyman97_3 Barrister and Mann - Dickens Revisited
+  2026-06-17 SamIAmShepard Barrister and Mann - Dickens Revisited
+  2026-10-16 chronnoisseur42O Barrister and Mann - Dickens Revisited
+  2026-10-17 SamIAmShepard Barrister and Mann - Dickens Revisited

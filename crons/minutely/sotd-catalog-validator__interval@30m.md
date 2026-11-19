@@ -14,12 +14,12 @@ delivery:
   - chat_id: cb2a7a82-5389-428b-9380-dcb02ff5eb26
 metadata:
   tags: [cron:automatic-interval-anchor]
-  originating_chat_context_json: '{"chat_id":"cb2a7a82-5389-428b-9380-dcb02ff5eb26","origin_provider":"main","chat_kind":"direct","provider":"main","event_kind":"message","require_mention":false,"device_id":"45275315-dced-4e7e-a837-a71f10e0995d"}'
+  originating_chat_context_json: '{"chat_id":"cb2a7a82-5389-428b-9380-dcb02ff5eb26","origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false,"device_id":"5ac1ab52-3f96-4dd6-afc1-3407e0e9949e"}'
   presentation_locale: en-US
 ---
 Standing task: work the SOTD catalog validation queue in ~/workspace/sotd, one batch per run.
 
-STORAGE (post-SQLite): The source of truth is catalog/catalog.db, accessed ONLY through catalog/sotd_db.py (read the Storage section of catalog/validation_README.md first and follow it). catalog_merged.json, validation_queue.json, brands.json and candidate_aliases.json are read-only exports regenerated from the DB — never edit them directly. Take queue items with sotd_db.next_queue, write verdicts with upsert_entry/delete_entry/update_queue, and call export_json() once at the end of any batch that changed anything. If catalog/.catalog.lock exists and is less than 2 hours old, end quietly (a bulk multi-step pass is mid-flight).
+STORAGE (post-SQLite): The source of truth is catalog/catalog.db, accessed ONLY through catalog/sotd_db.py (read the Storage section of catalog/validation_README.md first and follow it). catalog/catalog_merged/<category>.json (8 per-category shards), validation_queue.json, brands.json and candidate_aliases.json are read-only exports regenerated from the DB — never edit them directly. Take queue items with sotd_db.next_queue, write verdicts with upsert_entry/delete_entry/update_queue, and call export_json() once at the end of any batch that changed anything. If catalog/.catalog.lock exists and is less than 2 hours old, end quietly (a bulk multi-step pass is mid-flight).
 
 SETUP: Read catalog/validation_README.md and follow its procedure. Also read the wetshaving knowledge base — ~/workspace/sotd/knowledge/lineages.md, product_aliases.md, glossary.md, people.md, product_lines.md, hardware_lore.md, world_notes.md — before researching: facts tagged "established" there are trusted context (renames, closures, aliases, shorthand expansions, naming traps); facts tagged "lead" are pointers only, never evidence; glossary entries marked AMBIGUOUS must never be auto-applied without context from the post itself.
 

@@ -60,10 +60,11 @@ the same push-after-change rule, and the sync script handles both —
 push data unless the data repo verifies as private). Do not let the
 two repos drift apart silently.
 
-The merged catalog export is sharded by category into 7 files under
+The merged catalog export is sharded by category into 8 files under
 `catalog/catalog_merged/` (Jim, 2026-11-18 — instead of gzipping the
 48 MB single file, which would make diffs unreadable; the split
-keeps diffs per-category). `sotd_db.export_json()` writes the shards
+keeps diffs per-category). The 8th shard, `handle`, was added
+2026-11-18 (P-26) for handles sold standalone. `sotd_db.export_json()` writes the shards
 and `match_all.py` loads the shard directory; no single
 `catalog_merged.json` exists anywhere anymore. This also respects
 GitHub's real API size limits (measured 2026-11-18, both below the
@@ -267,7 +268,7 @@ re-review. The load-bearing ones:
 ## What is intentionally NOT in this repo
 
 - The match data itself (the full DB `catalog/catalog.db.gz` and the
-  JSON exports — merged catalog as 7 per-category shards under
+  JSON exports — merged catalog as 8 per-category shards under
   `catalog/catalog_merged/`, `validation_queue.json`,
   `candidate_aliases.json`, `brands.json`) — it lives in the private
   sibling repo

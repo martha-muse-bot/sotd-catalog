@@ -45,8 +45,8 @@ schedule" anywhere in this script.
 Merged-catalog shards (Jim, 2026-11-18 -- instead of gzipping the
 48 MB single file, which would make diffs unreadable): the merged
 catalog is stored as one file per category under
-catalog/catalog_merged/<category>.json (7 files: aftershave, blade,
-brush, fragrance, knot, razor, soap), written by sotd_db.export_json
+catalog/catalog_merged/<category>.json (8 files: aftershave, blade,
+brush, fragrance, handle, knot, razor, soap), written by sotd_db.export_json
 and read by match_all.py's shard loader. No single
 catalog_merged.json exists anywhere anymore.
 
@@ -63,7 +63,7 @@ Subcommands:
   refresh  rebuild both staging trees from the live workspace
            (fresh DB export, re-gzip catalog.db, copy code/docs/knowledge/
            crons/hook script into the public tree, copy the DB + JSON
-           exports -- merged catalog as 7 per-category shards -- into
+           exports -- merged catalog as 8 per-category shards -- into
            the data tree), verify the .gz round-trips,
            write both manifests
   push     refresh, then upload the public staging tree as one commit
@@ -166,6 +166,8 @@ COPIES = [
      "catalog/multi_item_field_analysis_2026-11-16.md"),
     (CATALOG / "comma_carveout_scoping_2026-11-17.md",
      "catalog/comma_carveout_scoping_2026-11-17.md"),
+    (CATALOG / "handle_knot_parsing_analysis_2026-11-18.md",
+     "catalog/handle_knot_parsing_analysis_2026-11-18.md"),
     (CATALOG / "ikon_bulk_harvest_2026-11-08.md",
      "catalog/ikon_bulk_harvest_2026-11-08.md"),
     (CATALOG / "tech_attribute_fold.md", "catalog/tech_attribute_fold.md"),
@@ -180,7 +182,7 @@ COPIES = [
 # (live source, repo-relative destination) for the PRIVATE data repo.
 # The JSON exports are regenerated from the DB first, then copied
 # here; the DB itself is gzipped into DATA_ROOT/catalog/ in refresh().
-# The merged catalog goes over as 7 per-category shards (see the
+# The merged catalog goes over as 8 per-category shards (see the
 # shard copy in cmd_refresh), not the retired single file.
 DATA_COPIES = [
     (CATALOG / "validation_queue.json", "catalog/validation_queue.json"),

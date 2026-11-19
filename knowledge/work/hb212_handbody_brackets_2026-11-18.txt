@@ -1,0 +1,112 @@
+# (c4-narrow-211/212/213/214) B&M Hand & Body — goat->coconut brackets, Cologne Russe size, sale prices, Lavender review
+Learner run 2026-11-18 ~17:06-18:00 CST. Follows (c4-narrow-210) (hb210 note).
+
+## (c4-narrow-212) RESOLVED — goat->coconut brackets, all five open scents
+Formula judged by the HAND-BODY INCI block only (the "Responsibly-Sourced Palm
+Oil, Aqua, Coconut Oil, Olive Oil Pomace..." list, ending "...Saccharide
+Isomerate, Goat Milk Powder" vs "...Coconut Milk"). Raw counts are NOT enough:
+the 2025-08-15 Lavender capture reads goat=8 AND coco=6 — the 6 coconut hits
+are the embedded Omnibus SHAVING soap's INCI ("Cocos nucifera Fruit Juice
+(Coconut Milk)") in related-product JSON, while the hand-body INCI still says
+Goat Milk Powder. Every decisive capture below was re-verified by extracting
+the hand-body INCI tail (hb212_read.py + tail check).
+- Bay Rum: (2024-09-13, 2024-12-02] — GOAT 2024-09-13; COCO 2024-12-02
+- Cologne Russe: (2024-09-13, 2024-12-02] — GOAT 2024-09-13; COCO 2024-12-02
+- Lavanille: (2024-08-12, 2024-12-14] — GOAT 2024-08-12; COCO 2024-12-14
+- Le Grand Chypre: (2024-09-13, 2025-01-16] — GOAT 2024-09-13; COCO 2025-01-16
+- Lavender: OPEN — GOAT on the maker page as late as 2025-08-15 (hand-body
+  INCI, JSON-LD included); NO later Wayback capture exists (CDX 2025-08-16 ->
+  2026-11-18 empty); live maker body (products.json bp, 2026-11-18) carries NO
+  INCI section at all for Lavender (301-byte body: scent copy + "Net Wt.
+  4.75 oz" only); live page fetch 429s. Bracket (2025-08-15, ...].
+  NA's "(Vegan)" Lavender listing (created 2024-11-03) predates the maker
+  evidence and its own body is goat — NOT evidence of a Nov 2024 switch.
+  NEW LEAD (c4-narrow-215): Lavender switch date — live-browser maker-page
+  read (when the 429 clears) or a label photo.
+- Seville (already pinned, hb210): (2024-05-26, 2024-11-03].
+- The switch was staggered across ~6 months (Sep 2024 - Jan 2025), Lavender
+  lagging by 9+ months on the page record. Catalog: era handling for Hand &
+  Body entries must leave Lavender's vegan-era start open-ended.
+
+## Retailer bodies are fossil copies — method finding
+- Naked Armor "(Vegan)" listings (9): INCI tails split 4 COCO (Waves, Cologne
+  Russe, LGC, Fougere Gothique) vs 5 GOAT (Bay Rum, Lavanille, Spice, Seville,
+  Lavender) DESPITE the "(Vegan)" titles. NA copied the maker body at listing
+  creation and never updated it; creation dates are NOT switch dates.
+  Fougere Gothique vegan listing shows the stale-prose trap again (prose "goat
+  milk powder", INCI coconut).
+- Maggard hand-body listings (9, bp snapshot): same pattern — Bay Rum, Seville,
+  Lavanille, Lavender, Spice, Cheshire, Muire Wood, Waves all GOAT tails;
+  only Fougere Gothique (listed 2025+, post-switch) is COCO. Maggard's Waves
+  title still says "5.25oz" while the maker body says 4.75 oz.
+- RULE: only the maker's own page edits track the formula. Retailer bodies
+  (NA, Maggard) are frozen at listing time; retailer titles/creation dates
+  are claims, not formula evidence.
+- Maker live bodies are ALSO inconsistent: Bay Rum / Seville / Lavender
+  products.json bodies (bp) contain NO ingredients section at all, while
+  Cologne Russe / Lavanille / LGC / Fougere Gothique do. A missing INCI in
+  products.json is a template quirk, not a formula statement.
+
+## (c4-narrow-211) RESOLVED — Cologne Russe "5.25 oz" is FOSSIL COPY
+- Maker body still says "Net Wt. 5.25 oz" in the 2024-12-02 and 2025-02-17
+  Wayback captures AND the live bp snapshot (2026-11-18), while its INCI
+  already says Coconut Milk.
+- NA's separate "(Vegan)" Cologne Russe listing (created 2026-02-18, i.e.
+  current-era stock) states 4.75 oz with coconut INCI.
+- The line standardized on 4.75 oz in 2023 (Bay Rum, Seville); every other
+  current scent reads 4.75 oz. The Cologne Russe body text was simply never
+  edited for size. Current bars are 4.75 oz. Caveat: no label photo yet, but
+  retailer evidence + line standard is strong corroboration.
+- Catalog: cite 4.75 oz for current Cologne Russe bars; never cite the maker
+  body's 5.25 oz.
+
+## (c4-narrow-214) RESOLVED — Lavender review dated 05/05/2022
+- Review by Seth C., "SC 05/05/2022": "This new bar soap formulation is the
+  bees-knees! Quite a bit more hydrating than their previous tallow bar soap
+  formulation, just as easy to lather, and the same price."
+- Present in the 2022-05-25 capture, absent 2021-11-28. A customer had the
+  new (vegetable+goat) Lavender bar in hand by May 5, 2022 — corroborates
+  Lavender's tallow->goat bracket (2021-11-28, 2022-05-25] and dates the
+  switch perception to <= May 5, 2022. "Same price" = $5.99 era, consistent.
+- NOTE: the review is ABSENT from all 2024-2025 Lavender captures (widget
+  renders recent reviews only / capture variance) — future readers must use
+  the 2022 captures (hb210_lav_20220525.html / hb210_lav_20220927.html).
+  Web search for the exact quote returns nothing (not indexed).
+
+## (c4-narrow-213) RESOLVED-as-checked — pre-switch sale prices: two scents only
+- Pre-switch sale prices found ONLY for Bay Rum ($3.99, Jan 2022) and Cologne
+  Russe ($4.49, Sep 2023). Seville / Lavender / Lavanille / LGC pre-switch
+  captures read show NO sale prices. No line pattern; the clearance reading
+  stays a weak two-scent lead, not established.
+- New data point: Bay Rum AND Cologne Russe BOTH $8.49 (compare_at $9.99) on
+  Dec 2, 2024 — a site-wide December sale, POST-switch, not clearance. The
+  maker does routine December sales, which further weakens the clearance
+  reading of the two earlier sale prices.
+
+## Captures read (saved goal hidden_files/cdx/hb212_*.html)
+- Bay Rum: 20240913 (GOAT), 20241202 (COCO), 20250322 (COCO)
+- Lavender: 20240419 (GOAT), 20240913 (GOAT), 20240921 (78KB partial, no
+  INCI/price/size — do not cite), 20250116 (GOAT), 20250514 (GOAT),
+  20250815 (GOAT hand-body INCI; coco hits are shaving-soap JSON)
+- Cologne Russe: 20240913 (GOAT), 20240921 (79KB partial), 20241202 (COCO),
+  20250217 (COCO)
+- Lavanille: 20240419 (GOAT), 20240812 (GOAT), 20241214 (COCO), 20250322 (COCO)
+- LGC: 20240225 (GOAT), 20240718 (GOAT), 20240913 (GOAT), 20250116 (COCO),
+  20250515 (COCO)
+- Live Lavender page fetch: 301 then 429 (rate-limited); products.json bp is
+  the live record.
+- CDX: exact-URL, collapse=digest, 2024-2025 for all five slugs; Lavender
+  2025-08-16 -> 2026-11-18 = zero captures.
+
+## Watches (bp suffix, 2026-11-18 ~17:30-18:00 CST)
+- Diff bo->bp: ZERO flips everywhere. B&M 86 products, avail 66->66 (wave
+  plateaued); CL 12/12; BlackShip 66/55; BattleBros 11/10; HoM 67/64;
+  NA 1302/652; Maggard 3167/2539.
+- (c4-narrow-181) Seaforth: zero HoM hits, still open.
+- (c4-narrow-152): zero deodorant/lip-balm handles in B&M bp, still unlaunched.
+- (c4-narrow-209): no new route attempted (maker socials, live-browser only).
+- Rate limiting noted: first fetch round 429'd CL/BlackShip/BattleBros/HoM,
+  NA p1, Maggard p1; retries after 45s+20s sleeps all 200. The live B&M
+  product page also 429'd. Space out watch fetches.
+- Dataset unchanged: 241,408 rows, max thread_date 2026-11-17. Notes-mining
+  slice >= 2026-11-17: 0 new rows.

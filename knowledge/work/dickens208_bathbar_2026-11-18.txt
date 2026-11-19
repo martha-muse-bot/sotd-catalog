@@ -1,0 +1,88 @@
+Dickens Revisited bath bar — (c4-narrow-208) evidence note, 2026-11-18 ~13:06 CST run
+========================================================================
+
+QUESTION: sahenders, 6 aftershave-field rows Jan 10-15, 2022, "Warm Shower/B&M
+Dickens Revisited Bath Bar" — one author only. Real product, or a mislabeled
+shaving soap? Needed: second attestation or retailer/maker listing.
+
+ANSWER: REAL. Maker listing existed.
+- Wayback CDX exact-URL query for
+  https://www.barristerandmann.com/products/hand-body-soap-dickens-revisited
+  = exactly ONE 200 capture ever: 2021-01-28 06:27:42 (digest
+  ORWC6IYX2P5BZ45YIR67RMGWINO5VQSH). The alternate slug
+  dickens-revisited-hand-body-soap = zero captures ever.
+- Capture read (curl id_, saved to goal hidden_files/cdx/
+  dickens208_bm_handbody_20210128.html, 75,097 bytes):
+  - Title: "Hand & Body Soap: Dickens, Revisited" (JSON-LD Product name
+    identical); vendor Barrister and Mann LLC; type "Bath & Body";
+    product id 4975958392885; variant id 33290565517365; price $5.99
+    (599 cents); JSON-LD availability InStock at capture.
+  - Scent copy: the Revisited cookie copy (cherry, black pepper, nutmeg,
+    cardamom, lemon; recipe insert included) — same text as the shaving
+    soap page.
+  - Formula (tallow, NOT the current vegan line): "Tallow (Beef), Water,
+    Coconut Oil, Sodium Hydroxide, Castor Oil, Glycerin, Shea Butter,
+    Fragrance, Vitamin E". Net Wt. 5.25 oz, Made in USA.
+  - Product image v=1606493981 = uploaded 2020-11-27 16:19:41 UTC — the
+    Black Friday 2020 re-release window (FW_Aaron Nov 18, 2020
+    announcement). So the bath bar shipped with the Nov 2020 Revisited
+    return, not the Nov 2019 launch (no 2019 capture; the Hand & Body
+    line itself launched May 2020).
+  - Status by Jan 28, 2021: InStock per JSON-LD (page tokens include both
+    "Add to Cart" and template "Sold Out"/"Unavailable" strings — cite
+    the JSON-LD availability, not the button tokens).
+- Dataset: sahenders' 6 rows (Jan 10-15, 2022) are old-stock use ~14 months
+  after the Nov 2020 release — consistent, not a second launch.
+- Negative checks: no Dickens hand-body handle in the live maker store
+  (bn snapshot, 86 products) or Naked Armor (bn, 1,302 products; NA
+  carries only the Revisited soap + splash, both sold out); no second
+  dataset author; web search "Dickens Revisited" bath bar = no second
+  attestation (B&B + djudge + NA hand-body pages only).
+
+CATALOG: no Dickens Revisited bath-bar entry exists (verified entries exist
+for the soap and the aftershave only). Validators: create
+soap/barrister-and-mann-dickens-revisited-hand-body-soap (soap category,
+following the WSP castile hand-body precedent
+soap/wet-shaving-products-unscented-castile-hand-body-soap-bar) on this
+maker-listing evidence + the 6 sahenders rows. The 6 rows currently sit in
+the aftershave field under the "Warm Shower/..." routine prefix — they are
+bath-bar use, not aftershave use; do not fold into the splash entry.
+NOTE: the whole B&M Hand & Body line (Bay Rum, Seville, Lavender, Spice,
+Waves, Cheshire, Lavanille, LGC, Fougère Gothique, Mûir(e) Wood, Cologne
+Russe, Full Measure of Man) has NO catalog entries yet — line-wide gap,
+validators' call whether to harvest it as a set.
+
+NEW LEAD (c4-narrow-210): the early Hand & Body line was TALLOW 5.25 oz
+$5.99 (Dickens bar, Nov 2020) but the current line is VEGAN 4.75 oz $11
+(NA copy + maker listings created 2020-05-25 onward). When did the line
+switch formula/size/price — were the May 2020 listings reformulated in
+place, or replaced? Routes: Wayback captures of hand-body-soap-bay-rum /
+-seville 2020-2022; NA listing created_at dates.
+
+CORRECTION ADDENDUM — 2026-11-18 ~14:20 CST (research, not a learner run)
+---------------------------------------------------------------------------
+The CATALOG paragraph above is WRONG and is superseded. Do NOT create
+soap/barrister-and-mann-dickens-revisited-hand-body-soap, and do NOT
+harvest the B&M Hand & Body line as catalog entries.
+
+Standing rule, established twice before this run:
+- (c4-narrow-6), 2026-11-10: "catalog rule: bath soap is NOT a shaving
+  entry" (knowledge/lineages.md, backlog.md, memory/2026-11-10.md).
+- (c4-narrow-81), 2026-11-12: "Hand & Body Soap: no entry owed (no
+  catalog category, zero dataset rows — corrects the 17:06 'entries owed
+  where missing' phrasing)" (memory/2026-11-12.md).
+- knowledge/product_aliases.md: "never fold a bath-soap string into a
+  verified shaving-soap entry, and never create a soap-format entry from
+  a Hand & Body listing."
+
+The WSP castile entry cited above as precedent
+(soap/wet-shaving-products-unscented-castile-hand-body-soap-bar, verified)
+is a pre-rule bulk-harvest promotion (2026-10-21), not a validated
+precedent — it predates the Nov 10 rule and does not override it.
+
+What stands from this run: the bar is a real maker product (Nov 2020
+Black Friday return, tallow 5.25 oz, $5.99, Wayback 2021-01-28); the 6
+sahenders rows are bath-bar use, never fold into the splash entry.
+What is withdrawn: the entry-owed instruction and the line-wide harvest
+call. Open follow-up (not decided here): whether the legacy WSP castile
+entry should be reviewed/demoted for consistency with the rule.

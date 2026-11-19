@@ -5,7 +5,7 @@ queue, candidate aliases, and the brand registry. The JSON files
 (catalog_merged/ shards, validation_queue.json, candidate_aliases.json,
 brands.json) are read-only EXPORTS regenerated from the DB by
 export_json(); never edit them directly. The merged catalog is sharded
-one file per category (catalog_merged/<category>.json, 7 files) so each
+one file per category (catalog_merged/<category>.json, 8 files) so each
 stays under GitHub's API size limits and diffs stay per-category;
 load_merged()/save_merged_shards() are the shard-aware accessors.
 
@@ -313,7 +313,7 @@ def _atomic_write_json(path, obj):
 # ---------------------------------------------------------------- merged catalog shards
 
 MERGED_CATEGORIES = ('aftershave', 'blade', 'brush', 'fragrance',
-                     'knot', 'razor', 'soap')
+                     'handle', 'knot', 'razor', 'soap')
 MERGED_SHARD_DIRNAME = 'catalog_merged'
 
 
@@ -326,9 +326,9 @@ def _write_merged_shards(meta, entries, out_dir=HERE):
     <out_dir>/catalog_merged/<category>.json. Each shard keeps the same
     doc shape as the old single file (per-file metadata restored
     verbatim, entry_count refreshed per shard, entries = that category's
-    entries, indent=1). All 7 shards are always written, even empty ones,
+    entries, indent=1). All 8 shards are always written, even empty ones,
     so the layout is stable. Raises on an entry whose category is not
-    one of the 7 — never silently drop an entry."""
+    one of the 8 — never silently drop an entry."""
     shard_dir = merged_shard_dir(out_dir)
     os.makedirs(shard_dir, exist_ok=True)
     by_cat = {c: [] for c in MERGED_CATEGORIES}

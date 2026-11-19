@@ -1,0 +1,90 @@
+# (c4-narrow-210) B&M Hand & Body formula/size/price transition — evidence note
+Learner run 2026-11-18 ~15:06–16:00 CST. Lead as framed 13:06: early line tallow
+5.25 oz $5.99 (Nov 2020, Dickens bar) vs "current vegan 4.75 oz $11" — when did
+the line switch, reformulation in place or replacement?
+
+## Verdict: THREE staggered in-place changes, 2021–2024, per scent — no replacements
+
+All on the SAME Shopify listings (same product ids, created 2020-05-25 / 2020-07-15);
+bodies edited in place. Wayback `id_` replays read; formula judged by exact INCI
+string counts ("Tallow (Beef)" / "Goat Milk Powder" / "Coconut Milk", each echoed
+7x across JSON-LD + body + meta — a 0/7 flip is a real change, not rendering noise).
+
+### Launch (established)
+- Line launched 2020-05-25: Seville (id 4579766632501), Bay Rum (4579767779381),
+  Barrister's Reserve Lavender (4579770695733). Cologne Russe added 2020-07-15
+  (id 4626282348597). All TALLOW 5.25 oz $5.99 at launch — Seville 2020-09-25,
+  Cologne Russe 2020-08-10, Bay Rum 2021-09-21 captures all tallow/$5.99/5.25 oz.
+  Dickens Revisited bar (Nov 2020, tallow $5.99 5.25 oz) was the line's formula
+  then, NOT a one-off batch.
+
+### Change 1 — tallow -> vegetable (+ goat milk powder), staggered per scent
+- Seville: (2021-06-16, 2021-11-28] — tallow 2021-06-16; vegetable+goat 2021-11-28
+- Lavender: (2021-11-28, 2022-05-25] — tallow 2021-11-28; vegetable+goat 2022-05-25
+- Bay Rum: (2022-07-02, 2023-04-02] — tallow 2022-07-02; vegetable+goat 2023-04-02
+- Cologne Russe: (2022-07-02, 2023-09-21] — tallow 2022-07-02; vegetable+goat 2023-09-21
+- Corroboration: a customer review on the live Lavender page says "Quite a bit more
+  hydrating than their previous tallow bar soap formulation" — the community noticed.
+- Vegetable INCI (2021–2024 era): "Responsibly-Sourced Palm Oil, Aqua, Coconut Oil,
+  Olive Oil Pomace, Sodium Hydroxide*, Avocado Oil, Glycerin, Castor Oil, Cupuaçu
+  Butter, Sodium Lactate, Fragrance (Unless Unscented), Saccharide Isomerate,
+  Goat Milk Powder" — NOT vegan (goat milk present).
+
+### Change 2 — size 5.25 -> 4.75 oz, staggered
+- Bay Rum: (2023-04-02, 2023-09-21] — 5.25 oz 2023-04-02; 4.75 oz 2023-09-21 ($5.99 still)
+- Seville: (2023-06-06, 2023-12-01] — 5.25 oz 2023-06-06; 4.75 oz 2023-12-01 ($9.99 by then)
+- Cologne Russe: NEVER in body text — live body (2026-11-18) still says "Net Wt. 5.25 oz"
+  while price is $9.99. Fossil copy or genuine size — UNRESOLVED, see (c4-narrow-211).
+
+### Change 3 — price $5.99 -> $9.99, staggered
+- Seville: (2023-06-06, 2023-12-01]
+- Bay Rum: (2023-09-21, 2024-04-19]
+- Cologne Russe: (2023-09-21, 2024-05-26] (Sep 2023 capture was $4.49, a sale price)
+- Size and price did NOT move together for Bay Rum (4.75 oz at $5.99 in Sep 2023).
+
+### Change 4 — goat milk powder -> coconut milk (formula becomes actually vegan)
+- Seville: (2024-05-26, 2024-11-03] — goat 2024-05-26; coconut 2024-11-03
+- Current live INCI (all four "The Soap"-block listings): "...Saccharide Isomerate,
+  Coconut Milk" — no animal-derived ingredient visible.
+- Other scents' brackets open (2024-05-26, 2026-11-18]; live bodies already coconut.
+
+## CORRECTIONS to the lead's framing [catalog]
+1. "$11" is the NAKED ARMOR price, not the maker's. Maker store: $9.99 (13 listings,
+   bo snapshot 2026-11-18; Aleppo $10.99). NA carries SEPARATE "(Vegan)" listings at
+   $11.00 (11 listings: Lavender + Bay Rum created 2024-11-03; Seville + Spice +
+   Lavanille 2024-12-15; Fougère Gothique 2025-08-24; LGC + Cologne Russe + Waves
+   2026-02-17/18; Cheshire + Mûir(e) Wood 2026-09-29) — NA created new listings for
+   the coconut-milk era rather than retitling; the maker kept the same handles.
+   Never cite "$11" as the maker price.
+2. "Vegan" applies ONLY from the coconut-milk switch (late 2024). The 2021–2024
+   vegetable formula contained Goat Milk Powder — calling it vegan is wrong.
+3. STALE-COPY TRAP: the maker's live "The Soap" block still says "goat milk powder"
+   in the prose while its own INCI lists Coconut Milk. The INCI governs; never cite
+   the copy's "goat milk powder" for current bars.
+4. The transition has NO single date — four changes, each staggered per scent over
+   ~3 years. Any Hand & Body catalog entry needs era handling: tallow-era bars
+   (2020–2021/23, per scent) vs vegetable+goat (2021/23–2024) vs coconut-milk vegan
+   (late 2024+) are different formulas on the same listing.
+
+## Dataset footprint (census 2026-11-18, 241,408 rows)
+- B&M hand-body soap-field rows: exactly 1 (Violanza, 2026; no scent keyword match).
+- Notes-field "hand and body" + Barrister rows: 0. The bars essentially never appear
+  in SOTD posts (shower soap, not shave soap) — the Dickens 6 rows (aftershave field,
+  sahenders Jan 2022) remain the only multi-row attestation. No dataset adoption
+  timeline is available; Wayback is the record.
+
+## Captures read (saved goal hidden_files/cdx/hb210_*.html)
+- Seville: 20200925, 20201201, 20210616, 20211128, 20220702, 20230205, 20230606,
+  20231201, 20240526, 20241103
+- Bay Rum: 20210921, 20220128 ($3.99 sale), 20220702, 20230402, 20230921, 20240419
+- Cologne Russe: 20200810, 20220702, 20230402, 20230921 ($4.49 sale), 20240526
+- Lavender: 20211128, 20220525, 20220927, 20230205, 20230402
+- CDX (collapse=digest) for all four slugs: 17–18 200-captures each, 2020–2025.
+
+## Method note
+- A bare plain-text "tallow" hit on a product page is NOT formula evidence: the
+  Lavender 2022 captures contain "tallow" only inside a customer review ("previous
+  tallow bar soap formulation"). Judge formula by the exact INCI strings and their
+  counts, never by substring search.
+- Sale prices ($3.99 Bay Rum Jan 2022, $4.49 Cologne Russe Sep 2023) both fall in the
+  pre-switch window for their scent — possible tallow-stock clearance; lead only.

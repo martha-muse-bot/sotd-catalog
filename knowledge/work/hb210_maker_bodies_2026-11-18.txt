@@ -1,0 +1,64 @@
+### hand-body-soap-seville | id 4579766632501 | created 2020-05-25 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-bay-rum | id 4579767779381 | created 2020-05-25 | $9.99
+SIZE lines: []
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-barristers-reserve-lavender | id 4579770695733 | created 2020-05-25 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-cologne-russe | id 4626282348597 | created 2020-07-15 | $9.99
+SIZE lines: ['5.25']
+TALLOW in body: False | GOAT MILK in body: True | VEGETABLE: True | VEGAN: False
+INGREDIENTS: Ingredients Responsibly-Sourced Palm Oil, Aqua, Coconut Oil, Olive Oil Pomace, Sodium Hydroxide*, Avocado Oil, Glycerin, Castor Oil, Cupuaçu Butter, Sodium Lactate, Fragrance, Saccharide Isomerate, Coconut Milk *None remains in final product
+
+### hand-body-soap-the-full-measure-of-man | id 5029926436917 | created 2021-02-12 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-barristers-reserve-waves | id 5029929058357 | created 2021-02-12 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-barristers-reserve-spice | id 6780153495605 | created 2022-01-28 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-lavanille | id 6858215489589 | created 2022-04-12 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: True | VEGETABLE: True | VEGAN: False
+INGREDIENTS: Ingredients Responsibly-Sourced Palm Oil, Aqua, Coconut Oil, Olive Oil Pomace, Sodium Hydroxide*, Avocado Oil, Glycerin, Castor Oil, Cupuaçu Butter, Sodium Lactate, Fragrance, Saccharide Isomerate, Coconut Milk *None remains in final product
+
+### hand-body-soap-cheshire | id 6858217717813 | created 2022-04-12 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-le-grand-chypre | id 6905576751157 | created 2022-05-24 | $9.99
+SIZE lines: []
+TALLOW in body: False | GOAT MILK in body: True | VEGETABLE: True | VEGAN: False
+INGREDIENTS: Ingredients Responsibly-Sourced Palm Oil, Aqua, Coconut Oil, Olive Oil Pomace, Sodium Hydroxide*, Avocado Oil, Glycerin, Castor Oil, Cupuaçu Butter, Sodium Lactate, Fragrance, Saccharide Isomerate, Coconut Milk *None remains in final product
+
+### hand-body-soap-muire-wood | id 7048163721269 | created 2022-09-19 | $9.99
+SIZE lines: ['4.75']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 
+
+### hand-body-soap-fougere-gothique | id 7925088518197 | created 2025-06-28 | $9.99
+SIZE lines: ['4.75', '4.75']
+TALLOW in body: False | GOAT MILK in body: True | VEGETABLE: True | VEGAN: False
+INGREDIENTS: Ingredients Responsibly-Sourced Palm Oil, Aqua, Coconut Oil, Olive Oil Pomace, Sodium Hydroxide*, Avocado Oil, Glycerin, Castor Oil, Cupuaçu Butter, Sodium Lactate, Fragrance, Saccharide Isomerate, Coconut Milk *None remains in final product
+
+### hand-body-soap-aleppo-soap | id 8187280982069 | created 2026-07-14 | $10.99
+SIZE lines: ['5.3']
+TALLOW in body: False | GOAT MILK in body: False | VEGETABLE: False | VEGAN: False
+INGREDIENTS: 

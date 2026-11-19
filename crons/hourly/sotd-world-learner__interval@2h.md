@@ -14,7 +14,7 @@ delivery:
   - chat_id: cb2a7a82-5389-428b-9380-dcb02ff5eb26
 metadata:
   tags: [cron:automatic-interval-anchor]
-  originating_chat_context_json: '{"chat_id":"8dde535f-cbc0-4a9d-96f8-c6d9e018f54f","origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false,"device_id":"5ac1ab52-3f96-4dd6-afc1-3407e0e9949e"}'
+  originating_chat_context_json: '{"chat_id":"cb2a7a82-5389-428b-9380-dcb02ff5eb26","origin_provider":"main","chat_kind":"direct","event_kind":"message","require_mention":false,"device_id":"5ac1ab52-3f96-4dd6-afc1-3407e0e9949e"}'
   presentation_locale: en-US
 ---
 Standing task: you are the wetshaving-world LEARNER for the SOTD catalog project. Your job is curiosity with discipline — continuously learn how this world fits together and record it so the catalog validators and Martha stop re-deriving it. Work in ~/workspace/sotd/knowledge/.
@@ -43,7 +43,7 @@ EACH RUN:
    - Misspellings: pair unmatched dataset strings against near-miss verified products to harvest typed→meant pairs.
    - Dataset mining: grep the SOTD datasets' notes fields for the community narrating history — "formerly", "used to be", "rebrand", "now called", "aka", "same as", "bought out", "closed" — each hit is a LEAD: verify it against an external source before recording it as established.
    - Open identity mysteries from catalog/discuss_consolidated.md and the validation queue's stuck items (e.g. Parker "AeroShave", Personna "New Angle 70").
-   - Catalog attributions (user ruling 2026-11-07): before re-deriving an attribution the catalog already settled, check catalog.db / catalog_merged.json. A verified entry's evidence counts as a source — cite the entry id + its evidence (type and URL); corroborated/attested/unverified entries are leads only. Never cite a catalog entry's existence alone as proof.
+   - Catalog attributions (user ruling 2026-11-07): before re-deriving an attribution the catalog already settled, check catalog.db / catalog/catalog_merged/<category>.json (per-category shards). A verified entry's evidence counts as a source — cite the entry id + its evidence (type and URL); corroborated/attested/unverified entries are leads only. Never cite a catalog entry's existence alone as proof.
 3. Research with web search + page fetches (maker about/history pages, Sharpologist, Badger & Blade / DFS forums, the r/Wetshaving wiki, retailer brand pages, archived stores via Wayback). You cannot use the live browser; if a thread needs it, log the lead and move on.
 4. Record findings in the right knowledge file(s) in the established format, add new questions you stumbled on to backlog.md (curiosity compounds — always leave the backlog longer than you found it when you can), and check off / annotate backlog items you resolved.
 5. Append a run entry to learning_log.md: date, thread pulled, sources used, facts added (with confidence), backlog changes.

@@ -2,13 +2,13 @@
  "counts": {
   "by_status": {
    "anecdotal": 49,
-   "attested": 901,
-   "corroborated": 4345,
+   "attested": 896,
+   "corroborated": 4339,
    "needs-review": 16,
-   "verified": 6670
+   "verified": 6692
   },
-  "entries": 11981,
-  "excluded_unverified": 36380
+  "entries": 11992,
+  "excluded_unverified": 36359
  },
  "entries": [
   {
@@ -9500,6 +9500,36 @@
     "unverified/soap/australian-private-reserve-lavioletta",
     "unverified/soap/australian-private-reserve-lavioletta-shaving-soap",
     "unverified/soap/australian-private-reserve-lavioletta-soap"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 2,
+    "uses": 3,
+    "years": [
+     2019,
+     2020,
+     2023
+    ]
+   },
+   "brand": "Australian Private Reserve",
+   "brand_group": "australian-private-reserve",
+   "brand_status": "validated",
+   "category": "aftershave",
+   "evidence": [
+    {
+     "shows": "Validated sibling soap's evidence (YouTube thumbnail, tub lid 'LES SANTALS / SHAVING SOAP / 125 GRAMS'); the same video's description lists 'Post - Australian Private Reserve Les Santals', confirming the aftershave exists.",
+     "sibling": "soap/australian-private-reserve-les-santals",
+     "type": "set-cross-validation",
+     "url": "https://www.youtube.com/watch?v=A7Rjjo1Hess"
+    }
+   ],
+   "id": "aftershave/australian-private-reserve-les-santals",
+   "product": null,
+   "set_key": "australian private reserve/les santals",
+   "set_siblings": [
+    "unverified/soap/australian-private-reserve-les-santals-soap"
    ],
    "status": "verified"
   },
@@ -42002,6 +42032,32 @@
   {
    "attestation": {
     "distinct_authors": 1,
+    "uses": 22,
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "brand": "Nivea Men",
+   "brand_group": "nivea",
+   "brand_status": "validated",
+   "category": "aftershave",
+   "evidence": [
+    {
+     "shows": "NIVEA Men Fresh Kick After Shave Lotion 100 ml, InStock 3112 HUF; mint extract + cactus water, 24h hydration; live fetch 2026-11-18",
+     "type": "store",
+     "url": "https://m.alza.hu/EN/maxi/nivea-men-fresh-kick-after-shave-lotion-100-ml-d6419493.htm"
+    }
+   ],
+   "id": "aftershave/nivea-men-fresh-kick",
+   "product": "Fresh Kick",
+   "set_key": "nivea/fresh kick",
+   "set_siblings": [],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
     "uses": 32,
     "years": [
      2024,
@@ -42035,9 +42091,11 @@
   {
    "attestation": {
     "distinct_authors": 1,
-    "uses": 2,
+    "uses": 27,
     "years": [
-     2024
+     2022,
+     2024,
+     2026
     ]
    },
    "brand": "Nivea Men",
@@ -57278,6 +57336,60 @@
    "set_key": "/subtle art co witchcraft",
    "set_siblings": [
     "unverified/soap/subtle-art-soap-co-witchcraft"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 0,
+    "uses": 0,
+    "years": []
+   },
+   "brand": "The Sudsy Soapery",
+   "brand_group": "sudsy-soapery",
+   "brand_status": "validated",
+   "category": "aftershave",
+   "evidence": [
+    {
+     "shows": "Aftershave Splash, Rose and Black Pepper, $18.69, out of stock; blend of Rose and Black Pepper with menthol, Organic Witch Hazel, Chamomile and Calendula (live page re-confirmed 2026-11-18)",
+     "type": "maker",
+     "url": "https://sudsysoapery.com/products/aftershave-splash-rose-and-black-pepper"
+    }
+   ],
+   "id": "aftershave/sudsy-soapery-rose-and-black-pepper",
+   "product": "Rose and Black Pepper",
+   "set_key": "/sudsy soapery rose and black pepper",
+   "set_siblings": [
+    "unverified/soap/sudsy-soapery-rose-and-black-pepper",
+    "unverified/aftershave/sudsy-soapery-rose-and-black-pepper-balm"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
+    "uses": 1,
+    "years": [
+     2018
+    ]
+   },
+   "brand": null,
+   "brand_group": "sudsy-soapery",
+   "brand_status": "unverified",
+   "category": "aftershave",
+   "evidence": [
+    {
+     "shows": "Validated sibling aftershave splash on the live maker page (same set_key)",
+     "sibling": "aftershave/sudsy-soapery-rose-and-black-pepper",
+     "type": "set-cross-validation",
+     "url": "https://sudsysoapery.com/products/aftershave-splash-rose-and-black-pepper"
+    }
+   ],
+   "id": "aftershave/sudsy-soapery-rose-and-black-pepper-balm",
+   "product": null,
+   "set_key": "/sudsy soapery rose and black pepper",
+   "set_siblings": [
+    "unverified/soap/sudsy-soapery-rose-and-black-pepper"
    ],
    "status": "verified"
   },
@@ -86898,6 +87010,42 @@
   },
   {
    "attestation": {
+    "distinct_authors": 6,
+    "uses": 42,
+    "years": [
+     2017,
+     2018,
+     2019,
+     2022,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "brand": "Imaginary Authors",
+   "brand_group": "imaginary-authors",
+   "brand_status": "validated",
+   "category": "fragrance",
+   "evidence": [
+    {
+     "shows": "Falling Into the Sea by Imaginary Authors, 50ml Eau de Parfum InStock $115 (14ml travel spray $46, 2ml sample $7 also listed); live fetch 2026-11-18",
+     "type": "store",
+     "url": "https://ministryofscent.com/collections/all-perfumes-colognes/products/falling-into-the-sea"
+    },
+    {
+     "shows": "Falling Into The Sea by Imaginary Authors, eau de parfum $168; notes lemon, bergamot, grapefruit, lychee, tropical flowers, warm sand",
+     "type": "store",
+     "url": "https://www.lajeteeperfumery.com/en-ca/products/falling-into-the-sea"
+    }
+   ],
+   "id": "fragrance/imaginary-authors-falling-into-the-sea",
+   "product": "Falling Into the Sea",
+   "set_key": "/imaginary authors falling into the sea",
+   "set_siblings": [],
+   "status": "verified"
+  },
+  {
+   "attestation": {
     "distinct_authors": 8,
     "uses": 69,
     "years": [
@@ -98447,6 +98595,34 @@
    "status": "verified"
   },
   {
+   "attestation": {
+    "distinct_authors": 2,
+    "uses": 22,
+    "years": [
+     2022,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "brand": "Versace",
+   "brand_group": "versace",
+   "brand_status": "validated",
+   "category": "fragrance",
+   "evidence": [
+    {
+     "shows": "Maker's Eros collection page lists Eros EDT 50/100/200 ml ($105/$129/$169) and Eros EDP 50/100/200 ml; live fetch 2026-11-18",
+     "type": "maker",
+     "url": "https://www.versace.com/pr/en/men/accessories/fragrances-body-care/eros-collection/"
+    }
+   ],
+   "id": "fragrance/versace-eros",
+   "product": "Eros",
+   "set_key": "versace/eros de",
+   "set_siblings": [],
+   "status": "verified"
+  },
+  {
    "brand": "Versace",
    "brand_group": "versace",
    "brand_status": "validated",
@@ -101042,6 +101218,114 @@
    "product": "Squid",
    "set_key": "/zoologist perfumes squid de",
    "set_siblings": [],
+   "status": "verified"
+  },
+  {
+   "brand": "Dogwood Handcrafts",
+   "brand_group": "dogwood-handcrafts",
+   "brand_status": "validated",
+   "category": "handle",
+   "evidence": [
+    {
+     "shows": "Maker Brushes page: Acrylic handles are cast acrylic, polished or matte, base $75; handles sold standalone via the waitlist order form.",
+     "type": "maker",
+     "url": "https://dogwoodhandcrafts.com/brushes/"
+    }
+   ],
+   "id": "handle/dogwood-handcrafts-acrylic",
+   "product": "Acrylic Handle",
+   "set_key": null,
+   "set_siblings": null,
+   "status": "verified"
+  },
+  {
+   "brand": "Dogwood Handcrafts",
+   "brand_group": "dogwood-handcrafts",
+   "brand_status": "validated",
+   "category": "handle",
+   "evidence": [
+    {
+     "shows": "Maker Brushes page: Cast Object handles have a small object embedded in the base, wood or acrylic knot cup, $150; handles sold standalone via the waitlist order form.",
+     "type": "maker",
+     "url": "https://dogwoodhandcrafts.com/brushes/"
+    }
+   ],
+   "id": "handle/dogwood-handcrafts-cast-object",
+   "product": "Cast Object Handle",
+   "set_key": null,
+   "set_siblings": null,
+   "status": "verified"
+  },
+  {
+   "brand": "Dogwood Handcrafts",
+   "brand_group": "dogwood-handcrafts",
+   "brand_status": "validated",
+   "category": "handle",
+   "evidence": [
+    {
+     "shows": "Maker Brushes page: Hybrid handles are natural-edge maple-burl wood + acrylic 'landscape', base $150, knots 22-30mm offered as an option; handles sold standalone via the waitlist order form.",
+     "type": "maker",
+     "url": "https://dogwoodhandcrafts.com/brushes/"
+    }
+   ],
+   "id": "handle/dogwood-handcrafts-hybrid",
+   "product": "Hybrid Handle",
+   "set_key": null,
+   "set_siblings": null,
+   "status": "verified"
+  },
+  {
+   "brand": "Maggard Razors",
+   "brand_group": "maggard-razors",
+   "brand_status": "validated",
+   "category": "handle",
+   "evidence": [
+    {
+     "shows": "Maggard 'BUNDLE Brush Handle Options' collection: [redacted], $22.95, hand-made resin handles with a Sandy Pearl color theme, sold without a knot (handle only).",
+     "type": "store",
+     "url": "https://maggardrazors.com/collections/bundle-brush-handle-options"
+    }
+   ],
+   "id": "handle/maggard-razors-sandy-pearl-base",
+   "product": "Sandy Pearl Base Handle",
+   "set_key": null,
+   "set_siblings": null,
+   "status": "verified"
+  },
+  {
+   "brand": "Maggard Razors",
+   "brand_group": "maggard-razors",
+   "brand_status": "validated",
+   "category": "handle",
+   "evidence": [
+    {
+     "shows": "Maggard 'BUNDLE Brush Handle Options' collection: [redacted], $15.95, solid multi-color resin handles with a Sky Blue base, sizes 25/27/29mm, sold without a knot (handle only).",
+     "type": "store",
+     "url": "https://maggardrazors.com/collections/bundle-brush-handle-options"
+    }
+   ],
+   "id": "handle/maggard-razors-sky-blue-base",
+   "product": "Sky Blue Base Handle",
+   "set_key": null,
+   "set_siblings": null,
+   "status": "verified"
+  },
+  {
+   "brand": "Timeless",
+   "brand_group": "timeless",
+   "brand_status": "validated",
+   "category": "handle",
+   "evidence": [
+    {
+     "shows": "Maggard listing: Timeless Razor TRBR Adjustable Aluminum Shaving Brush Handle, holds 9 different knots (20-28mm) via 9 elastomer collets, $69, knots sold separately; made in USA by Timeless Razor.",
+     "type": "store",
+     "url": "https://maggardrazors.com/products/timeless-razor-trbr-adjustable-aluminum-shaving-brush-handle-holds-9-different-knots-black-handle"
+    }
+   ],
+   "id": "handle/timeless-trbr-adjustable-aluminum-shaving-brush-handle",
+   "product": "TRBR Adjustable Aluminum Shaving Brush Handle",
+   "set_key": null,
+   "set_siblings": null,
    "status": "verified"
   },
   {
@@ -113949,6 +114233,35 @@
     "unverified/aftershave/australian-private-reserve-lavioletta-aftershave",
     "unverified/soap/australian-private-reserve-lavioletta-shaving-soap",
     "unverified/soap/australian-private-reserve-lavioletta-soap"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 2,
+    "uses": 3,
+    "years": [
+     2019,
+     2020,
+     2023
+    ]
+   },
+   "brand": "Australian Private Reserve",
+   "brand_group": "australian-private-reserve",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "shows": "Review video 'Australian Private Reserve Les Santals' (Ruds); thumbnail photo of the physical tub lid reads 'LES SANTALS / SHAVING SOAP / 125 GRAMS' with APR 'A' logo; description lists 'Soap - Australian Private Reserve Les Santals'",
+     "type": "youtube",
+     "url": "https://www.youtube.com/watch?v=A7Rjjo1Hess"
+    }
+   ],
+   "id": "soap/australian-private-reserve-les-santals",
+   "product": null,
+   "set_key": "australian private reserve/les santals",
+   "set_siblings": [
+    "unverified/aftershave/australian-private-reserve-les-santals-aftershave"
    ],
    "status": "verified"
   },
@@ -142724,6 +143037,40 @@
     "years": [
      2022,
      2024,
+     2025
+    ]
+   },
+   "brand": "Dr. Jon's",
+   "brand_group": "dr-jons",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
+     "matched_string": "dr jon s onward to victory",
+     "source": "nmrs/sotd-pipeline",
+     "target": "Dr. Jon's \u2014 Onward to Victory",
+     "type": "external-catalog"
+    },
+    {
+     "shows": "Tub lid reads 'ONWARD TO VICTORY / SHAVING SOAP / 4 OZ' with mummy graphic; poster caption: Dr. Jon's, released Halloween 2020, scent notes jasmin/myrrh/cinnamon/ozonic",
+     "type": "sotd-photo",
+     "url": "https://imgur.com/b2JtAII"
+    }
+   ],
+   "id": "soap/dr-jon-s-onward-to-victory",
+   "product": "Onward to Victory",
+   "set_key": "/dr jon s onward to victory",
+   "set_siblings": [],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
+    "uses": 5,
+    "years": [
+     2022,
+     2024,
      2025,
      2026
     ]
@@ -161763,6 +162110,52 @@
   {
    "attestation": {
     "distinct_authors": 1,
+    "uses": 13,
+    "years": [
+     2022,
+     2024,
+     2025
+    ]
+   },
+   "brand": "Mama Bear's Soaps",
+   "brand_group": "mama-bears-soaps",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
+     "matched_string": "mama bear s soap aged spice",
+     "source": "nmrs/sotd-pipeline",
+     "target": "Mama Bear's Soaps \u2014 Aged Spice",
+     "type": "external-catalog"
+    },
+    {
+     "shows": "maker homepage live 2026-11-03: Handmade Soaps from the Upper Peninsula of Michigan Northwoods, hand crafted since 2008 in Felch MI, one-person business (Jennifer-Mama Bear)",
+     "type": "brand-validation",
+     "url": "http://mamabearssoaps.com/"
+    },
+    {
+     "shows": "owner interview: Jen Slagle apprenticed under founder Sue Clark, took over Mama Bear Soaps 2019; names \"Aged Spice Shave Soap\" her top seller",
+     "type": "brand-validation",
+     "url": "https://www.shavesplash.com/post/mama-s-love-never-dies-an-interview-with-jen-slagle-of-mama-bear-soaps"
+    },
+    {
+     "shows": "Aged Spice Glycerin Shave Soap (Model shvso38), from $5.99, 97 units in stock, Old Spice-inspired warm and spicy",
+     "type": "maker",
+     "url": "https://mamabearssoaps.com/index.php?main_page=product_info&cPath=1_11&products_id=82"
+    }
+   ],
+   "id": "soap/mama-bear-s-aged-spice",
+   "product": "Aged Spice",
+   "set_key": "/mama bear s aged spice",
+   "set_siblings": [
+    "unverified/soap/mama-bear-s-aged-spice"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
     "uses": 7,
     "years": [
      2024,
@@ -161794,6 +162187,32 @@
    "id": "soap/mama-bear-s-haitian-vetiver",
    "product": "Haitian Vetiver",
    "set_key": "/mama bear s haitian vetiver",
+   "set_siblings": [],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
+    "uses": 7,
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "brand": "Mama Bear's Soaps",
+   "brand_group": "mama-bears-soaps",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "shows": "Nag Champa Shaving Soap (Model shso188), from $5.99, 97 units in stock",
+     "type": "maker",
+     "url": "https://mamabearssoaps.com/index.php?main_page=product_info&cPath=1_12&products_id=856"
+    }
+   ],
+   "id": "soap/mama-bear-s-nag-champa",
+   "product": null,
+   "set_key": "/mama bear s nag champa puck",
    "set_siblings": [],
    "status": "verified"
   },
@@ -188827,6 +189246,54 @@
   {
    "attestation": {
     "distinct_authors": 3,
+    "uses": 8,
+    "years": [
+     2018,
+     2020,
+     2021
+    ]
+   },
+   "brand": "The Sudsy Soapery",
+   "brand_group": "sudsy-soapery",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "date": "2018-06-04",
+     "shows": "Sudsy Soapery Rose and Black Pepper",
+     "type": "sotd-post",
+     "url": "https://www.reddit.com/r/wetshaving/comments/8ofnby/x/e034fru/"
+    },
+    {
+     "date": "2018-06-21",
+     "shows": "Sudsy Soapery Rose and Black Pepper",
+     "type": "sotd-post",
+     "url": "https://www.reddit.com/r/wetshaving/comments/8sq4jc/x/e12n2bg/"
+    },
+    {
+     "date": "2021-09-02",
+     "shows": "Sudsy Soapery Rose and Black Pepper",
+     "type": "sotd-post",
+     "url": "https://www.reddit.com/r/wetshaving/comments/pgbx73/x/hbb5coo/"
+    },
+    {
+     "shows": "Validated sibling aftershave splash on the live maker page (Aftershave Splash, Rose and Black Pepper, $18.69, out of stock)",
+     "sibling": "aftershave/sudsy-soapery-rose-and-black-pepper",
+     "type": "set-cross-validation",
+     "url": "https://sudsysoapery.com/products/aftershave-splash-rose-and-black-pepper"
+    }
+   ],
+   "id": "soap/sudsy-soapery-rose-and-black-pepper",
+   "product": null,
+   "set_key": "/sudsy soapery rose and black pepper",
+   "set_siblings": [
+    "unverified/aftershave/sudsy-soapery-rose-and-black-pepper-balm"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 3,
     "uses": 9,
     "years": [
      2019,
@@ -191996,6 +192463,43 @@
   {
    "attestation": {
     "distinct_authors": 2,
+    "uses": 29,
+    "years": [
+     2022,
+     2024,
+     2025,
+     2026
+    ]
+   },
+   "brand": "Talent Soap Factory",
+   "brand_group": "talent-soap-factory",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
+     "matched_string": "talent soap factory lionheart",
+     "source": "nmrs/sotd-pipeline",
+     "target": "Talent Soap Factory \u2014 Lionheart",
+     "type": "external-catalog"
+    },
+    {
+     "shows": "Maker Etsy sold listing 'Talent Soap Factory Lionhart Shave Soap 4oz' (19 sales, sold-history pages 148-188); product labels read 'LIONHART' (observed in the shop sold-history grid). No listing spelled 'Lionheart' appeared anywhere in the sweep. Direct listing URL now renders Etsy's unavailable page with no photos - label read rests on the sold-grid observation, recorded here.",
+     "type": "marketplace-photo",
+     "url": "https://www.etsy.com/listing/1554458931/talent-soap-factory-lionhart-shave-soap"
+    }
+   ],
+   "id": "soap/talent-soap-factory-lionhart",
+   "product": "Lionhart",
+   "set_key": "/talent factory lionheart",
+   "set_siblings": [
+    "unverified/soap/talent-soap-factory-lionheart-soap"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 2,
     "uses": 10,
     "years": [
      2024,
@@ -192041,6 +192545,39 @@
     "unverified/soap/talent-soap-factory-lonesome-dove",
     "unverified/soap/talent-soap-factory-lonesome-dove-shaving-soap"
    ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
+    "uses": 4,
+    "years": [
+     2025,
+     2026
+    ]
+   },
+   "brand": "Talent Soap Factory",
+   "brand_group": "talent-soap-factory",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
+     "matched_string": "talent soap factory love betty soap",
+     "source": "nmrs/sotd-pipeline",
+     "target": "Talent Soap Factory \u2014 Love, Betty",
+     "type": "external-catalog"
+    },
+    {
+     "shows": "Maker Etsy sold listing 'Love, Betty Shave Soap 4oz' (7 sales, sold-history pages 67-79); tub label shows a pin-up 'Love, Betty' (observed in the shop sold-history grid). Direct listing URL now renders Etsy's unavailable page with no photos - label read rests on the sold-grid observation, recorded here.",
+     "type": "marketplace-photo",
+     "url": "https://www.etsy.com/listing/1747081018/love-betty-shave-soap-4oz"
+    }
+   ],
+   "id": "soap/talent-soap-factory-love-betty",
+   "product": "Love Betty",
+   "set_key": "/talent factory love betty",
+   "set_siblings": [],
    "status": "verified"
   },
   {
@@ -193045,6 +193582,32 @@
     "unverified/soap/talent-soap-factory-wolf-mother",
     "unverified/soap/talent-soap-factory-wolf-mother-soap"
    ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
+    "uses": 9,
+    "years": [
+     2024,
+     2025
+    ]
+   },
+   "brand": "Talent Soap Factory",
+   "brand_group": "talent-soap-factory",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "shows": "Maker Etsy sold listing 'Talent Soap Factory Yarn Shave Soap 4oz' (5 sales, sold-history pages 168-170); tin label shows colorful yarn balls with the word 'yarn' (observed in the shop sold-history grid). Direct listing URL now renders Etsy's unavailable page with no photos - label read rests on the sold-grid observation, recorded here.",
+     "type": "marketplace-photo",
+     "url": "https://www.etsy.com/listing/1440270607/talent-soap-factory-yarn-shave-soap-4oz"
+    }
+   ],
+   "id": "soap/talent-soap-factory-yarn",
+   "product": "Yarn",
+   "set_key": "/talent factory yarn",
+   "set_siblings": [],
    "status": "verified"
   },
   {
@@ -197187,6 +197750,39 @@
   },
   {
    "attestation": {
+    "distinct_authors": 1,
+    "uses": 3,
+    "years": [
+     2024,
+     2026
+    ]
+   },
+   "brand": "The Holy Black",
+   "brand_group": "the-holy-black",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
+     "matched_string": "the holy black sugar cookie soap",
+     "source": "nmrs/sotd-pipeline",
+     "target": "The Holy Black \u2014 Sugar Cookie",
+     "type": "external-catalog"
+    },
+    {
+     "shows": "Secret Stash Shaving Soaps (handmade vegan shaving soap in 8oz tins); Sugar Cookie among the 21 fragrance options, SKU SOAPSUGAR, $26.99, currently unavailable",
+     "type": "maker",
+     "url": "https://theholyblack.com/products/secret-stash-shaving-soaps"
+    }
+   ],
+   "id": "soap/the-holy-black-sugar-cookie",
+   "product": "Sugar Cookie",
+   "set_key": "/the holy black sugar cookie",
+   "set_siblings": [],
+   "status": "verified"
+  },
+  {
+   "attestation": {
     "distinct_authors": 2,
     "uses": 14,
     "years": [
@@ -198046,6 +198642,40 @@
    "set_key": "the sudsy soapery/cola",
    "set_siblings": [
     "aftershave/the-sudsy-soapery-cola"
+   ],
+   "status": "verified"
+  },
+  {
+   "attestation": {
+    "distinct_authors": 1,
+    "uses": 4,
+    "years": [
+     2025
+    ]
+   },
+   "brand": "The Sudsy Soapery",
+   "brand_group": "sudsy-soapery",
+   "brand_status": "validated",
+   "category": "soap",
+   "evidence": [
+    {
+     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
+     "matched_string": "the sudsy soapery fresh",
+     "source": "nmrs/sotd-pipeline",
+     "target": "The Sudsy Soapery \u2014 Fresh",
+     "type": "external-catalog"
+    },
+    {
+     "shows": "Fresh Triple Butter Shaving Soap, with Peppermint and Spearmint, $18.69, in stock; Washington Peppermint / Oregon Spearmint blend",
+     "type": "maker",
+     "url": "https://sudsysoapery.com/products/fresh-triple-butter-shaving-soap-with-peppermint-and-spearmint"
+    }
+   ],
+   "id": "soap/the-sudsy-soapery-fresh",
+   "product": "Fresh",
+   "set_key": "/the sudsy soapery fresh",
+   "set_siblings": [
+    "unverified/soap/the-sudsy-soapery-fresh-soap"
    ],
    "status": "verified"
   },
@@ -215285,44 +215915,6 @@
   },
   {
    "attestation": {
-    "distinct_authors": 3,
-    "uses": 21,
-    "years": [
-     2022
-    ]
-   },
-   "brand": null,
-   "brand_group": "southern-witchcrafts",
-   "brand_status": "validated",
-   "category": "aftershave",
-   "evidence": [
-    {
-     "date": "2022-01-02",
-     "shows": "[Southern Witchcrafts - Necromantic - Aftershave (Alcohol Free)](https://trythatsoap.com/collection/855/?product_type=aftershave_noalc)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/ru34mp/x/hqz4ix4/"
-    },
-    {
-     "date": "2022-01-16",
-     "shows": "[Southern Witchcrafts - Necromantic - Aftershave (Alcohol Free)](https://trythatsoap.com/collection/855/?product_type=aftershave_noalc)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/s55350/x/hsycc7q/"
-    },
-    {
-     "date": "2022-06-12",
-     "shows": "[Southern Witchcrafts - Necromantic - Aftershave (Alcohol Free)](https://trythatsoap.com/collection/855/?product_type=aftershave_noalc)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/vafk8t/x/ic2spks/"
-    }
-   ],
-   "id": "unverified/aftershave/southern-witchcrafts-necromantic-aftershave-alcohol-free",
-   "product": null,
-   "set_key": "/southern witchcrafts necromantic alcohol free",
-   "set_siblings": [],
-   "status": "attested"
-  },
-  {
-   "attestation": {
     "distinct_authors": 4,
     "uses": 11,
     "years": [
@@ -216101,50 +216693,6 @@
    "product": null,
    "set_key": "tallow steel/maya",
    "set_siblings": [],
-   "status": "attested"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 3,
-    "uses": 24,
-    "years": [
-     2018,
-     2019,
-     2020,
-     2021
-    ]
-   },
-   "brand": "Tallow + Steel",
-   "brand_group": "tallow-steel",
-   "brand_status": "validated",
-   "category": "aftershave",
-   "evidence": [
-    {
-     "date": "2018-05-18",
-     "shows": "[Tallow + Steel - West Indies - Aftershave](https://trythatsoap.com/collection/755/?product_type=aftershave)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/8kbkbx/x/dz7rjxi/"
-    },
-    {
-     "date": "2018-07-01",
-     "shows": "[Tallow + Steel - West Indies - Aftershave](https://trythatsoap.com/collection/755/?product_type=aftershave)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/8v8kdn/x/e1m8a1v/"
-    },
-    {
-     "date": "2019-11-13",
-     "shows": "[Tallow + Steel - West Indies - Aftershave](https://trythatsoap.com/collection/755/?product_type=aftershave)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/dvo2o9/x/f7e8qur/"
-    }
-   ],
-   "id": "unverified/aftershave/tallow-steel-west-indies-aftershave",
-   "product": null,
-   "set_key": "tallow steel/west indies",
-   "set_siblings": [
-    "unverified/soap/tallow-steel-west-indies",
-    "unverified/soap/tallow-steel-west-indies-soap"
-   ],
    "status": "attested"
   },
   {
@@ -285766,91 +286314,6 @@
   },
   {
    "attestation": {
-    "distinct_authors": 4,
-    "uses": 24,
-    "years": [
-     2018,
-     2019,
-     2022,
-     2024,
-     2025,
-     2026
-    ]
-   },
-   "brand": null,
-   "brand_group": "imaginary-authors",
-   "brand_status": "unverified",
-   "category": "fragrance",
-   "evidence": [
-    {
-     "date": "2022-11-11",
-     "shows": "Imaginary Authors - Falling Into The Sea",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/ys3oaq/x/ivyn6qn/"
-    },
-    {
-     "date": "2024-03-02",
-     "shows": "Imaginary Authors - Falling Into the Sea",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/1b4i4mo/x/kt3hodm/"
-    },
-    {
-     "date": "2024-06-15",
-     "shows": "Imaginary Authors \u2013 Falling Into The Sea",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/1dgb9nv/x/l8s0puz/"
-    }
-   ],
-   "id": "unverified/fragrance/imaginary-authors-falling-into-the-sea",
-   "product": null,
-   "set_key": "/imaginary authors falling into the sea",
-   "set_siblings": [
-    "unverified/fragrance/imaginary-authors-falling-into-the-sea-edp",
-    "unverified/fragrance/imaginary-authors-falling-into-the-sea-edt"
-   ],
-   "status": "attested"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 6,
-    "uses": 11,
-    "years": [
-     2022,
-     2025
-    ]
-   },
-   "brand": null,
-   "brand_group": "imaginary-authors",
-   "brand_status": "unverified",
-   "category": "fragrance",
-   "evidence": [
-    {
-     "date": "2022-01-28",
-     "shows": "[Imaginary Authors - Falling Into The Sea - Eau de Parfum](https://trythatsoap.com/collection/1673/?product_type=eaudeparfum)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/sekons/x/humf8rl/"
-    },
-    {
-     "date": "2022-04-20",
-     "shows": "[Imaginary Authors - Falling into the Sea - Eau de Parfum](https://trythatsoap.com/collection/1673/?product_type=eaudeparfum)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/u7poho/x/i5gdhoq/"
-    },
-    {
-     "date": "2022-04-27",
-     "shows": "[Imaginary Authors - Falling Into The Sea - Eau de Parfum](https://trythatsoap.com/collection/1673/?product_type=eaudeparfum)",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/ucwnwg/x/i6dmfhr/"
-    }
-   ],
-   "id": "unverified/fragrance/imaginary-authors-falling-into-the-sea-eau-de-parfum",
-   "product": null,
-   "set_key": "/imaginary authors falling into the sea de",
-   "set_siblings": [],
-   "status": "attested"
-  },
-  {
-   "attestation": {
     "distinct_authors": 5,
     "uses": 6,
     "years": [
@@ -342030,35 +342493,6 @@
   },
   {
    "attestation": {
-    "distinct_authors": 1,
-    "uses": 5,
-    "years": [
-     2022,
-     2024,
-     2025
-    ]
-   },
-   "brand": "Dr. Jon's",
-   "brand_group": "dr-jons",
-   "brand_status": "validated",
-   "category": "soap",
-   "evidence": [
-    {
-     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
-     "matched_string": "dr jon s onward to victory",
-     "source": "nmrs/sotd-pipeline",
-     "target": "Dr. Jon's \u2014 Onward to Victory",
-     "type": "external-catalog"
-    }
-   ],
-   "id": "unverified/soap/dr-jon-s-onward-to-victory",
-   "product": "Onward to Victory",
-   "set_key": "/dr jon s onward to victory",
-   "set_siblings": [],
-   "status": "corroborated"
-  },
-  {
-   "attestation": {
     "distinct_authors": 3,
     "uses": 3,
     "years": [
@@ -342389,7 +342823,7 @@
    },
    "brand": "Ethos",
    "brand_group": "ethos",
-   "brand_status": "unverified",
+   "brand_status": "validated",
    "category": "soap",
    "evidence": [
     {
@@ -347110,47 +347544,6 @@
    "set_key": "/maggard s green apple",
    "set_siblings": [],
    "status": "attested"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 1,
-    "uses": 8,
-    "years": [
-     2022,
-     2024,
-     2025
-    ]
-   },
-   "brand": "Mama Bear's Soaps",
-   "brand_group": "mama-bears-soaps",
-   "brand_status": "validated",
-   "category": "soap",
-   "evidence": [
-    {
-     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
-     "matched_string": "mama bear s soap aged spice",
-     "source": "nmrs/sotd-pipeline",
-     "target": "Mama Bear's Soaps \u2014 Aged Spice",
-     "type": "external-catalog"
-    },
-    {
-     "shows": "maker homepage live 2026-11-03: Handmade Soaps from the Upper Peninsula of Michigan Northwoods, hand crafted since 2008 in Felch MI, one-person business (Jennifer-Mama Bear)",
-     "type": "brand-validation",
-     "url": "http://mamabearssoaps.com/"
-    },
-    {
-     "shows": "owner interview: Jen Slagle apprenticed under founder Sue Clark, took over Mama Bear Soaps 2019; names \"Aged Spice Shave Soap\" her top seller",
-     "type": "brand-validation",
-     "url": "https://www.shavesplash.com/post/mama-s-love-never-dies-an-interview-with-jen-slagle-of-mama-bear-soaps"
-    }
-   ],
-   "id": "unverified/soap/mama-bear-s-soap-aged-spice",
-   "product": "Aged Spice",
-   "set_key": "/mama bear s aged spice",
-   "set_siblings": [
-    "unverified/soap/mama-bear-s-aged-spice"
-   ],
-   "status": "corroborated"
   },
   {
    "attestation": {
@@ -354155,48 +354548,6 @@
   },
   {
    "attestation": {
-    "distinct_authors": 3,
-    "uses": 8,
-    "years": [
-     2018,
-     2020,
-     2021
-    ]
-   },
-   "brand": "The Sudsy Soapery",
-   "brand_group": "sudsy-soapery",
-   "brand_status": "validated",
-   "category": "soap",
-   "evidence": [
-    {
-     "date": "2018-06-04",
-     "shows": "Sudsy Soapery Rose and Black Pepper",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/8ofnby/x/e034fru/"
-    },
-    {
-     "date": "2018-06-21",
-     "shows": "Sudsy Soapery Rose and Black Pepper",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/8sq4jc/x/e12n2bg/"
-    },
-    {
-     "date": "2021-09-02",
-     "shows": "Sudsy Soapery Rose and Black Pepper",
-     "type": "sotd-post",
-     "url": "https://www.reddit.com/r/wetshaving/comments/pgbx73/x/hbb5coo/"
-    }
-   ],
-   "id": "unverified/soap/sudsy-soapery-rose-and-black-pepper",
-   "product": null,
-   "set_key": "/sudsy soapery rose and black pepper",
-   "set_siblings": [
-    "unverified/aftershave/sudsy-soapery-rose-and-black-pepper-balm"
-   ],
-   "status": "attested"
-  },
-  {
-   "attestation": {
     "distinct_authors": 1,
     "uses": 6,
     "years": [
@@ -355311,66 +355662,6 @@
    "id": "unverified/soap/talent-soap-factory-i-am-the-warranty",
    "product": "I Am the Warranty",
    "set_key": "/talent factory i am the warranty",
-   "set_siblings": [],
-   "status": "corroborated"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 2,
-    "uses": 29,
-    "years": [
-     2022,
-     2024,
-     2025,
-     2026
-    ]
-   },
-   "brand": "Talent Soap Factory",
-   "brand_group": "talent-soap-factory",
-   "brand_status": "validated",
-   "category": "soap",
-   "evidence": [
-    {
-     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
-     "matched_string": "talent soap factory lionheart",
-     "source": "nmrs/sotd-pipeline",
-     "target": "Talent Soap Factory \u2014 Lionheart",
-     "type": "external-catalog"
-    }
-   ],
-   "id": "unverified/soap/talent-soap-factory-lionheart",
-   "product": "Lionheart",
-   "set_key": "/talent factory lionheart",
-   "set_siblings": [
-    "unverified/soap/talent-soap-factory-lionheart-soap"
-   ],
-   "status": "corroborated"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 1,
-    "uses": 4,
-    "years": [
-     2025,
-     2026
-    ]
-   },
-   "brand": "Talent Soap Factory",
-   "brand_group": "talent-soap-factory",
-   "brand_status": "validated",
-   "category": "soap",
-   "evidence": [
-    {
-     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
-     "matched_string": "talent soap factory love betty soap",
-     "source": "nmrs/sotd-pipeline",
-     "target": "Talent Soap Factory \u2014 Love, Betty",
-     "type": "external-catalog"
-    }
-   ],
-   "id": "unverified/soap/talent-soap-factory-love-betty-soap",
-   "product": "Love, Betty",
-   "set_key": "/talent factory love betty",
    "set_siblings": [],
    "status": "corroborated"
   },
@@ -356609,34 +356900,6 @@
   {
    "attestation": {
     "distinct_authors": 1,
-    "uses": 3,
-    "years": [
-     2024,
-     2026
-    ]
-   },
-   "brand": "The Holy Black",
-   "brand_group": "the-holy-black",
-   "brand_status": "validated",
-   "category": "soap",
-   "evidence": [
-    {
-     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
-     "matched_string": "the holy black sugar cookie soap",
-     "source": "nmrs/sotd-pipeline",
-     "target": "The Holy Black \u2014 Sugar Cookie",
-     "type": "external-catalog"
-    }
-   ],
-   "id": "unverified/soap/the-holy-black-sugar-cookie-soap",
-   "product": "Sugar Cookie",
-   "set_key": "/the holy black sugar cookie",
-   "set_siblings": [],
-   "status": "corroborated"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 1,
     "uses": 4,
     "years": [
      2025,
@@ -356752,35 +357015,6 @@
    "product": "Crimson Red",
    "set_key": "/the sudsy soapery crimson red",
    "set_siblings": [],
-   "status": "corroborated"
-  },
-  {
-   "attestation": {
-    "distinct_authors": 1,
-    "uses": 4,
-    "years": [
-     2025
-    ]
-   },
-   "brand": "The Sudsy Soapery",
-   "brand_group": "sudsy-soapery",
-   "brand_status": "validated",
-   "category": "soap",
-   "evidence": [
-    {
-     "commit": "814c109be265cf846540cebe0d329486206cdc2b",
-     "matched_string": "the sudsy soapery fresh",
-     "source": "nmrs/sotd-pipeline",
-     "target": "The Sudsy Soapery \u2014 Fresh",
-     "type": "external-catalog"
-    }
-   ],
-   "id": "unverified/soap/the-sudsy-soapery-fresh",
-   "product": "Fresh",
-   "set_key": "/the sudsy soapery fresh",
-   "set_siblings": [
-    "unverified/soap/the-sudsy-soapery-fresh-soap"
-   ],
    "status": "corroborated"
   },
   {

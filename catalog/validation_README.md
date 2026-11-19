@@ -41,7 +41,7 @@ data safety.
   `upsert_entry()`, `delete_entry()`, `update_queue()`, `upsert_brand()`,
   `counts()`. Never write the tables with ad-hoc SQL, and never edit the
   JSON files directly.
-- **`catalog_merged/` (7 per-category shards), `validation_queue.json`,
+- **`catalog_merged/` (8 per-category shards), `validation_queue.json`,
   `candidate_aliases.json`, and `brands.json` are read-only EXPORTS**
   regenerated from the DB by `sotd_db.export_json()`. Readers (the
   matcher `match_all.py`, reports, humans) read the exports; after any
@@ -67,7 +67,7 @@ data safety.
 
 ## The tiers
 
-`catalog_merged/` (7 per-category shards) holds three tiers of entries:
+`catalog_merged/` (8 per-category shards) holds three tiers of entries:
 
 1. **verified** — settled on PRIMARY evidence (see standard below).
 2. **needs-review** — high-attestation or otherwise important items held for
@@ -89,6 +89,23 @@ tier (tier-2 hits carry match method `tier-2`, unverified hits method
 because its evidence improved: before P-13 the ~7,800 attested/corroborated
 entries resolved zero posts because the matcher only indexed the
 verified/needs-review and unverified tiers.
+
+**Handle entries (P-26, user decision 2026-11-18).** `handle` is the 8th
+catalog category (brush, aftershave, soap, fragrance, razor, blade, knot,
+handle). A brush handle sold standalone — no knot set — is a `handle`
+entry; complete brushes stay `brush` entries. A maker's standing model,
+shape, or type is one entry (P-17: finishes, materials, colors, and
+sizes are attributes/variant aliases, not entries). A drop colorway
+becomes a handle entry ONLY on maker primary evidence naming it as a
+standing product (a live maker/store listing); multi-author dataset
+spread alone does NOT qualify. A drop name used by only 1–2 authors is
+one owner's brush, not an entry (P-19/P-11). **Matcher tier limit —
+load-bearing:** handle entries match ONLY at tier-1 (verified).
+`BRUSH_MID_INDEX` and `BRUSH_UV_INDEX` cover category `brush` only,
+and the tier-2/3 brush fallbacks return complete brushes only — so an
+attested/corroborated handle entry would never match any string. Never
+create one. Razor handles stay in `razor` (e.g. Maggard MR-series
+"Handle Only" razor handles are razor entries).
 
 **Format agreement (P-14, user ruling 2026-10-21).** Blade and format
 must agree within a post. The matcher applies a format pass per post,

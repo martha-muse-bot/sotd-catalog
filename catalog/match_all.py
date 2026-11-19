@@ -803,11 +803,179 @@ def same_product_forms(ids):
              for i in ids}
     return len(stems) == 1
 
+# ---------------- handle guard H1/H2 (2026-11-18) ----------------
+# A handle alias is a short model name ("Dogwood Hybrid"); token-subset
+# matching cannot see word attachment, so "Hybrid" in a Briar/badger-boar
+# hybrid KNOT ("Dogwood/Briar Hybrid 28mm") was crediting the Dogwood
+# Hybrid HANDLE. Design + measured classes:
+# catalog/handle_knot_parsing_analysis_2026-11-18.md §6.
+# H1: the alias's tokens must all lie in one segment of the string
+# (segments split on /, with, w/, in, +, |, then -- NOT " - ", NOT comma).
+# H2: no knot noun ({briar, badger, boar, knot}) may intervene between
+# the first occurrences of the alias's tokens inside the segment H1
+# found. Applies to handle
+# entries only: knot/brush aliases are often full poster strings that
+# legitimately span separators, so H1 on them would break knot matching.
+# The guard only ever REMOVES handle entries from a candidate set, so a
+# voided row's selection is exactly the pre-handle selection. Set
+# HANDLE_GUARD_ENABLED = False to disable the guard without an edit.
+HANDLE_GUARD_ENABLED = True
+
+HANDLE_SEG_RE = re.compile(
+    r'\s+w/\s*|\s*/\s*|\s+with\s+|\s+in\s+|\s*\+\s*|\s*\|\s*|\s+then\s+',
+    re.I)
+HANDLE_KNOT_NOUNS = frozenset({'briar', 'badger', 'boar', 'knot'})
+
+def _handle_alias_token_sets(eid):
+    """Token sets a handle entry can match on: its aliases, its canonical
+    'brand product' name, and its product name -- the same evidence the
+    brush index holds (records come from aliases + canonical; the norm
+    index additionally holds unique product-only keys)."""
+    e = BY_ID[eid]
+    out = []
+    for a in (e.get('aliases') or []):
+        t = T(a)
+        if t: out.append(t)
+    brand = e.get('brand') or ''
+    prod = e.get('product') or ''
+    if brand and prod:
+        t = T(brand + ' ' + prod)
+        if t: out.append(t)
+    if prod:
+        t = T(prod)
+        if t: out.append(t)
+    return out
+
+def _handle_matched_alias(eid, tokens, stage):
+    """The alias token set the matcher selected entry `eid` on: largest
+    contained alias for subset wins, smallest containing alias for
+    subset-rev wins. None when the entry has no such alias (the guard
+    then passes -- there is nothing to judge)."""
+    sets = _handle_alias_token_sets(eid)
+    if stage == 'sub':
+        best = None
+        for t in sets:
+            if t and t <= tokens and (best is None or len(t) > len(best)):
+                best = t
+        return best
+    best = None
+    for t in sets:
+        if t and tokens <= t and (best is None or len(t) < len(best)):
+            best = t
+    return best
+
+def _handle_guard_ok(s, eid, alias_toks):
+    """H1+H2 for one handle entry against its matched alias token set.
+    Only the alias tokens PRESENT in the string are judged, so the same
+    check serves subset wins (all alias tokens present) and subset-rev
+    wins (a subset present)."""
+    if not HANDLE_GUARD_ENABLED or not alias_toks:
+        return True
+    present = alias_toks & T(s)
+    if not present:
+        return True
+    # H1: all present tokens in one segment. Keep the first passing
+    # segment: H2 judges the alias's occurrence inside it.
+    seg_lists = [N(seg).split()
+                 for seg in HANDLE_SEG_RE.split(s or '') if seg.strip()]
+    passing = [sl for sl in seg_lists if present <= set(sl)]
+    if not passing:
+        return False
+    # H2: inside that segment, no knot noun strictly between the first
+    # occurrences of the present tokens (alias tokens themselves
+    # excluded). Judging the first occurrence is deliberate: a later
+    # repeat of a brand token in prose/annotations must not stretch
+    # the window across the knot's own words ("Dogwood hybrid brush
+    # with 30mm black synth knot | I know it's from Dogwood ...").
+    seq = passing[0]
+    pos = {}
+    for i, t in enumerate(seq):
+        if t in present and t not in pos:
+            pos[t] = i
+    lo, hi = min(pos.values()), max(pos.values())
+    return not any(t in HANDLE_KNOT_NOUNS
+                   for t in seq[lo + 1:hi] if t not in present)
+
+def _brush_match_with_guard(s):
+    """match_with_index(s, BRUSH_INDEX) with voided handle winners
+    removed. Same return shape (eid, method, amb). Exact and normalized
+    handle wins pass the guard by construction (the string IS the handle
+    name: no separators in handle aliases, no knot nouns in them) but
+    are still run through it for uniformity."""
+    if not s:
+        return (None, None, None)
+    for idx_key, method in (('exact', 'exact'), ('norm', 'normalized')):
+        ids = BRUSH_INDEX[idx_key].get(s if idx_key == 'exact' else N(s))
+        if ids:
+            ids = [i for i in ids
+                   if BY_ID[i]['category'] != 'handle'
+                   or _handle_guard_ok(s, i, _handle_matched_alias(i, T(s), 'sub'))]
+            if len(ids) == 1:
+                return (ids[0], method, None)
+            if len(ids) > 1:
+                return (None, method, sorted(ids))
+            # every candidate voided: fall through to the next stage
+    best = subset_candidates(BRUSH_INDEX, T(s))
+    if best:
+        best = {e: n for e, n in best.items()
+                if BY_ID[e]['category'] != 'handle'
+                or _handle_guard_ok(s, e, _handle_matched_alias(e, T(s), 'sub'))}
+        if best:
+            top = max(best.values())
+            winners = sorted(e for e, n in best.items() if n == top)
+            if len(winners) == 1:
+                return (winners[0], 'subset', None)
+            return (None, 'subset', winners)
+    tokens = T(s)
+    if len(tokens) >= 2:
+        cand = None
+        for tok in tokens:
+            hits = BRUSH_INDEX['by_token'].get(tok, set())
+            cand = set(hits) if cand is None else cand & hits
+        rev = {}
+        for ri in cand or ():
+            t, eid = BRUSH_INDEX['records'][ri]
+            if tokens <= t and (eid not in rev or len(t) < rev[eid]):
+                rev[eid] = len(t)
+        if rev:
+            rev = {e: n for e, n in rev.items()
+                   if BY_ID[e]['category'] != 'handle'
+                   or _handle_guard_ok(s, e, _handle_matched_alias(e, tokens, 'rev'))}
+            if rev:
+                low = min(rev.values())
+                winners = sorted(e for e, n in rev.items() if n == low)
+                if len(winners) == 1:
+                    return (winners[0], 'subset-rev', None)
+                return (None, 'subset-rev', winners)
+    return (None, None, None)
+
+def _contained_handle_guarded(s):
+    """contained_match(s, BRUSH_INDEX, ('handle',)) with voided handles
+    removed; same single-winner-or-None semantics. Handle-only: knot
+    containment is untouched (this helper is never called for knots)."""
+    tokens = T(s)
+    best = {}
+    for t, eid in BRUSH_INDEX['records']:
+        if BY_ID[eid]['category'] != 'handle' or not t:
+            continue
+        if t <= tokens:
+            if eid not in best or len(t) > best[eid]:
+                best[eid] = len(t)
+    if not best:
+        return None
+    best = {e: n for e, n in best.items()
+            if _handle_guard_ok(s, e, _handle_matched_alias(e, tokens, 'sub'))}
+    if not best:
+        return None
+    top = max(best.values())
+    winners = [e for e, n in best.items() if n == top]
+    return winners[0] if len(winners) == 1 else None
+
 def _match_brush_primary(s):
     empty = {'kind': 'unmatched', 'brush_id': None, 'handle_id': None,
              'knot_id': None, 'series_id': None, 'specs_source': None, 'method': None}
     if not s: return empty
-    eid, method, amb = match_with_index(s, BRUSH_INDEX)
+    eid, method, amb = _brush_match_with_guard(s)
     if amb:
         if same_product_forms(amb):
             # same product sold as complete brush and as loose knot (e.g.
@@ -833,7 +1001,7 @@ def _match_brush_primary(s):
                     'knot_id': None, 'series_id': None,
                     'specs_source': specs_source(s, e), 'method': method}
         if e['category'] == 'knot':
-            hid = contained_match(s, BRUSH_INDEX, ('handle',))
+            hid = _contained_handle_guarded(s)
             return {'kind': 'composite' if hid else 'knot_only',
                     'brush_id': None, 'handle_id': hid, 'knot_id': eid,
                     'series_id': None, 'specs_source': specs_source(s, e),
@@ -847,7 +1015,7 @@ def _match_brush_primary(s):
                     'method': method}
     # no full-string match: try part containment (composite / part-only)
     kid = contained_match(s, BRUSH_INDEX, ('knot',))
-    hid = contained_match(s, BRUSH_INDEX, ('handle',))
+    hid = _contained_handle_guarded(s)
     if kid and kid in SERIES_IDS:
         return {'kind': 'series', 'brush_id': None, 'handle_id': hid,
                 'knot_id': None, 'series_id': kid,

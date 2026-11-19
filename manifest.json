@@ -1,8 +1,8 @@
 {
  "generated": "refresh from live workspace",
  "counts": {
-  "entries": 48361,
-  "verified": 6670,
+  "entries": 48351,
+  "verified": 6692,
   "queue": 64795,
   "brands": 2320,
   "candidates": 799
@@ -13,12 +13,12 @@
    "md5": "29c5f906b638da44723ecc1b4b3343e1"
   },
   "HANDOFF.md": {
-   "bytes": 16784,
-   "md5": "16d883d5f43ffbff21da110ab0ca1689"
+   "bytes": 16866,
+   "md5": "47e4f511399083b91b56056217d2172a"
   },
   "README.md": {
    "bytes": 8150,
-   "md5": "16c6be5dd91819699f8719ca53f2f44a"
+   "md5": "bb4f24e82b5e4a1617eea4977d9855ee"
   },
   "build_2026.py": {
    "bytes": 3188,
@@ -29,8 +29,8 @@
    "md5": "f245d51e4a85ee0db6f0774346affbad"
   },
   "catalog/catalog_public.json": {
-   "bytes": 9828016,
-   "md5": "6f0364e44de90b94ad5914eee667bf26"
+   "bytes": 9836362,
+   "md5": "c58fa6e18b1b70737a93e7c6694e3f7f"
   },
   "catalog/comma_carveout_scoping_2026-11-17.md": {
    "bytes": 19734,
@@ -39,6 +39,10 @@
   "catalog/discuss_consolidated.md": {
    "bytes": 73453,
    "md5": "6f74a1813220da972878277a47bf4991"
+  },
+  "catalog/handle_knot_parsing_analysis_2026-11-18.md": {
+   "bytes": 21512,
+   "md5": "fccd4698b699c44444222d74213ca976"
   },
   "catalog/ikon_bulk_harvest_2026-11-08.md": {
    "bytes": 8498,
@@ -53,28 +57,28 @@
    "md5": "3c75011d836c6494f977fefa706f6a2d"
   },
   "catalog/match_all.py": {
-   "bytes": 80842,
-   "md5": "660015760b3a6eebb27ee79442cd600d"
+   "bytes": 88094,
+   "md5": "0dd954cd918dfb1f71bd4665377b3a82"
   },
   "catalog/multi_item_field_analysis_2026-11-16.md": {
    "bytes": 51595,
    "md5": "1581f3f9b6d4de951acb35d8017512b6"
   },
   "catalog/precedents.md": {
-   "bytes": 30179,
-   "md5": "46dc8559c7a430d0be3ba8780f81a60d"
+   "bytes": 33986,
+   "md5": "e2f48b70074aa98115b2ae2226fa6538"
   },
   "catalog/sotd_db.py": {
-   "bytes": 15236,
-   "md5": "0df72e5a5e49e3e88ca9e7c64bc18b43"
+   "bytes": 15246,
+   "md5": "6bef63ce9eb89ebe9a600ce696113c1c"
   },
   "catalog/tech_attribute_fold.md": {
    "bytes": 2210,
    "md5": "09c40393855541342a1764ae4726ffe4"
   },
   "catalog/validation_README.md": {
-   "bytes": 39472,
-   "md5": "69a1b0756ab273eec6253a58066c73cf"
+   "bytes": 40571,
+   "md5": "807d918999988e7b09145d7b8c99eeec"
   },
   "catalog/work/l1_proposer.py": {
    "bytes": 12330,
@@ -97,12 +101,12 @@
    "md5": "8b123a92236c305633bb5b13bb023ee1"
   },
   "crons/hourly/sotd-world-learner__interval@2h.md": {
-   "bytes": 5154,
-   "md5": "e8761d5c7c16b0e92988a859b1489f16"
+   "bytes": 5195,
+   "md5": "d949ac40e2a6d8abc7b21f67884c46f3"
   },
   "crons/minutely/sotd-catalog-validator__interval@30m.md": {
-   "bytes": 8312,
-   "md5": "b5f0bfc8a4abe8f069c85779109d4570"
+   "bytes": 8337,
+   "md5": "fcedd0ed804a954ba9f83d696a857893"
   },
   "crons/weekly/sotd-anecdotal-watch__weekly@Mon-11:15:00_user_current.md": {
    "bytes": 2924,
@@ -129,36 +133,36 @@
    "md5": "c65502f896a0f59362e6589b4d778161"
   },
   "knowledge/backlog.md": {
-   "bytes": 731331,
-   "md5": "21dc1e6da94fc27dd9269cff9e1f7cc8"
+   "bytes": 745182,
+   "md5": "852edc8063c3e63fff5fe1289de85445"
   },
   "knowledge/glossary.md": {
    "bytes": 79684,
    "md5": "3a66f60b1813b43499272a2af5a3f106"
   },
   "knowledge/hardware_lore.md": {
-   "bytes": 505975,
-   "md5": "3303e86780ec0b16d5760edb285d7f93"
+   "bytes": 507089,
+   "md5": "e2c74cbeb5bc21ddcda128520ffe970a"
   },
   "knowledge/learning_log.md": {
-   "bytes": 1707321,
-   "md5": "a8100ca1ab90465181bdb16e75400a3a"
+   "bytes": 1748396,
+   "md5": "a96f3f8418ddc92d23588173f605615c"
   },
   "knowledge/lineages.md": {
-   "bytes": 936622,
-   "md5": "38333e7932abca24f9d0d1dfb2d29160"
+   "bytes": 952000,
+   "md5": "755d2da4c71cd207f768897e5ee6a62c"
   },
   "knowledge/people.md": {
-   "bytes": 82931,
-   "md5": "05613a34ecd19ec2f9755904668587f6"
+   "bytes": 84330,
+   "md5": "78eaf479293d9901e9bb5518eee86174"
   },
   "knowledge/product_aliases.md": {
    "bytes": 440681,
    "md5": "d57ccd9d4454bece2986efef93cf69ec"
   },
   "knowledge/product_lines.md": {
-   "bytes": 446020,
-   "md5": "8d13a7243a0c33df2dd0907c66b08214"
+   "bytes": 489970,
+   "md5": "0efd0b0d54513cf673f8991c73b6acb0"
   },
   "knowledge/tools/abbrev_cands_2026-11-04.json": {
    "bytes": 1136955,
@@ -236,6 +240,14 @@
    "bytes": 114683,
    "md5": "44258bcd750e85c11ecf18ed71d3b885"
   },
+  "knowledge/work/dickens208_bathbar_2026-11-18.txt": {
+   "bytes": 5247,
+   "md5": "48d523163f565f8cda71248b37c0ba29"
+  },
+  "knowledge/work/dickens_revisited_census_2026-11-18.txt": {
+   "bytes": 36791,
+   "md5": "8f9fd71a8d663e14a8bca74a12e57815"
+  },
   "knowledge/work/embrace_uncool_census_2026-11-17.py": {
    "bytes": 2830,
    "md5": "167ae5295f644144440e995e4f85d533"
@@ -247,6 +259,22 @@
   "knowledge/work/full_notes.py": {
    "bytes": 810,
    "md5": "0315842123c1679a375a3f9e2a9284a1"
+  },
+  "knowledge/work/hb210_handbody_transition_2026-11-18.txt": {
+   "bytes": 5858,
+   "md5": "4f5a26820cff5705c6656b9663bf22c5"
+  },
+  "knowledge/work/hb210_maker_bodies_2026-11-18.txt": {
+   "bytes": 3580,
+   "md5": "3e742e653b7ab40377197c88f6e2d443"
+  },
+  "knowledge/work/hb212_handbody_brackets_2026-11-18.txt": {
+   "bytes": 7170,
+   "md5": "ed17fce50550510b2179a8cb88076285"
+  },
+  "knowledge/work/hb212_read.py": {
+   "bytes": 2757,
+   "md5": "c3338fe317a855b93747eca33e6609f7"
   },
   "knowledge/work/hom_cool_census.py": {
    "bytes": 1463,
@@ -287,6 +315,10 @@
   "knowledge/work/lockhart_products_2026-11-18.json": {
    "bytes": 1513235,
    "md5": "517ce0e84a7decc635b034b83055fb18"
+  },
+  "knowledge/work/lockhart_products_2026-11-18_live.json": {
+   "bytes": 1513235,
+   "md5": "a456b8002f0e122a5edabfd429f57b88"
   },
   "knowledge/work/lockhart_products_2026-11-18_p2.json": {
    "bytes": 567637,
@@ -365,16 +397,16 @@
    "md5": "7e6abaae44a203487a66aeb1288ed3e1"
   },
   "manifest.json": {
-   "bytes": 10456,
-   "md5": "1f76545f7796d9c2a9397df5383819a2"
+   "bytes": 11585,
+   "md5": "ef12d85f18aca32878fdfe5baf4e0570"
   },
   "sotd_parser.py": {
    "bytes": 13767,
    "md5": "df5f1f5e7464baf8e5bb0c2bf514c464"
   },
   "tools/sync_to_github.py": {
-   "bytes": 42574,
-   "md5": "9d31a0c2397e05e840c4df8a57a1eec3"
+   "bytes": 42703,
+   "md5": "4460c77b0f8b753880080e3939e55928"
   }
  }
 }

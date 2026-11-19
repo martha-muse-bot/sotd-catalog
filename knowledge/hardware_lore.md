@@ -2181,6 +2181,25 @@ poster's string gives no drop name and no maker evidence, the handle
 is Dogwood Handcrafts identity-only — never attribute a drop name
 from another poster's brush. Single-author names stay in this file,
 not in the catalog, until a second owner corroborates.
+
+**Addendum 2026-11-18 (P-26 harvest).** The "multi-owner drops are
+candidate handle entries" framing above is SUPERSEDED for the entry
+decision by P-26 (precedents.md): a drop becomes a handle entry only
+on maker primary evidence naming it as a standing product, and no
+drop clears that bar — no maker listing names any drop (the one
+listing URL found in dataset notes, Milkglass
+etsy.com/listing/802572592, is dead, HTTP 410, 2026-11-18). The
+drop census itself stands (updated counts: Aurora 1,054/24,
+Starscape 371/11, Seascape 168/17, Andromeda 63/14, Valley of Ashes
+130/8, Lava Flow 101/8, Arcane Abyss 149/7, Nightscape 22/6,
+Milkglass 756/4). The load-bearing reason an attested handle entry
+cannot carry a drop: handle matching happens ONLY at tier-1
+(verified) — `BRUSH_MID_INDEX`/`BRUSH_UV_INDEX` cover category
+`brush` only, and the tier-2/3 brush fallbacks return complete
+brushes only. The harvest created verified entries for the three
+maker types only (Hybrid, Acrylic, Cast Object). A drop could still
+be promoted later on SOTD-photo evidence (primary) — a
+validator/photo-sweep follow-up.
 Confidence: **established** for maker identity/types/Etsy-drop
 mechanism (maker site + dataset links); **lead** that ALL listed
 names are maker drop titles (only Jurassic Amber is
